@@ -65,6 +65,7 @@ public class Library {
 
     }
     public static String frequencyOfChars(String str){
+
         String result = "";//expected result A2B2C2
 
         String noDup =  Library.removeDuplicates(str);
@@ -78,6 +79,72 @@ public class Library {
 
         }
         return result;
+
+    }
+
+    public static void uniqueElements(int [] arr){
+
+        for(int i = 0; i < arr.length; i++){
+
+            int count = 0;
+
+            for(int j = 0; j < arr.length; j++){
+
+                if(arr[i] == arr[j]){
+
+                    count++;
+                }
+            }
+
+            if(count == 1){
+
+                System.out.println(arr[i]);
+            }
+        }
+    }
+
+    public static void uniqueElements(double [] arr){
+
+        for(int i = 0; i < arr.length; i++){
+
+            int count = 0;
+
+            for(int j = 0; j < arr.length; j++){
+
+                if(arr[i] == arr [j]){
+
+                    count ++;
+                }
+            }
+
+            if(count == 1){
+
+                System.out.println((double)i);
+            }
+        }
+
+
+    }
+
+    public static void uniqueChar(String str){
+
+        for(int i = 0; i < str.length(); i++){
+
+            int count = 0;
+
+            for(int j = 0; j < str.length(); j++){
+
+                if(str.charAt(i) == str.charAt(j)){
+
+                    count++;
+                }
+            }
+            if(count == 1){
+
+                System.out.println(str.charAt(i));
+            }
+        }
+
 
     }
 }

@@ -1,6 +1,9 @@
 package day16_ForLoopContinueBreak;
+
 import java.util.Scanner;
+
 public class RemoveDuplicatesScanner {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

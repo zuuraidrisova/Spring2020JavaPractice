@@ -11,17 +11,15 @@ public class Test {
 
         System.out.println(unique);
 
-        String a = "AAAABBB";
-        String b = "A";
+        String str2 = ""+str.charAt(0);
 
-        int count = Library.frequency(a,b);
+        int count = Library.frequency(str,str2);
 
         System.out.println(count);
 
-        String str1 = "AABBCC";
 
-       String str2 =  Library.frequencyOfChars(str1);
+       String str3 =  Library.frequencyOfCharacters(str);
 
-        System.out.println(str2);
+        System.out.println(str3);
     }
 }

@@ -64,7 +64,7 @@ public class Library {
         return count;
 
     }
-    public static String frequencyOfChars(String str){
+    public static String frequencyOfCharacters(String str){
 
         String result = "";//expected result A2B2C2
 

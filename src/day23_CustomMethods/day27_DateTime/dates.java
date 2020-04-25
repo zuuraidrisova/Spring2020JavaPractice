@@ -1,4 +1,4 @@
-package day27_DateTime;
+package day23_CustomMethods.day27_DateTime;
 
 import java.time.LocalDate;
 
@@ -17,7 +17,7 @@ public class dates {
             isBefore(date2) ==> checks which date comes before another and returns boolean
             isEqual(date) ==> compares two dates and returns boolean
             isLeapYear() ==> identifies whether the year is leap year or not, returns boolean
-            toString ==>
+            toString ==> converts to string
 
 
         */

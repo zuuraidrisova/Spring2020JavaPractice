@@ -32,6 +32,7 @@ public class DriverPractice {
 
         //Switch does not accept double, long, float, boolean
         //when we use return no need for break statement
+
         switch(browserName){
 
             case "opera":

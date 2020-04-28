@@ -28,11 +28,5 @@ public class YesNo {
            }
 
 
-
-
-
-
-
-
     }
 }

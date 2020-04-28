@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListMethod {
 
+
     public static void main(String[] args) {
 
         //add(index, object) : adds the object at the given index

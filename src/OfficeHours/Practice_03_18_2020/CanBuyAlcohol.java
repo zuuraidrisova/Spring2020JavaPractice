@@ -1,4 +1,4 @@
-package OfficeHours.Practice_18_03_2020;
+package OfficeHours.Practice_03_18_2020;
 
 public class CanBuyAlcohol {
     public static void main(String []args){

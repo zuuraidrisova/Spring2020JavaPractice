@@ -7,6 +7,10 @@ public class ScannerArrays {
 
     public static void main(String[] args) {
 
+
+        //thru Scanner assign int values to array of int and sort Descending order
+
+
         Scanner scan = new Scanner(System.in);
 
         int [] arr = new int [7];

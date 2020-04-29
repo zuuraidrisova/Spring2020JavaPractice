@@ -6,6 +6,8 @@ public class removeDupFrequencyMethod {
 
     public static void main(String[] args) {
 
+        //practice of all unique task, frequency task, removeDuplicates task
+
         String str = "zuura zuura zuura Asan";
 
         String str1 = "zuura";

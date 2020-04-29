@@ -7,6 +7,8 @@ public class Combine2ArrayLists {
 
     public static void main(String[] args) {
 
+        //combining two arraylists into 1 arraylist
+
 
         ArrayList<Integer> list = new ArrayList<Integer>();
 

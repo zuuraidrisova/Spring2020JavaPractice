@@ -4,6 +4,8 @@ public class removeDuplicatesArrays {
 
     public static void main(String[] args) {
 
+        //remove duplicates from string
+
         String str = "zuuuuuuuuuuuuuurrrrraaaa";
 
         String noDuplicates = "";

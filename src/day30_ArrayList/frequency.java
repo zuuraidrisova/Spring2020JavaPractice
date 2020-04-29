@@ -4,6 +4,7 @@ public class frequency {
 
     public static void main(String[] args) {
 
+        //find frequency of str1 in str
 
         String [] str = {"Asan","Sary","Sary","Zuura"};
 

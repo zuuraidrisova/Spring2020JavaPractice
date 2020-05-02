@@ -5,9 +5,11 @@ public class ParseMethod {
     public static void main(String[] args) {
 
         /*
+
         WRAPPER Class Methods:
 
             parse : converts string of text to primitive, returns primitive date types
+
          */
 
         String str = "123";

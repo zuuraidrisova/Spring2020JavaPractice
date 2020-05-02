@@ -166,4 +166,19 @@ public class Library {
         return max;
 
     }
+
+    public static int findMinArrayList(ArrayList<Integer> numbers){
+
+        int min = Integer.MAX_VALUE;
+
+        for(int i = 0 ; i < numbers.size(); i++){
+
+            if(numbers.get(i) < min){
+
+                min = numbers.get(i);
+            }
+        }
+
+        return min;
+    }
 }

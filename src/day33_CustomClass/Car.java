@@ -9,6 +9,8 @@ public class Car {
     double mileage;
 
 
+
+
     public void start(){
 
         System.out.println(brand +" "+model+ " is started");
@@ -24,6 +26,23 @@ public class Car {
         System.out.println(year+" "+brand+" "+model+" "+color+" "+mileage);
 
     }
+
+    public void setCarInfo(String carBrand, String modelCar, String colorCar, int yearCar){
+
+        brand = carBrand;
+        model = modelCar;
+        color = colorCar;
+        year = yearCar;
+
+    }
+
+    public String toString(){
+
+        String result = year+" "+brand+" "+model+" "+color;
+
+        return result;
+    }
+
 
 
 

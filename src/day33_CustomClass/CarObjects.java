@@ -79,6 +79,23 @@ public class CarObjects {
        car3.start();
        car3.drive();
 
+       System.out.println("==============================");
+
+       Car [] cars = {car1,car2,car3};
+       //              0    1    2
+
+       cars[0].getInfo();
+
+       System.out.println("==============================");
+
+       cars[1].getInfo();
+
+       System.out.println("==============================");
+
+       cars[2].getInfo();
+
+
+
 
 
 

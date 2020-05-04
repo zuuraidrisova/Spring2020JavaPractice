@@ -30,6 +30,27 @@ public class MinMax {
         System.out.println(list);
 
 
+        int max = Collections.max(list);
+
+        System.out.println(max);
+
+        list.removeAll(Arrays.asList(max));
+
+        int secondMax = Collections.max(list);
+
+        System.out.println(secondMax);
+
+        int min = Collections.min(list);
+
+        System.out.println(min);
+
+        list.removeAll(Arrays.asList(min));
+
+        int secondMin = Collections.min(list);
+
+        System.out.println(secondMin);
+
+
 
 
 

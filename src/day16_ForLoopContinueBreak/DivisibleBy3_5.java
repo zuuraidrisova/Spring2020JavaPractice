@@ -7,8 +7,11 @@ public class DivisibleBy3_5 {
          between 1 ~ 100 that can be divisible by 3 & 5
          */
         for(int a =1; a<=100;a++){
+
             if(a%2 ==0){ //to take it even we can also do  a%2==0;
+
                 if(a%3==0 && a%5==0)
+
                 System.out.print(a+" ");
             }
 

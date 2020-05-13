@@ -105,8 +105,56 @@ public class extractAlphabetsDigitsSpecial {
         System.out.println(digit);
         System.out.println(specialChars);
 
+        System.out.println("================================");
+
+        String str3 = "ABCD123$%#@&456EFG!";
+
+        extractDigits(str);
 
 
 
     }
+
+           /*
+        write a program that can extract the special characters, digits
+         and alphabets from a string and stores them into seperate
+          ArrayLists of Character:
+        ex:
+        str = "ABCD123$%#@&456EFG!";
+        list1: {$, %, #, @, &, !}
+        list2: {A, B, C, D, E, F, G}
+        list3: {1, 2, 3, 4, 5, 6}
+
+ */
+
+      public static void extractDigits(String str){
+
+          ArrayList<Character> letters = new ArrayList<>();
+          ArrayList<Integer> digits = new ArrayList<>();
+          ArrayList<Character> special = new ArrayList<>();
+
+         char [] ch =  str.toCharArray();
+
+         for(int i = 0; i < ch.length; i++){
+
+             if(Character.isDigit(ch[i])){
+
+                 digits.add(Integer.parseInt(""+ch[i]));
+
+             }else if(Character.isLetter(ch[i])){
+
+                 letters.add(ch[i]);
+
+             }else{
+
+                 special.add(ch[i]);
+             }
+         }
+
+          System.out.println(letters);
+          System.out.println(digits);
+          System.out.println(special);
+
+      }
 }
+

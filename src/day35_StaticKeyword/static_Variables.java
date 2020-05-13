@@ -28,7 +28,7 @@ public class static_Variables {
         obj1.a3 = 4000;
         obj1.a3 = 5000;
 
-        System.out.println(obj1.a3);//it gives 50000, one copy shared by all objects
+        System.out.println(obj1.a3);//it gives 5000, one copy shared by all objects
         System.out.println(obj2.a3);//it gives 5000, one copy
 
 

@@ -14,9 +14,10 @@ public class static_Methods {
 
         System.out.println(obj.a);//only called thru the object name
 
-        System.out.println(b);//can be called
+        System.out.println(b);//can be called by itself
         System.out.println(static_Methods.b);//can be called thru the class name
-        System.out.println(obj.b);// can be called thru the object, but gives warning, because static is preferred thru the class name
+        System.out.println(obj.b);// can be called thru the object, but gives warning,
+        // because static is preferred to be called thru the class name
 
 
 

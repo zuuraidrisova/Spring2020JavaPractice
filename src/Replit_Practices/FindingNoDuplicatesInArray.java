@@ -15,7 +15,9 @@ nums -> [1, 1, 2, 3, 4, 3, 4]
          */
 
         Scanner input = new Scanner(System.in);
+
         int[] nums = {input.nextInt(), input.nextInt(),input.nextInt(),
+
                 input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
 
         //TODO: write your code below

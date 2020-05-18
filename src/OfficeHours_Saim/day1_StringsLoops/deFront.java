@@ -17,21 +17,21 @@ deFront("away") → "aay"
     }
     public static String deFront(String str){
 
-        if(str.startsWith("a")){
 
-            return str.substring(0,1)+ str.substring(2);
+            String word = str.substring(2);
 
-        }else if(str.substring(1).equals("b")){
+            if(str.charAt(1) == 'b'){
 
-            return str.substring(1);
+                word = "b"+ word;
+            }
 
-        } else if(str.length() == 0){
+            if(str.charAt(0) == 'a'){
 
-            return "";
+                word = "a"+word;
 
-        }else{
+            }
 
-           return  str.substring(2);
-        }
+            return word;
+
     }
 }

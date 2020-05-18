@@ -21,6 +21,7 @@ output: 0
 
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
+
         int count = 0 ;
         //WRITE YOUR CODE HERE
 

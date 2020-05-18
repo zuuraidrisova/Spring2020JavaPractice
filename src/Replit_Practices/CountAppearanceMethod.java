@@ -20,7 +20,7 @@ will return 2 because some_array  has 2 appearances of "foo" string.
      */
     public static void main(String[] args) {
 
-        String [] some_array = {"a","foo","bar","foo","bla"};
+        String [] some_array = {"a","bla","foo","bar","foo","bla"};
         String t = "bla";
 
        int count =  count_appearance(some_array, t);

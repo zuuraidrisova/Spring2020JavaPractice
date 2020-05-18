@@ -18,11 +18,11 @@ if m = 15 and n = 25, then result greatest common divisor is = 5.
     public static int commonDivisor(int m, int n){
         //WRITE YOUR CODE HERE
 
-        int common = 0;//to store common divisor
+        int common = 1;//to store common divisor
 
-        for(int i = 1; i < n; i++){
+        for(int i = 1; i <= n && i <= m; i++){
 
-            if(i % m == 0 && i % n == 0){
+            if(m % i == 0 && n % i == 0){
 
                 common = i;
 

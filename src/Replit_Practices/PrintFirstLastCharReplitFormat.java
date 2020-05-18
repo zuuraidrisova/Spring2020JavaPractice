@@ -24,6 +24,7 @@ print → [ho, wy, by, ae, ne]
         String [] result = new String [5];
 
         for(int i = 0; i <= words.length-1; i++){
+
             result [i] = ""+words[i].charAt(0)+words[i].charAt(words[i].length()-1);
         }
         System.out.println(Arrays.toString(words));

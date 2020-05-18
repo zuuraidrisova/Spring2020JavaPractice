@@ -22,13 +22,17 @@ public class ForEachArray {
         String [] str = {"aaa","bbb","ccc"};
 
         for(String item : str){
+
             if(item.contains("a")){
+
                 System.out.println(item);
             }
         }
 
         for(int i = 0; i < str.length; i++){
+
             String letters = str[i];
+
             System.out.println(letters);
         }
 

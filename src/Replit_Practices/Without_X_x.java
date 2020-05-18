@@ -3,14 +3,19 @@ package Replit_Practices;
 import java.util.Scanner;
 
 public class Without_X_x {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
 
         if(word.startsWith("x") || word.endsWith("X")){
+
             word = word.replace("x","").replace("X","");
+
             System.out.println(word);
+
         }else{
+
             System.out.println(word);
         }
 

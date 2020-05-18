@@ -42,10 +42,15 @@ positives:3, negatives:2, zeros:1
         for(int i = 0; i < arr.length; i++){
 
             if(arr[i] < 0){
+
                 countNegative++;
+
             }else if(arr [i] > 0){
+
                 countPositive++;
+
             }else if(arr [i] == 0){
+
                 countZeros++;
             }
         }

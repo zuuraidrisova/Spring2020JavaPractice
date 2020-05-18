@@ -1,5 +1,6 @@
 package Replit_Practices;
 import java.util.Scanner;
+
 public class Message {
     public static void main(String []args){
         Scanner scan = new Scanner(System.in);

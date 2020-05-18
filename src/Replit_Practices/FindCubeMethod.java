@@ -18,6 +18,7 @@ hint: cube of a number n = n*n*n
          */
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a number: ");
+
         int number  = scan.nextInt();
 
         cube(number);

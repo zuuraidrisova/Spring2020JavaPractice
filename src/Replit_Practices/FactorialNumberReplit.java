@@ -19,7 +19,9 @@ output: 120
         long sum = 1;
 
         while( n >= 1){
+
             sum = sum * n;
+
             n--;
 
         }

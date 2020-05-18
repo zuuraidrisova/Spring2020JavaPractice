@@ -40,8 +40,10 @@ Guest's list: Nick, Linda
 
             if(answer.equalsIgnoreCase("no")){
 
-                list=list.substring(0,list.length()-2);
+                list = list.substring(0,list.length()-2);
+
                 System.out.println("Guest's list: "+list);
+
                 break;
             }
 

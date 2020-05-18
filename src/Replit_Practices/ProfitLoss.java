@@ -28,11 +28,17 @@ returns : "no loss"
         String result = "";
 
         if(profit == 0){
+
             result = "no loss";
+
         }else if (profit > 0){
+
             result = "profit";
+
         }else if(profit < 0){
+
             result = "loss";
+
         }
         return result;
     }

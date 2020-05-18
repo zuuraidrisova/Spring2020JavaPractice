@@ -23,9 +23,12 @@ $ ==> invalid
 
         int mid =  word.length()/2;
 
-        if(word.length()%2 !=0 && word.length()>=5){
+        if(word.length()%2 !=0 && word.length() >= 5){
+
             System.out.println(word.substring(mid-1, mid+2));
+
         }else{
+
             System.out.println("invalid");
         }
 

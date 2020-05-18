@@ -18,7 +18,21 @@ Output : 34
     public static void fib(int num){
         //WRITE YOUR CODE HERE
 
+        int result = 0;
+        int n = 0;
+        int m = 1;
 
+        for(int i = 1; i < num; i++){
+
+            result = n + m;
+
+            n = m;
+
+            m = result;
+
+        }
+
+        System.out.println(result);
         
     }
 }

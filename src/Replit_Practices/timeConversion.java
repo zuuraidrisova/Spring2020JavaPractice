@@ -22,10 +22,45 @@ Output: 19:05:45
         /*
          * Write your code here.
          */
+        s = s.toLowerCase();
 
+        if(s.endsWith("am")){
 
+            s = s.replace("am","");
 
-        
+        } else{
+
+            s = s.replace("pm","");
+
+            Integer a = Integer.valueOf(s.substring(0,s.indexOf(":")));
+
+            int b = a + 12;
+
+            s = "" + b + s.substring(s.indexOf(":"));
+        }
+        System.out.println(s);
+
+    }
+
+    public static void timeConversion1(String s){
+
+        if(s.charAt(1) == ':'){
+
+            s = "0" + s;
+        }
+
+        int a1 = Integer.parseInt(s.substring(0,2));
+
+        if(s.contains("PM")){
+
+            s = (a1 + 12) + s.substring(2,s.length()-2);
+
+        } else{
+
+            s = s.substring(0,s.length()-2);
+        }
+
+        System.out.println(s);
 
     }
 }

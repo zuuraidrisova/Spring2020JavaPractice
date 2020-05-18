@@ -24,6 +24,7 @@ print:
         //TODO: Write your code below
 
         for(int i = 0; i <= words.length-1; i++){
+
             System.out.println(words[i].charAt(0)+""+words[i].charAt(words[i].length()-1));
         }
 

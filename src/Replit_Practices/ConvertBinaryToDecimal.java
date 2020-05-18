@@ -46,8 +46,11 @@ print 255
         for(int i = 0; i < binary.length; i++){
 
             if(binary[i] == 1){
+
                 sum += binary2[i];
+
             }else{
+
                 sum += binary[i];
             }
         }

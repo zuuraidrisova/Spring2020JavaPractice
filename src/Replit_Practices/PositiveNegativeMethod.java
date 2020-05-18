@@ -33,10 +33,15 @@ public class PositiveNegativeMethod {
     public static void isPos(int num)
     {
         if(num > 0){
+
             System.out.println("positive");
+
         }else if(num == 0){
+
             System.out.println("neutral");
+
         }else{
+
             System.out.println("negative");
         }
 

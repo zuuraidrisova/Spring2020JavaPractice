@@ -20,10 +20,15 @@ print out 1,-1 or 0 depending on the input
 
 
             if(n > 0){
+
                 System.out.println(1);
+
             }else if(n < 0){
+
                 System.out.println(-1);
+
             }else if(n == 0){
+
                 System.out.println(0);
             }
 

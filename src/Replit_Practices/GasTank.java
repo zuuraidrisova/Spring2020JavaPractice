@@ -58,6 +58,8 @@ A method named isEmpty that accepts no parameters. isEmpty returns a boolean
 
             return false;
         }
+
+        // return amount < 0.1;
     }
     /*
 A method named isFull that accepts no parameters. isFull returns a boolean
@@ -67,7 +69,7 @@ A method named isFull that accepts no parameters. isFull returns a boolean
 
     public boolean isFull(){
 
-        return (amount > capacity - 0.1) ? true : false ;
+        return amount > capacity - 0.1;
     }
     /*
 A method named getGasLevel that accepts no parameters. getGasLevel returns

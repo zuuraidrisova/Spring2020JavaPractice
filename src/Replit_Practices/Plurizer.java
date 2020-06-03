@@ -50,6 +50,47 @@ Note that in order to handle cases where the word ends in “y” correctly, you
             String word = inp.nextLine();
             //leave the above unedited, write your code below:
 
+            String plural = "";
+
+            if(amt == 1){
+
+                plural = amt +" "+word;
+
+            }else if(amt == 0 || amt >= 2){
+
+                if(word.endsWith("fe")){
+
+                    plural = amt+" "+word.substring(0,word.length() - 2) + "ves";
+
+                }else if(word.endsWith("sh") || word.endsWith("ch")){
+
+                    plural = amt +" "+ word + "es";
+
+                }else if(word.endsWith("us")){
+
+                    plural = amt+" "+word.substring(0,word.length()- 2) + "i";
+
+                }else if(word.endsWith("y")){
+
+                    if(word.endsWith("ay") || word.endsWith("uy")
+                    || word.endsWith("oy") || word.endsWith("ey")){
+
+                        plural = amt+" "+word+"s";
+
+                    }else{
+
+                        plural = amt+" "+word.substring(0,word.length()-1) + "ies";
+
+                    }
+
+
+                }else{
+
+                    plural = amt +" "+word+"s";
+                }
+            }
+
+            System.out.println(plural);
 
         }
 

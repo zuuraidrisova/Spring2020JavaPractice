@@ -17,6 +17,7 @@ blueTicket(6, 1, 4) → 10
     public static int blueTicket(int a, int b, int c){
 
         int result = 0;
+
         int ab = a + b;
         int bc = b + c;
         int ac= a + c;

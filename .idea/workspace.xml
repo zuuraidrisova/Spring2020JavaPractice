@@ -2,61 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="387fd280-9956-48f9-bae8-20b5f2699d12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_27_2020/MethodOverriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41_Inheritance/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours/ClassObjectPractice/DateObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours/ClassObjectPractice/DateObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CommonDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CommonDivisor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ConvertBinaryToDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ConvertBinaryToDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountAppearanceMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountAppearanceMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountEvensReplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountEvensReplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountTriples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountTriples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountingCharactersInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/CountingCharactersInString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FactorialNumberReplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FactorialNumberReplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FindCubeMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FindCubeMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FindingNoDuplicatesInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/FindingNoDuplicatesInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ForEachArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ForEachArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Has_a_Java_Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Has_a_Java_Loop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/MiddleThree_StringManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/MiddleThree_StringManipulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PartyLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PartyLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PlusMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PlusMinus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PositiveNegativeMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PositiveNegativeMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintEven80to20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintEven80to20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintFirstLastCharReplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintFirstLastCharReplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintFirstLastCharReplitFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/PrintFirstLastCharReplitFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ProfitLoss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ProfitLoss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Replit075.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Replit075.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ReplitTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ReplitTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ShoppingList_Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/ShoppingList_Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Signum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Signum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Without_X_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Without_X_x.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfficeHours_Saim/day1_StringsLoops/deFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfficeHours_Saim/day1_StringsLoops/deFront.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/CommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/CommonDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/ConvertBinaryToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/ConvertBinaryToDecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/CountAppearanceMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/CountAppearanceMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/CountEvensReplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/CountEvensReplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/CountTriples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/CountTriples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/CountingCharactersInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/CountingCharactersInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/FactorialNumberReplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/FactorialNumberReplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/FibonacciNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/FindCubeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/FindCubeMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/FindingNoDuplicatesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/FindingNoDuplicatesInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/ForEachArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/ForEachArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Has_a_Java_Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Has_a_Java_Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/MiddleThree_StringManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/MiddleThree_StringManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PartyLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PartyLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PlusMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PlusMinus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PositiveNegativeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PositiveNegativeMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PrintEven80to20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PrintEven80to20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PrintFirstLastCharReplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PrintFirstLastCharReplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/PrintFirstLastCharReplitFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/PrintFirstLastCharReplitFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/ProfitLoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/ProfitLoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Replit075.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Replit075.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/ReplitTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/ReplitTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/ShoppingList_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/ShoppingList_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Signum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Signum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Without_X_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Without_X_x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/timeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/timeConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours_Saim/Arrays/fizzArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours_Saim/Arrays/fizzArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours_Saim/LogicPractice/blueTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/OfficeHours_Saim/LogicPractice/blueTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/GasTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/GasTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Plurizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/Replit_Practices/Plurizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day36_StaticBlocks/ScrumTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day36_StaticBlocks/ScrumTeam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/AudioBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/BAB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/BAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/BankAccountWarmUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Ebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Fish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B18_Java/day42_Inheritance/Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfficeHours_Saim/Arrays/fizzArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfficeHours_Saim/Arrays/fizzArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfficeHours_Saim/LogicPractice/blueTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfficeHours_Saim/LogicPractice/blueTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/GasTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/GasTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Replit_Practices/Plurizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit_Practices/Plurizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41_Inheritance/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/BankAccountWarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41_Inheritance/BankAccountWarmUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41_Inheritance/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_Inheritance/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41_Inheritance/Inheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,65 +90,13 @@
       <recent name="MyResources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AudioBook">
-    <configuration name="AudioBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.AudioBook" />
+  <component name="RunManager" selected="Application.multiDarray">
+    <configuration name="BiggestLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours_Saim.day5_ArrayArrayList.BiggestLength" />
       <module name="Spring2020B18_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.BAO" />
-      <module name="Spring2020B18_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day42_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.Dog" />
-      <module name="Spring2020B18_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day42_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.Ebook" />
-      <module name="Spring2020B18_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day42_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42_Inheritance.Fish" />
-      <module name="Spring2020B18_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day42_Inheritance.*" />
+          <option name="PATTERN" value="OfficeHours_Saim.day5_ArrayArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,13 +117,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="multiDarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours_Saim.day5_ArrayArrayList.multiDarray" />
+      <module name="Spring2020B18_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours_Saim.day5_ArrayArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours_Saim.day5_ArrayArrayList.reverse" />
+      <module name="Spring2020B18_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours_Saim.day5_ArrayArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours_Saim.day5_ArrayArrayList.reverseString" />
+      <module name="Spring2020B18_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours_Saim.day5_ArrayArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours_Saim.day5_ArrayArrayList.sumNumbers" />
+      <module name="Spring2020B18_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours_Saim.day5_ArrayArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AudioBook" />
-        <item itemvalue="Application.Ebook" />
-        <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.Fish" />
-        <item itemvalue="Application.BAO" />
+        <item itemvalue="Application.multiDarray" />
+        <item itemvalue="Application.reverseString" />
+        <item itemvalue="Application.BiggestLength" />
+        <item itemvalue="Application.reverse" />
+        <item itemvalue="Application.sumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -239,17 +214,18 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1583777706170" />
-    <state x="418" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1589811720376">
+    <state x="418" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1591022587898">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="418" y="75" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1589252764616" />
-    <state x="418" y="75" key="#com.intellij.ide.util.MemberChooser/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589811720376" />
-    <state x="458" y="304" width="524" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588911173137">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="418" y="75" key="#com.intellij.ide.util.MemberChooser/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591022587898" />
+    <state x="458" y="304" width="524" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589832252460">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="458" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.820@0.23.1440.820" timestamp="1587598130522" />
     <state x="458" y="304" width="524" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.822@0.23.1440.822" timestamp="1586491067549" />
     <state x="458" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1588911173137" />
+    <state x="458" y="304" width="524" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589832252460" />
     <state x="395" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587155914653">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -262,15 +238,17 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="427" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1585167609152" />
-    <state x="269" y="23" key="CommitChangelistDialog2" timestamp="1587596098022">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state x="269" y="23" key="CommitChangelistDialog2" timestamp="1590263567186">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="269" y="23" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1587596098022" />
+    <state x="269" y="23" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1590073423430" />
+    <state x="269" y="23" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1590263567186" />
     <state x="235" y="170" key="FileChooserDialogImpl" timestamp="1587587305485">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="235" y="170" key="FileChooserDialogImpl/1440.23.1920.1000/0.23.1440.877@0.23.1440.877" timestamp="1587587305485" />
-    <state width="1372" height="3" key="GridCell.Tab.0.bottom" timestamp="1589821109724">
+    <state width="1372" height="3" key="GridCell.Tab.0.bottom" timestamp="1591225231187">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1388" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584589070292" />
@@ -278,7 +256,8 @@
     <state width="1372" height="144" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1589175683726" />
     <state width="1372" height="69" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589173706029" />
     <state width="1372" height="3" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589093845153" />
-    <state width="1372" height="515" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1589785574938" />
+    <state width="1372" height="3" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1591074032469" />
+    <state width="1372" height="3" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1590452279471" />
     <state width="1372" height="233" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589256977763" />
     <state width="1388" height="169" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586367040187" />
     <state width="1868" height="295" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587053542767" />
@@ -289,11 +268,11 @@
     <state width="1372" height="182" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1589211875328" />
     <state width="1372" height="313" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1589215366201" />
     <state width="1372" height="165" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1589229262952" />
-    <state width="1372" height="3" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589821109724" />
-    <state width="1372" height="318" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1588617017167" />
+    <state width="1372" height="3" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591225231187" />
+    <state width="1372" height="265" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1590021648742" />
     <state width="1440" height="661" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586292195664" />
     <state width="1372" height="449" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589070000760" />
-    <state width="1372" height="3" key="GridCell.Tab.0.center" timestamp="1589821109723">
+    <state width="1372" height="3" key="GridCell.Tab.0.center" timestamp="1591225231187">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1388" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584589070291" />
@@ -301,7 +280,8 @@
     <state width="1372" height="144" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1589175683725" />
     <state width="1372" height="69" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589173706028" />
     <state width="1372" height="3" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1589093845152" />
-    <state width="1372" height="515" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1589785574937" />
+    <state width="1372" height="3" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1591074032468" />
+    <state width="1372" height="3" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1590452279471" />
     <state width="1372" height="233" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589256977762" />
     <state width="1388" height="169" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586367040186" />
     <state width="1868" height="295" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587053542766" />
@@ -312,11 +292,11 @@
     <state width="1372" height="182" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1589211875328" />
     <state width="1372" height="313" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1589215366200" />
     <state width="1372" height="165" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1589229262951" />
-    <state width="1372" height="3" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589821109723" />
-    <state width="1372" height="318" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1588617017166" />
+    <state width="1372" height="3" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591225231187" />
+    <state width="1372" height="265" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1590021648741" />
     <state width="1440" height="661" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586292195662" />
     <state width="1372" height="449" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589070000760" />
-    <state width="1372" height="3" key="GridCell.Tab.0.left" timestamp="1589821109722">
+    <state width="1372" height="3" key="GridCell.Tab.0.left" timestamp="1591225231186">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1388" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584589070291" />
@@ -324,7 +304,8 @@
     <state width="1372" height="144" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1589175683725" />
     <state width="1372" height="69" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589173706028" />
     <state width="1372" height="3" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1589093845151" />
-    <state width="1372" height="515" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1589785574937" />
+    <state width="1372" height="3" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1591074032468" />
+    <state width="1372" height="3" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1590452279470" />
     <state width="1372" height="233" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589256977762" />
     <state width="1388" height="169" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586367040185" />
     <state width="1868" height="295" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587053542765" />
@@ -335,11 +316,11 @@
     <state width="1372" height="182" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1589211875327" />
     <state width="1372" height="313" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1589215366200" />
     <state width="1372" height="165" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1589229262951" />
-    <state width="1372" height="3" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589821109722" />
-    <state width="1372" height="318" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1588617017166" />
+    <state width="1372" height="3" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591225231186" />
+    <state width="1372" height="265" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1590021648741" />
     <state width="1440" height="661" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586292195661" />
     <state width="1372" height="449" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589070000759" />
-    <state width="1372" height="3" key="GridCell.Tab.0.right" timestamp="1589821109723">
+    <state width="1372" height="3" key="GridCell.Tab.0.right" timestamp="1591225231187">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1388" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584589070292" />
@@ -347,7 +328,8 @@
     <state width="1372" height="144" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1589175683726" />
     <state width="1372" height="69" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589173706029" />
     <state width="1372" height="3" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1589093845153" />
-    <state width="1372" height="515" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1589785574937" />
+    <state width="1372" height="3" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1591074032468" />
+    <state width="1372" height="3" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1590452279471" />
     <state width="1372" height="233" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1589256977763" />
     <state width="1388" height="169" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586367040186" />
     <state width="1868" height="295" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587053542766" />
@@ -358,64 +340,64 @@
     <state width="1372" height="182" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1589211875328" />
     <state width="1372" height="313" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1589215366201" />
     <state width="1372" height="165" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1589229262951" />
-    <state width="1372" height="3" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589821109723" />
-    <state width="1372" height="318" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1588617017167" />
+    <state width="1372" height="3" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591225231187" />
+    <state width="1372" height="265" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1590021648742" />
     <state width="1440" height="661" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1586292195663" />
     <state width="1372" height="449" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589070000760" />
-    <state width="1372" height="233" key="GridCell.Tab.1.bottom" timestamp="1589816001995">
+    <state width="1372" height="479" key="GridCell.Tab.1.bottom" timestamp="1591212743225">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1588405055405" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1588453726742" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1588833042207" />
-    <state width="1372" height="233" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1589430718245" />
+    <state width="1372" height="287" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1590979681219" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589256977764" />
     <state width="1376" height="233" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1588083662362" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1588871170350" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1588961077022" />
-    <state width="1372" height="233" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589816001995" />
+    <state width="1372" height="479" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591212743225" />
     <state width="1440" height="244" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1586284181191" />
     <state width="1372" height="233" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1588813968466" />
-    <state width="1372" height="233" key="GridCell.Tab.1.center" timestamp="1589816001994">
+    <state width="1372" height="479" key="GridCell.Tab.1.center" timestamp="1591212743224">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1372" height="233" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1588405055405" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1588453726741" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1588833042206" />
-    <state width="1372" height="233" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1589430718244" />
+    <state width="1372" height="287" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1590979681218" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1589256977763" />
     <state width="1376" height="233" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1588083662361" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1588871170349" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1588961077021" />
-    <state width="1372" height="233" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589816001994" />
+    <state width="1372" height="479" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591212743224" />
     <state width="1440" height="244" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1586284181190" />
     <state width="1372" height="233" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1588813968465" />
-    <state width="1372" height="233" key="GridCell.Tab.1.left" timestamp="1589816001994">
+    <state width="1372" height="479" key="GridCell.Tab.1.left" timestamp="1591212743224">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1372" height="233" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1588405055404" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1588453726741" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1588833042206" />
-    <state width="1372" height="233" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1589430718244" />
+    <state width="1372" height="287" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1590979681218" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1589256977763" />
     <state width="1376" height="233" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1588083662360" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1588871170348" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1588961077020" />
-    <state width="1372" height="233" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589816001994" />
+    <state width="1372" height="479" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591212743224" />
     <state width="1440" height="244" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1586284181190" />
     <state width="1372" height="233" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1588813968465" />
-    <state width="1372" height="233" key="GridCell.Tab.1.right" timestamp="1589816001995">
+    <state width="1372" height="479" key="GridCell.Tab.1.right" timestamp="1591212743224">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1372" height="233" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1588405055405" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1588453726741" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1588833042207" />
-    <state width="1372" height="233" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1589430718244" />
+    <state width="1372" height="287" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1590979681219" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1589256977764" />
     <state width="1376" height="233" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.820@0.23.1440.820" timestamp="1588083662361" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1588871170349" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.822@0.23.1440.822" timestamp="1588961077022" />
-    <state width="1372" height="233" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1589816001995" />
+    <state width="1372" height="479" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.823@0.23.1440.823" timestamp="1591212743224" />
     <state width="1440" height="244" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.825@0.23.1440.825" timestamp="1586284181190" />
     <state width="1372" height="233" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1588813968466" />
     <state x="113" y="23" key="SettingsEditor" timestamp="1584730731783">

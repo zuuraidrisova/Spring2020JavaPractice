@@ -8,7 +8,7 @@ public class finalKeyword {
    final is constant, cannot be changed
 
         final variables: cannot reassigned
-        finale methods: function cannot be changed, cannot be overridden
+        final methods: function cannot be changed, cannot be overridden
 
     final =	Attributes and methods cannot be overridden/modified
     final =	The class cannot be inherited by other classes

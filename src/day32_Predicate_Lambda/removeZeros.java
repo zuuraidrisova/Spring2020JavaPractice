@@ -35,7 +35,7 @@ Write a program that can move all the zeros to  last indexes of ArrayList
         System.out.println(list);
 
 
-        for(int i = 0 ; i < 6; i ++){
+        for(int i = 0 ; i < count; i ++){
 
             list.add(0);
         }

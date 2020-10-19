@@ -27,7 +27,7 @@ class scrumTeam{// access modifier is default
 public class MultiClass {
 
     //in any java file we can have more than one class,
-    //but only one file can be public
+    //but only one class can be public
     //public class name must match with file name...
     //this class is public and it matches with MultiClass.java
     // public class position does not matter, it can come first, last, in the middle

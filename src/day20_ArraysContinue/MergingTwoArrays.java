@@ -1,6 +1,9 @@
 package day20_ArraysContinue;
+
 import java.util.Arrays;
+
 public class MergingTwoArrays {
+
     public static void main(String[] args) {
         /* write a program that can combine two arrays of any lengths, and return the third array
       arr1 ==> [1,2,3];

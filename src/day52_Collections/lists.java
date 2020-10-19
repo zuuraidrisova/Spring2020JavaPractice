@@ -35,7 +35,6 @@ public class lists {
         arrayList.add(10);
 
         Vector<Integer> vector= new Vector<>();
-        // ==> polymorphism when parent is reference type for its child
 
         vector.add(10);
 

@@ -2,6 +2,7 @@ package day13_StringClass;
 //import java.lang.String;//no need, all classes in this package imported automatically
 public class String_Manipulations {
     public static void main(String []args){
+
         String str = "Cybertek";//01234567
         //each character in string has an index number,  which starts from zero,cannot be negative
         char ch1 = str.charAt(5);

@@ -15,7 +15,7 @@ public class StringBuilderStringBuffer {
         there was only string Buffer before, it is a legacy one, and all methods in
         String  Buffer were synchronized, so thread-safe, consequently  it was slow
 
-        Then String Builder created later, because String Buffer was too slow,
+        Then String Builder was created later, because String Buffer was too slow,
         String Builder methods are not synchronized
 
         StringBuilder and StringBuffer have very useful methods like reverse()
@@ -32,7 +32,7 @@ public class StringBuilderStringBuffer {
         // new -> heap memory
         String str2 = new String("MIT");
 
-        str2 = str2.concat(" School"); //we re-assigned it, not it will refer to latest one
+        str2 = str2.concat(" School"); //we re-assigned it, now it will refer to latest one
 
         System.out.println(str2);
 
@@ -93,5 +93,6 @@ public class StringBuilderStringBuffer {
         sf.reverse();
 
         System.out.println(sf);
+
     }
 }

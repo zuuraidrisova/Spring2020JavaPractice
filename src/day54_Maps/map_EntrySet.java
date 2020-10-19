@@ -18,6 +18,7 @@ public class map_EntrySet {
         countries.put("Pakistan", "Islamabad");
 
 
+
         for( Map.Entry<String, String> each : countries.entrySet()){
 
             System.out.println( "Country Name is: "+each.getKey() +", City Name is:"+each.getValue() );

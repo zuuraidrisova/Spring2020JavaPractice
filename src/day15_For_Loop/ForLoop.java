@@ -16,7 +16,7 @@ public class ForLoop {
         //i =0 --> initialization
         // i>5 --> condition
             // if condition is true, it will print statement
-        // i++ --> iterator(helps to stop to end)
+        // i++ --> iterator(helps to stop the loop)
 
         System.out.println("==============");
 //print numbers from 1 to 10 inclusive

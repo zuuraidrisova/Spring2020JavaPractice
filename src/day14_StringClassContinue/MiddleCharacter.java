@@ -21,8 +21,11 @@ public class MiddleCharacter {
         int middleChar = totalChars/2;
 
         if (totalChars % 2 != 0) {//condition for odd numbers
+
             middleCharacter = middleCharacter+word.charAt(middleChar);
+
         }else {//even number
+
             middleCharacter +=  word.charAt(middleChar - 1)+"" + word.charAt(middleChar);
             /// any thing we add to a string will return it as string
 

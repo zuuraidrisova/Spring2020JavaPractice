@@ -74,16 +74,6 @@ public class ConstructorIntro {
         ConstructorIntro obj3 = new ConstructorIntro(10);
 
 
-
-
-
-
-
-
-
-
-
-
     }
 
 

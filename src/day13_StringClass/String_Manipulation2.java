@@ -10,7 +10,7 @@ public class String_Manipulation2 {
 
         String fullName ="Kuzzat Altay";
         String firstName = fullName.substring(0,6);
-        System.out.println("Hist first name is " +firstName);
+        System.out.println("His first name is " +firstName);
         String lastName = fullName.substring(7,11+1);
         System.out.println("His last name is "+lastName);
 

@@ -17,10 +17,12 @@ write a program that can return the factorial number of any given number
         System.out.println("Enter a number:");
         int num = scan.nextInt();//5
 
-        int result =1;//
+        int result = 1;//
 
         while(num >= 1){//condition...as long as num is greater or equal to 1
+
             result *= num;//result = result*num;
+
             num--;//it should decrease num value so loop exits at some point
 
         }

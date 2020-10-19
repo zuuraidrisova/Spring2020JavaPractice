@@ -48,7 +48,7 @@ public class ExceptionHandling {
         step1
         step2
         step3 ==> Exception occurred , we will not be able to run the rest of the steps,
-                    so we have try and catch block to handle it
+                    so we have to use try and catch block to handle it
         step4
         step5
         etc...

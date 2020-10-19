@@ -7,6 +7,5 @@ public class testColor {
 
         color myFavourite = color.Black;
 
-
     }
 }

@@ -21,6 +21,7 @@ public class methodOverloading {
         System.out.println("Overloaded method by giving number of parameters");
     }
     public static void method(double a){
+
         System.out.println("Overloaded method by giving different data type");
     }
 }

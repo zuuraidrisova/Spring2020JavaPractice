@@ -19,7 +19,7 @@ public class FactorailNumber2 {
         int result = 1;
 
         while(num1 >= 1){
-            result = result*num1;
+            result = result * num1;
             num1--;
         }
 

@@ -24,6 +24,5 @@ public class Developer extends Employee {
         this.salary = salary;
         this.ID = ID;
 
-
     }
 }

@@ -19,9 +19,4 @@ Yes, We can use public, protected and default modifiers with abstract method.
     // abstract method cannot be private, static, and final
 
 
-
-
-
-
-
 }

@@ -12,7 +12,9 @@ prints jaaaaavvaaaaaaaaaa
          */
 
         Scanner input = new Scanner(System.in);
+
         String[] words = new String[5];
+
         for(int i = 0; i < 5;  i++) {
 
             words[i] = input.nextLine();

@@ -2,6 +2,7 @@ package day17_WhileLoops;
 import java.util.Scanner;
 public class Max_Min_Numbers {
     public static void main(String []args){
+
         Scanner scan = new Scanner(System.in);
 
       /*  System.out.println("Enter a number:");
@@ -27,8 +28,10 @@ public class Max_Min_Numbers {
         int minNumber = 2147483647;
 
         for (int i = 1; i <= 10; i++){//1,2,3,4,5 numbers will be asked
+
           System.out.println("Enter a number: ");
           int num =  scan.nextInt();
+
           if(num > maxNumber) {//to compare each  user input to get maximum number
               maxNumber = num;//and assign the maximum number to maxNumber
           }

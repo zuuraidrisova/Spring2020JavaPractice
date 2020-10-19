@@ -16,7 +16,7 @@ public class removeDuplicates {
 
     }
 
-    public static String removeDuplicates(String str){
+    public static String removeDuplicates(String str){ //unique values
 
         String noDuplicates = "";
 

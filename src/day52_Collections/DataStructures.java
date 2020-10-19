@@ -117,27 +117,5 @@ HashSet and TreeSet differences:
     Collection is an interface
     Collections is a class
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      */
 }

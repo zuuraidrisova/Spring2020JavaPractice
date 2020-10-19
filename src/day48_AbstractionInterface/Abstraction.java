@@ -3,7 +3,7 @@ package day48_AbstractionInterface;
 
 interface A{
     //one java file can have multiple interfaces
-    // as long as there is one public access modifier
+    //as long as there is one public access modifier
 
     int method1();
 }

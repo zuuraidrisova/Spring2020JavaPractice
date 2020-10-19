@@ -64,6 +64,7 @@ public class AgeGroups_Ternary_both {
 
             System.out.println("====================");
 
+
     String output2 = (age < 3 && age > 0) ? "baby" : (age >= 3 && age <= 5) ? "toddler"
             : (age >= 6 && age <= 9) ? "kid" : (age >= 10 && age <= 12) ? "pre-teen"
             : (age >= 13 && age <= 17) ? "teenager" : (age >= 18 && age <= 20) ? "young adult"

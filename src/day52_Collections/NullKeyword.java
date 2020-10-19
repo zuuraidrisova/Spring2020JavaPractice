@@ -45,8 +45,6 @@ public class NullKeyword {
 
         System.out.println(name);
 
-
-
         System.out.println(arr.length);//size is 3, because reserves a spot
 
 

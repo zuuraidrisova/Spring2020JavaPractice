@@ -23,7 +23,8 @@ public class calculateMethod2 {
            System.out.println("Do you want to continue? ");
            String answer = scan.next();
 
-           while(! (answer.equalsIgnoreCase("No") || answer.equalsIgnoreCase("Yes"))){
+           while(! (answer.equalsIgnoreCase("No")
+                   || answer.equalsIgnoreCase("Yes"))){
 
                System.out.println("Please re-enter yes or no!");
                System.out.println("Do you want to continue? ");

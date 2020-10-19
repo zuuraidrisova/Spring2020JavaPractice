@@ -33,7 +33,7 @@ public class GarbageCollector {
 
          Double decimal = new Double(0.3);
 
-                decimal = null;
+                decimal = null;//null means empty
 
         System.out.println(decimal);
 

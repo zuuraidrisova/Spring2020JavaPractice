@@ -91,6 +91,7 @@ class BAO{
 
         BankAccount account1 = new BankAccount("Zuura","Idrisova");
 
+        System.out.println("account1.getAccountHolder() = " + account1.getAccountHolder());
         account1.setBalance(200);
         System.out.println(account1.getBalance());
         account1.deposit(1000);

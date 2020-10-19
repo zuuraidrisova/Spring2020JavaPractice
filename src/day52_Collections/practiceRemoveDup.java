@@ -22,7 +22,7 @@ public class practiceRemoveDup {
 
         String [] arr = str.split("");
 
-      str = "";
+        str = "";
 
        for(String each : new LinkedHashSet<>(Arrays.asList(arr))){
 

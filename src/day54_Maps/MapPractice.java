@@ -26,11 +26,11 @@ public class MapPractice {
 
         System.out.println(birthdays.get("Zuura"));
 
-       boolean b =  birthdays.containsKey("Asan");//returns false, because it is not contained
+        boolean b =  birthdays.containsKey("Asan");//returns false, because it is not contained
 
         System.out.println(b);
 
-       boolean b1 =  birthdays.containsKey("Zuura");//returns true, because it is there
+        boolean b1 =  birthdays.containsKey("Zuura");//returns true, because it is there
 
         System.out.println(b1);
 

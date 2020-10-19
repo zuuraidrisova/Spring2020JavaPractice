@@ -8,7 +8,8 @@ public class throwsKeyword2 {
         It’s only handled in the method it’s created in...
          if used in another method, it will need to be handled again!
 
-         if method you want to use, giving you compile time error, it means throws keyword
+         if method you want to use, giving you compile time error,
+         it means throws keyword
          was used in that method's signature
 
          */

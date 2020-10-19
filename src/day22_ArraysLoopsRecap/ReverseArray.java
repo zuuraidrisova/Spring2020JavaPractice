@@ -27,7 +27,9 @@ public class ReverseArray {
         for(int  i = arr.length-1; i >= 0; i--){
 
             int eachNum = arr[i];
+
             System.out.println(eachNum);
+
         }
         System.out.println("=====================");
 

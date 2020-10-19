@@ -7,21 +7,23 @@ public class abstraction {
     abstraction:  hiding the implementation (functions) details
                  concentrating on essentials, without worrying abt the details
 
-Data abstraction is the process of hiding certain details and
-showing only essential information to the user.
+        Data abstraction is the process of hiding certain details and
+        showing only essential information to the user.
 
-The abstract keyword is a non-access modifier, used for classes and methods:
+    The abstract keyword is a non-access modifier, used for classes and methods:
 
-Abstract class: is a restricted class that cannot be used to create objects
- (to access it, it must be inherited from another class).
+    Abstract class: is a restricted class that cannot be used to create objects
+    (to access it, it must be inherited from another class).
 
  //abstract method can only be created in an abstract class and bu using interface
+
     abstract class is meant to be inherited
 
     abstract method ==> cannot be private, final, static
 
-Abstract method: can only be used in an abstract class, and it does not have a body.
-The body is provided by the subclass (inherited from).
+    Abstract method: can only be used in an abstract class,
+     and it does not have a body.
+    The body is provided by the subclass (inherited from).
 
 ex1:
     Car : generic class, abstract (not real)

@@ -4,7 +4,7 @@ public class Array_Size {
     public static void main(String []args){
 
         int [] arr = {1,2,3};
-      //  System.out.println(arr[100]);//outOfBound erros..bcs indexx 100 nonexistent in given array
+      //  System.out.println(arr[100]);//outOfBound erros..bcs index 100 nonexistent in given array
 
         System.out.println(arr[1]);
 

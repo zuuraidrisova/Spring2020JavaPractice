@@ -6,7 +6,6 @@ public class Test2 {
 
     public static void main(String[] args) {
 
-
         String str = "AABBBBBCCCC";
 
         String result = Library.removeDuplicates(str);

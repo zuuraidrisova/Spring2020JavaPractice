@@ -29,7 +29,6 @@ public class credentials {
         this.password = password;
     }
 
-
 }
 class CredentialObject{
 
@@ -45,7 +44,6 @@ class CredentialObject{
 
         System.out.println("username is: "+facebook.getUsername());//now we have values
         System.out.println("password is: "+facebook.getPassword());
-
 
     }
 }

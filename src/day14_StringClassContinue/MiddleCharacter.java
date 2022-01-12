@@ -1,6 +1,7 @@
 package day14_StringClassContinue;
 import java.util.Scanner;
 public class MiddleCharacter {
+
     /*
      Write a Java method to display the middle character of a string
 		a) If the length of the string is even there will be two middle characters.
@@ -10,7 +11,9 @@ public class MiddleCharacter {
 				Output:
 					The middle character in the string: ph
      */
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your word: ");

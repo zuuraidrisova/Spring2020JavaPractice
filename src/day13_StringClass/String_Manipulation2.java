@@ -1,6 +1,7 @@
 package day13_StringClass;
 
 public class String_Manipulation2 {
+
     public static void main(String []args){
 
         String str = "Cybertek School is the best";

@@ -12,8 +12,10 @@ public class Initials_Practice {
 				output:your initial is: CB
          */
         Scanner scan =new Scanner (System.in);
+
         System.out.println("Please enter your first name: ");
             String firstName = scan.next();
+
         System.out.println("Please enter your last name: ");
             String lastName = scan.next();
 

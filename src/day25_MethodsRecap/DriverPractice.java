@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class DriverPractice {
+
     /*
     write a return method named getDriver1 that accepts a string parameter called Browser
 				if the browser name matches with {"chrome", "firefox", "id", "safari",
@@ -13,6 +14,7 @@ public class DriverPractice {
 				the method should return "Invalid"
 				APPLY SWITCH STATEMENTS
      */
+
     public static void main(String[] args) {
 
        String browser =  getDriver("opera");
@@ -26,6 +28,7 @@ public class DriverPractice {
         String browser3 = getDriver3("hello");
 
         System.out.println(browser3);
+
     }
 
     public static String getDriver(String browserName){
@@ -37,16 +40,22 @@ public class DriverPractice {
 
             case "opera":
                 return "Opera Driver";
+
             case "chrome":
                 return "Chrome Driver";
+
             case "ie":
                 return "IE Driver";
+
             case "safari":
                 return "Safari Driver";
+
             case "edge":
                 return "Edge Driver";
+
             case "firefox":
                 return  "FireFox Driver";
+
             default:
                 return  "Invalid Driver";
 

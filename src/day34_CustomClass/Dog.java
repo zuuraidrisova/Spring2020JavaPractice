@@ -21,6 +21,7 @@ public class Dog {
         this.age = age;
 
     }
+
     public void eat(String food){
 
         System.out.println(name + " is eating " + food);
@@ -53,8 +54,5 @@ public class Dog {
         return result;
 
     }
-
-
-
 
 }

@@ -15,7 +15,6 @@ public class Duplicates {
 
         ArrayList<String> duplicates = new ArrayList<>();
 
-
         for(int i = 0; i < list.size(); i++ ){
 
             int count = Collections.frequency(list,list.get(i));
@@ -62,7 +61,6 @@ public class Duplicates {
 
         Predicate<String > duplicate = p -> Collections.frequency(list,p) == 1;
 
-
         list.removeIf(duplicate);
 
         System.out.println(list);
@@ -80,8 +78,6 @@ public class Duplicates {
         int min = Collections.min(list2);
 
         System.out.println(min);
-
-
 
 
     }

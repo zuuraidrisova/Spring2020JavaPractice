@@ -3,7 +3,9 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class ReverseArray {
+
     public static void main(String[] args) {
+
         /*
         write a program that can reverse the array
          */
@@ -38,7 +40,9 @@ public class ReverseArray {
         int j = arr.length-1;
 
         for(int i = 0 ;  i < arr.length; i++){
+
             reversedArr [i] = arr[j];
+
             j--;
         }
 

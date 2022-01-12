@@ -8,9 +8,7 @@ public class DateTimeFormatting {
 
     public static void main(String[] args) {
 
-
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
-
         /*
 
         year : yyyy --> full digits, yy --> two digits
@@ -27,8 +25,6 @@ public class DateTimeFormatting {
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("EEE MMMM/dd/yyyy");
 
         System.out.println(date.format(dtf2));
-
-
 
     }
 }

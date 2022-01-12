@@ -40,6 +40,8 @@ public class BankAccount {
     public void deposit(double amount){
 
         System.out.println("Depositing $"+ amount);
+
         balance = balance + amount;
     }
+
 }

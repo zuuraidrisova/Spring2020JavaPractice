@@ -3,6 +3,7 @@ package day25_MethodsRecap;
 import java.util.Arrays;
 import java.util.Scanner;
 public class removeDuplicatesMethod3 {
+
     /*
      write a return method that accepts a String and removes duplicate values
      from the String
@@ -12,7 +13,9 @@ public class removeDuplicatesMethod3 {
     public static void main(String[] args) {
 
         Scanner scan =  new Scanner(System.in);
+
         System.out.println("Please enter a word: ");
+
         String word = scan.next();
 
         String noDuplicates = removeDuplicates(word);
@@ -71,6 +74,7 @@ public class removeDuplicatesMethod3 {
         return noDuplicates;
 
     }
+
     public static String removeDuplicates2(String str){//using charAt()
 
         String noDuplicates = "";
@@ -85,6 +89,7 @@ public class removeDuplicatesMethod3 {
 
         return noDuplicates;
     }
+
     public static String removeDuplicates3(String str){//using substring()
 
         String noDuplicates = "";
@@ -94,12 +99,15 @@ public class removeDuplicatesMethod3 {
             if(! noDuplicates.contains(str.substring(i, i+1))){
 
                 noDuplicates += str.substring(i,i+1);
+
             }
         }
         return noDuplicates;
     }
 
+
     public static int frequency(String str1, String str2){//for loop
+
         int count = 0;
 
         for(int i = 0; i < str1.length(); i++){

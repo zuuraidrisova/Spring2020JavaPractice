@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class MxMinArrayList {
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -14,6 +15,7 @@ public class MxMinArrayList {
         Collections.sort(list);
 
         int secondMax = 0;
+
         int secondMin = 0;
 
         int max = Collections.max(list);
@@ -29,11 +31,8 @@ public class MxMinArrayList {
         secondMin = Collections.min(list);
 
         System.out.println(secondMax);
+
         System.out.println(secondMin);
-
-
-
-
 
     }
 }

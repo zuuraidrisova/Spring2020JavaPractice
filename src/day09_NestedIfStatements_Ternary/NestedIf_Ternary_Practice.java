@@ -2,9 +2,12 @@ package day09_NestedIfStatements_Ternary;
 
 
 public class NestedIf_Ternary_Practice {
+
     public static void main(String[] args) {
+
         int score = 87;
         String grade = " ";
+
         if (score >= 0 && score <= 100) {//if condition can be evaluated to multiple scenarios
             //inner if statements==nested if
             if (score >= 90) {//false, so it is not gonna run
@@ -27,6 +30,7 @@ public class NestedIf_Ternary_Practice {
 
         int score2 = 75;
         String grade2 = " ";
+
         if (score2 >= 0 && score2 <= 100) {
             grade2 = (score2 >= 90) ? "A" : (score2 >= 80) ? "B"
                     : (score2 >= 70) ? "C" : (score2 >= 60) ? "D" : "F";

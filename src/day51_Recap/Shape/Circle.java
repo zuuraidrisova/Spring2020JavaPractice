@@ -13,17 +13,19 @@ public final class Circle extends Shape implements PI {
 
     public double radius;
 
-
     public Circle(double radius){
+
         this.name = "Circle";
         this.radius = radius;
     }
+
     @Override
     public double calculateArea(){
 
        double areaOfCircle = PI * radius * radius;
 
        return areaOfCircle;
+
     }
 
     @Override
@@ -32,7 +34,7 @@ public final class Circle extends Shape implements PI {
         double perimeterOfCircle = 2 * radius * PI;
 
         return perimeterOfCircle;
-    }
 
+    }
 
 }

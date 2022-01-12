@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Car {
+
     /*
     create a class called Car:
 				instance variable:
@@ -19,6 +20,7 @@ public class Car {
 
 				this is called chain rules
      */
+
     String brand;
     String model;
     int year;
@@ -52,6 +54,7 @@ public class Car {
 
         return "Brand: "+brand+", Model: "+model+", Year: "+year+", Price: "+price;
     }
+
 }
 
 class CarObject{
@@ -95,5 +98,7 @@ class CarObject{
 
             System.out.println(each.model);
         }
+
     }
+
 }

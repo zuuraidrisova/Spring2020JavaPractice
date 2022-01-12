@@ -22,7 +22,7 @@ public class Sets {
 
         System.out.println(Arrays.toString(name));
 
-        LinkedHashSet<String>noDuplicates =  new  LinkedHashSet<>();
+        LinkedHashSet<String> noDuplicates =  new LinkedHashSet<>();
 
         noDuplicates.addAll(Arrays.asList(name));
 
@@ -34,18 +34,23 @@ public class Sets {
 
         Set<Integer> set1 = new TreeSet<>();
 
-        set1.addAll(Arrays.asList(2,8,0,1,3,6,5,4,7,8));
+        set1.addAll(Arrays.asList(2,8,2,2,2,0,1,3,6,5,4,7,8));
         //TreeSet will remove duplicates and at the same time sort the set
         System.out.println(set1);
 
         System.out.println("===========================================");
 
        HashSet<String> hashSet = new HashSet<>();
+
+       //hashSet accepts one null value
        hashSet.add(null);
        hashSet.add(null);
+
         System.out.println(hashSet);
 
         TreeSet<String> treeSet = new TreeSet<>();
+
+        //treeSet does not accept null value
         treeSet.add(null);
         treeSet.add(null);
 

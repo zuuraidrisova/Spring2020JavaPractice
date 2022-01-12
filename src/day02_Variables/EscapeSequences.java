@@ -10,7 +10,7 @@ public static void main(String [] args){
         System.out.println("Cybertek \n  School");
         // \n starts a new line, within double quotes
         System.out.println("Cybertek School");
-        System.out.println("\nMy\n\nname\nis\nZuura");
+        System.out.println("\nMy\nname\nis\nZuura");
 
         System.out.println("My favourite tv-show is \"The game of Thrones\"");
         // \" this prints double quote on the console

@@ -6,6 +6,7 @@ public class MinMaxMethod {
         int [] arr1 = {8126,1927,71,10,176,182};
 
         printMaxFromArray(arr1);
+
         printMinFromArray(arr1);
 
     }
@@ -41,6 +42,7 @@ public class MinMaxMethod {
         for(int i =0; i < arr.length; i++){
 
             if(arr[i] < minNumber){
+
                 minNumber = arr[i];
             }
         }

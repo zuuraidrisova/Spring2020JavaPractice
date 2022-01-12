@@ -19,7 +19,7 @@ Why And When To Use "Inheritance" and "Polymorphism"?
  class when you create a new class.
 
  Polymorphism:  objects behave in different multiple or many forms
-            occurs in only one scenario:
+                occurs in only one scenario:
                 whenever we give super class, interface
 
       ex: class Dog extends Animal
@@ -29,7 +29,6 @@ Why And When To Use "Inheritance" and "Polymorphism"?
 
           Animal dog2 = new Dog();
        reference to child class objects
-
 
 whenever parent class is reference to child class
             it happens only when there is "is a " relationship
@@ -46,7 +45,6 @@ whenever parent class is reference to child class
      //we can store all different types in one data structure
 
     abstract class and interface are meant to be reference type, not object type
-
 
     sub class can never be the reference type of super class object
      */

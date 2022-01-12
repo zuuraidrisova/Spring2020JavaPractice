@@ -78,8 +78,6 @@ public class ArrayListPractice2 {
             }
         }
 
-
-
         return max;
 
     }

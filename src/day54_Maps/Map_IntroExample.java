@@ -33,14 +33,11 @@ public class Map_IntroExample {
 
         employeeData.remove("Zarina");
 
-        System.out.println(employeeData);//because we removed on key, now size is 1 again
+        System.out.println(employeeData);//because we removed one key, now size is 1 again
 
         System.out.println(employeeData.size());
 
         System.out.println("=======================================");
-
-
-
 
     }
 }

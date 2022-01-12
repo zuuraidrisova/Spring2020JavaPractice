@@ -23,6 +23,7 @@ public class ParseMethod {
         System.out.println("==================");
 
         System.out.println(str + 1);//concatenation--> returns string
+
         System.out.println(i + 1);//addition--> returns number
 
         System.out.println("==================");
@@ -33,7 +34,6 @@ public class ParseMethod {
                                         // accepts only int
 
         Integer i1 = (int)Byte.parseByte(str);//autoboxing, explicit casting
-
 
         System.out.println(b1);
 
@@ -74,7 +74,6 @@ public class ParseMethod {
         System.out.println(l1);
         System.out.println(l2);
 
-
         System.out.println("==========================");
 
         String str4 = "true";
@@ -83,14 +82,11 @@ public class ParseMethod {
 
         System.out.println( ! b2);//returns false bcs of  !
 
-
         String str5 = "today";//today is not true or false text
 
         boolean b3 = Boolean.parseBoolean(str5);//if it does not match with true or false,
                                                 // by default it will return false
-
         System.out.println(b3);
-
 
         String str6 = "10 > 9";//not matching with true or false text
 
@@ -98,22 +94,12 @@ public class ParseMethod {
 
         System.out.println(b4);
 
-
         String str7 = "TruE";//matches true
 
         boolean b5 = Boolean.parseBoolean(str7); // ignores case sensitivity
                            // parse method does not care abt case sensitivity
 
         System.out.println(b5);//return true
-
-
-
-
-
-
-
-
-
 
 
     }

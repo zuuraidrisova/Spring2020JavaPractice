@@ -16,6 +16,5 @@ public class DataTest {
       //  Inheritance gives rights to copy variables and methods using extends keyword
         //we can make multiple copies
 
-
     }
 }

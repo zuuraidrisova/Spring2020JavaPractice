@@ -65,8 +65,5 @@ public class CollectionMethods {
 
         System.out.println(names);
 
-
-
-
     }
 }

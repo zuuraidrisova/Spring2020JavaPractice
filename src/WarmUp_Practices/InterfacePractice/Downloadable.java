@@ -6,8 +6,6 @@ import java.util.Arrays;
 public interface Downloadable {
 
     /*
-
-Task02:
 	1. create an interface named downloadable:
 			variable: boolean downloadable
 			abstract method: download();
@@ -32,9 +30,11 @@ interface AndroidApps extends Downloadable{
 	downloadable interface
 			variable: AppStoreName
 */
+
 interface AppleApps extends Downloadable{
 
     String AppStoreName = "Apple Store"; //static, final, public by default
+
     }
 
     /*
@@ -116,6 +116,7 @@ abstract class Phone{
          this.model = model;
          this.price = price;
          this.size = size;
+
      }
      public void texting(long phoneNumber){
 

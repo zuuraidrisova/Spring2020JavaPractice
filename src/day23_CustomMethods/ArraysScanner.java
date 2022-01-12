@@ -4,11 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraysScanner {
+
     public static void main(String[] args) {
 
-
         Scanner scan = new Scanner(System.in);
-
 
         int [] arr = new int [10];
 

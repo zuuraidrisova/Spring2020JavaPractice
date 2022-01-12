@@ -8,6 +8,7 @@ public class RemoveDuplicatesScanner {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your word: ");
+
         String word = scan.next();
         String result = "";//we should get ab
 

@@ -12,7 +12,6 @@ public class Student {
     public void setStudentInfo(String name, String nationality, int age, double GPA,
                                char gender, boolean marriage){
 
-
         this.name = name;
         this.nationality = nationality;
         this.age = age;
@@ -28,12 +27,5 @@ public class Student {
         return "Name :  "+name+", gender : "+ gender +", nationality : "+ nationality
                 +", age : "+age +", GPA : "+GPA+ " married : "+ marriage;
     }
-
-
-
-
-
-
-
 
 }

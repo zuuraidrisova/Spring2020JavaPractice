@@ -8,11 +8,10 @@ public class InterfaceNotes {
     class can be abstract
     methods can be abstract
 
-
     There are 2 ways to achieve abstraction:
 
         1. Abstract class
-        2.Interface
+        2. Interface
 
     Interface:
       blue print of the class, used for specifying the behaviors
@@ -91,6 +90,7 @@ of an object (interface).
 2) Java does not support "multiple inheritance" (a class can only inherit
 from one superclass). However, it can be achieved with interfaces,
 because the class can implement multiple interfaces.
+
 Note: To implement multiple interfaces, separate them with a comma
 
         extends and implements keywords can be used at the same time, but
@@ -101,7 +101,6 @@ Note: To implement multiple interfaces, separate them with a comma
 * both abstract class and interface can NOT be final
 * both abstract class and interface can NOT create object
 * both  abstract class and interface are used to achieve abstraction
-
 
      */
 }

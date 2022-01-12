@@ -1,6 +1,7 @@
 package day36_StaticBlocks;
 
 class Tester{// access modifier is default
+
     public static void main(String[] args) {
 
         System.out.println("Tester class");
@@ -8,6 +9,7 @@ class Tester{// access modifier is default
 
 }
 class Developer{// access modifier can only be  default
+
     public static void main(String[] args) {
 
         System.out.println("Developer class");

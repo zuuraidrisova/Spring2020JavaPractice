@@ -18,6 +18,7 @@ final class ChromeBrowser extends RemoteWebDriver{
 
         this.browserName = browserName;
     }
+
     @Override
     public String getUrl(String URL){
 
@@ -29,6 +30,7 @@ final class ChromeBrowser extends RemoteWebDriver{
 
         System.out.println(browserName+" is closing");
     }
+
     @Override
     public void maximize(){
 
@@ -43,16 +45,19 @@ final class FirefoxBrowser extends RemoteWebDriver{
 
         this.browserName = browserName;
     }
+
     @Override
     public String getUrl(String URL){
 
         return URL+" is opening in a Firefox browser";
     }
+
     @Override
     public void close(){
 
         System.out.println(browserName + " is closing");
     }
+
     @Override
     public void maximize(){
 
@@ -71,6 +76,7 @@ final class OperaBrowser extends  RemoteWebDriver {
     public String getUrl(String URL) {
         return URL+" is opening in Opera browser";
     }
+
 
     @Override
     public void close() {
@@ -98,6 +104,7 @@ final class EdgeBrowser extends RemoteWebDriver{
         return URL+" is opening in Edge broswer";
     }
 
+
     @Override
     public void close() {
 
@@ -122,6 +129,7 @@ final class SafariBrowser extends RemoteWebDriver{
     public String getUrl(String URL) {
         return URL +" is opening in Safari browser";
     }
+
 
     @Override
     public void close() {

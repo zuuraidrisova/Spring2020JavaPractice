@@ -10,10 +10,10 @@ public class ScannerDescendingArray1 {
      Now, copy all the elements
     in an another array but in reverse order.
      */
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
 
         int [] arr = new int [5];
 

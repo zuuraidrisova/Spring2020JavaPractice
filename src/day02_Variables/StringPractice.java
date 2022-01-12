@@ -4,7 +4,7 @@ public class StringPractice {
 
     public static void main(String []args){
 
-        String SSN ="1234567"; //this is text, nut number
+        String SSN ="1234567"; //this is text, not number
         String employeeName = "Asan Idrisov";
         String companyName = "CapitalOne";
         System.out.println(SSN);

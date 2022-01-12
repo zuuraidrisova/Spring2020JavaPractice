@@ -12,6 +12,7 @@ public class DescendingOrderArray {
 	7. write a char[] return method that can sort a char array in descending order
 			NOTE: MUST apply method overloading
      */
+
         int [] arr = {1,3,7,2,4,9,8,5,0};
 
        int [] descending =  sortDescending(arr);

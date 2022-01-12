@@ -2,6 +2,7 @@ package day12_Scanner_JavaRecap;
 import java.util.Scanner;
 //import PackageName.className
 public class Scanner_Next {
+
     public static void main(String[]args){
         //declare Scanner ScannerName =  new Scanner (System.in);
         //we use scanner variable name to call the methods of the scanner

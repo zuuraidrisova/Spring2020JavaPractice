@@ -24,7 +24,7 @@ write a program that can return the duplicated values from an ArrayList of Strin
 
         ArrayList<String> duplicates = new ArrayList<>();
 
-       for(int i = 0; i < list.size(); i++){
+        for(int i = 0; i < list.size(); i++){
 
            int count = 0;
 
@@ -49,13 +49,6 @@ write a program that can return the duplicated values from an ArrayList of Strin
        }
 
         System.out.println(duplicates);
-
-
-
-
-
-
-
 
     }
 }

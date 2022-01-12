@@ -12,7 +12,6 @@ class BreakTimeException extends RuntimeException{ // custom unchecked exception
             super(str);
         }
 
-
 }
 
 public class customException {

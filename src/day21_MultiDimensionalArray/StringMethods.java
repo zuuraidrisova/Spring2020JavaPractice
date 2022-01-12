@@ -4,6 +4,7 @@ package day21_MultiDimensionalArray;
 import java.util.Arrays;
 
 public class StringMethods {
+
     public static void main(String[] args) {
 
         //toCharArray()
@@ -31,6 +32,7 @@ public class StringMethods {
          */
 
         String sentence = "Today is a great day";
+
         String [] arr1 = sentence.split(" ");
 
         System.out.println(Arrays.toString(arr1));
@@ -40,6 +42,7 @@ public class StringMethods {
         for(int i = arr1.length-1; i >= 0; i--){
 
             String reversed = arr1[i];
+
             result +=  reversed+" ";
 
         }
@@ -51,9 +54,11 @@ public class StringMethods {
         String str1  = "ABCD";
 
        String arr2 [] =  str1.split("");
+
        char [] ch2 = str1.toCharArray();
 
         System.out.println(Arrays.toString(arr2));
+
         System.out.println(Arrays.toString(ch2));
 
 

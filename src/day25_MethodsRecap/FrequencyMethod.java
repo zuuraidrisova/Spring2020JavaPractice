@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class FrequencyMethod {
+
       /*
      write a return method that accepts two strings str1 & str2, and returns
      the frequency of str2 in str1 as an int
@@ -11,6 +12,7 @@ public class FrequencyMethod {
       public static void main(String[] args) {
 
           String str1 = "java java java";
+
           String str2 = "java";
 
           int count = 0;

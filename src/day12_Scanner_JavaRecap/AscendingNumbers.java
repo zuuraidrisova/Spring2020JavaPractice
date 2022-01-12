@@ -8,6 +8,7 @@ public class AscendingNumbers {
          */
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter random 3 numbers:  ");
+
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         int num3 = scan.nextInt();

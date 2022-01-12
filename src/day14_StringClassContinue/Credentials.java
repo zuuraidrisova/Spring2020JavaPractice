@@ -1,7 +1,9 @@
 package day14_StringClassContinue;
 import java.util.Scanner;
 public class Credentials {
+
     public static void main(String []args){
+
         String validUsername ="cybertek";
         String validPassword ="cybertekschool";
 

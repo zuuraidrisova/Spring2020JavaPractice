@@ -20,6 +20,7 @@ public class revenue_Scanner {
         double revenue = price*quantity;
         double  discount = revenue * 0.10;
         double netRevenue = revenue-discount;
+
         if(revenue> 5000){
             System.out.println("Your net revenue is: "+ netRevenue);
             System.out.println("Apply 10% discount");

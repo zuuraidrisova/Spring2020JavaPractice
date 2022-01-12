@@ -22,10 +22,5 @@ public class CarObjects {
             System.out.println(each.year);
         }
 
-
-
-
-
-
     }
 }

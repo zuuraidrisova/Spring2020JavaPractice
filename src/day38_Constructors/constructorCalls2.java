@@ -2,7 +2,6 @@ package day38_Constructors;
 
 public class constructorCalls2 {
 
-
     public constructorCalls2(){
 
         System.out.println("Default Constructor");
@@ -35,9 +34,6 @@ public class constructorCalls2 {
         //chain relation == > constructor with string argument is
         // calling constructor with int argument and constructor with int argument
         // is calling default argument
-
-
-
 
 
     }

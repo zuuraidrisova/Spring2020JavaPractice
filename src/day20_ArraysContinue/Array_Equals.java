@@ -3,6 +3,7 @@ package day20_ArraysContinue;
 import java.util.Arrays;
 
 public class Array_Equals {
+
     public static void main(String[] args) {
 
         int [] arr = {1,2,3};
@@ -28,14 +29,11 @@ public class Array_Equals {
 
         System.out.println(b3);
 
-        int [] arr7 = {1,2,3,};
+        int [] arr7 = {1,2,3};
         int [] arr8 = {1,2,3,4};
 
         boolean b4 = Arrays.equals(arr7,arr8);//false, because they have different length
         System.out.println(b4);
-
-
-
 
 
     }

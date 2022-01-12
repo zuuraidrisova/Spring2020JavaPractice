@@ -16,15 +16,18 @@ public class BankAccount1 {
 
         return accountNumber;
     }
+
     public String getAccountHolder(){
 
         return accountHolder;
 
     }
+
     public double getBalance(){
 
         return balance;
     }
+
     public void setAccountNumber(long accountNumber){
 
         this.accountNumber = accountNumber;
@@ -34,6 +37,7 @@ public class BankAccount1 {
         this.accountHolder = accountHolder;
 
     }
+
     public void setBalance(double amount){
 
         this.balance += amount;
@@ -48,6 +52,7 @@ public class BankAccount1 {
 
         System.out.println(balance);
     }
+
     public String toString(){
 
         return "Account Holder: "+getAccountHolder()+" Account Number: "+getAccountNumber()

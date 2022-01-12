@@ -21,7 +21,6 @@ public class keyBank {
 
         System.out.println("==========================================");
 
-
         Developers developer1 = new Developers();
 
         developer1.setDeveloperInfo("Zuura",90123, "Senior Developer", 150000);
@@ -33,6 +32,7 @@ public class keyBank {
         scrumTeam2 team2 = new scrumTeam2();
 
         team2.hire(developer1);
+
         team2.hire(developer2);
 
         System.out.println(team2.developersTeam.size());
@@ -44,8 +44,6 @@ public class keyBank {
         team2.fire(developer3.employeeID);
 
         System.out.println(team2.developersTeam.size());
-
-
 
     }
 }

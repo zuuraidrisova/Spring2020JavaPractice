@@ -1,6 +1,7 @@
 package day24_MethodsContinue;
 
 public class MaxNumberWithParameter {
+
     public static void main(String[] args) {
          /*
         write a methods that can return the maximum number between two numbers
@@ -8,6 +9,7 @@ public class MaxNumberWithParameter {
          */
 
          int a = 98;
+
          int b = 12;
 
          MaxNumber(a,b);
@@ -17,6 +19,7 @@ public class MaxNumberWithParameter {
 
         if(num1 >= num2 ){
             System.out.println("Maximum number is "+num1);
+
         }else{
             System.out.println("Maximum number is "+num2);
         }

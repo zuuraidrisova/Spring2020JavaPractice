@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class removeDuplicatesMethod {
+
     /*
      write a return method that accepts a String and removes duplicate values
      from the String

@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class Driver1 {
+
     /*
     write a return method named getDriver1 that accepts a string parameter called Browser
 				if the browser name matches with {"chrome", "firefox", "id", "safari",
@@ -58,6 +59,7 @@ public class Driver1 {
         String browserName = getDriver1("cHROME");
 
         System.out.println(browserName);
+
     }
 }
 

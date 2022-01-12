@@ -29,7 +29,6 @@ public class MinMax {
 
         System.out.println(list);
 
-
         int max = Collections.max(list);
 
         System.out.println(max);
@@ -49,11 +48,6 @@ public class MinMax {
         int secondMin = Collections.min(list);
 
         System.out.println(secondMin);
-
-
-
-
-
 
     }
 }

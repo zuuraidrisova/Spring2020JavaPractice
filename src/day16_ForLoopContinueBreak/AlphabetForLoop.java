@@ -12,21 +12,25 @@ public class AlphabetForLoop {
          */
 
         for(char alphabet = 'A'; alphabet <= 'Z'; alphabet++){
+
             System.out.print(alphabet+" ");
         }
         System.out.println();
 
         for(char alphabet1= 'Z'; alphabet1 >= 'A'; alphabet1--){
+
             System.out.print(alphabet1+" ");
         }
         System.out.println();
 
         for(char alphabet2= 'a'; alphabet2 <= 'z'; alphabet2++){
+
             System.out.print(alphabet2+" ");
         }
         System.out.println();
 
         for(char alphabet3= 'z'; alphabet3 >= 'a'; alphabet3--){
+
             System.out.print(alphabet3+" ");
         }
 

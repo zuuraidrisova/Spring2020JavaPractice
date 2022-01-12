@@ -81,7 +81,6 @@ why we cannot create objects from abstract class?
     if we dont want our subclass to be a parent to another class, we can mark it
     final, after final it can never be inherited
 
-
 shortcut to override abstract methods of super class:
 
     1: click the end of class signature
@@ -108,11 +107,6 @@ shortcut to override abstract methods of super class:
         we can have everything and plus abstract method, the only disadvantage is
         we cannot create an object
         abstract class is meant to be inherited, so it cannot be final
-
-
-
-
-
 
      */
 }

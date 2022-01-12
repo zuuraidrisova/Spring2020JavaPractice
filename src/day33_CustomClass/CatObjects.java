@@ -19,7 +19,6 @@ public class CatObjects {
 
         cat2.setCatInfo("Siemes","Sasha","white",2);
 
-
         System.out.println(cat2);
 
         System.out.println("==============================");
@@ -31,7 +30,6 @@ public class CatObjects {
         System.out.println(list);
 
         System.out.println("==============================");
-
 
         for(Cat each : list){
 

@@ -1,17 +1,18 @@
 package day24_MethodsContinue;
 
 public class StringReverseReturn {
+
     public static void main(String[] args) {
 
 
         String str = reverse("word");//this we can assign to matching data type bcs it is return
+
         System.out.println(str);
 
         reverse2("word");//we cannot assign this bcs it is void
     }
 
     public static String reverse(String reverse){
-
 
         String reversed = "";
 

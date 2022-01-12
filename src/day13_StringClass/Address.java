@@ -1,11 +1,16 @@
 package day13_StringClass;
 import java.util.Scanner;
 public class Address {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner (System.in);
+
         System.out.println("Enter a building number: ");
         String building = scan.next();
+
         scan.nextLine();
+
         System.out.println("Enter a street address: ");
         String street = scan.nextLine();
 
@@ -24,8 +29,10 @@ public class Address {
         String name = scan.nextLine();
 
         String ship = "Ship to:"+name+"\n\t\t"+building
-                +" "+state+"\n\t\t"+city+" "+state+" "+zipCode;
+                +" "+street+"\n\t\t"+city+" "+state+" "+zipCode;
 
         System.out.println(ship);
+
+        scan.close();
     }
 }

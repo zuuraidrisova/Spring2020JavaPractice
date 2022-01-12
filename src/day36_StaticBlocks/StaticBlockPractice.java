@@ -12,7 +12,6 @@ public class StaticBlockPractice {
 
     int insVariable;
 
-
     static {
         //gets executed as soon as class is loaded
         //static initialization block, means assigning static variables

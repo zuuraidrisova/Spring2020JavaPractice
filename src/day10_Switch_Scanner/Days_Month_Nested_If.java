@@ -9,7 +9,9 @@ package day10_Switch_Scanner;
  */
 
 public class Days_Month_Nested_If {
+
     public static void main(String[] args) {
+
         int num = 12;
 
         boolean days28 = num==2;

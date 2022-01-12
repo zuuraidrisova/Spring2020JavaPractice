@@ -1,6 +1,7 @@
 package day19_Arrays;
 
 public class Uniques4 {
+
     // write a program that can return the unique characters from a string
     //Ex:  "AABCC" ==> "B"
 
@@ -23,6 +24,7 @@ public class Uniques4 {
                 }
 
             }
+
             if(count == 1){
 
                 result += str.charAt(j);

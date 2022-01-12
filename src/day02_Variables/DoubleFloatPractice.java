@@ -5,7 +5,7 @@ public class DoubleFloatPractice {
 
        // float f1 = 8.5; //double is too much for a float
         float f2 = 8.5f;
-        double d1 = 8.5f; //double can contain float
+        double d1 = f2; //double can contain float
         double d2 = 8.5;
 
 

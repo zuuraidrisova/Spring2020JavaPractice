@@ -1,6 +1,7 @@
 package day48_AbstractionInterface;
 
 public abstract  class Phone {
+
     /*
     Warmup tasks:
 	1. create an abstract class called Phone
@@ -12,6 +13,7 @@ public abstract  class Phone {
 						2. Samsung
 			create constructors in each sub class that can initialize the instance variables
      */
+
     public String brand;
     public String model;
     public double price;
@@ -39,17 +41,18 @@ class Iphone extends Phone{
         this.price = price;
         this.size = size;
     }
+
     @Override
     public void calling(long phoneNumber){
 
         System.out.println(phoneNumber+" calling");
     }
+
     @Override
     public void texting(long phoneNumber){
 
         System.out.println(phoneNumber+" texted");
     }
-
 
 }
 
@@ -63,6 +66,7 @@ class Samsung extends Phone{
         this.size = size;
 
     }
+
     @Override
     public void calling(long phoneNumber) {
 

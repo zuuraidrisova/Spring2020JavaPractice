@@ -17,10 +17,10 @@ public class checkInfo {
         // static variable can be accessed within the same package, DEFAULT
         System.out.println("Age: "+PersonalInfo.age);
 
-
         PersonalInfo obj = new PersonalInfo();
 
         System.out.println(obj.name);
+
         System.out.println(obj.gender);
 
     }

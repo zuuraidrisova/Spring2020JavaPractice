@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class UniqueArrayList {
 
     public static void main(String[] args) {
+
        /*
        write a program that can find the unique elements from an ArrayList of integers
        and stores into another list called uniques

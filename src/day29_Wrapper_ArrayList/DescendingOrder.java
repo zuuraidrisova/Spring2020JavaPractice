@@ -25,8 +25,6 @@ public class DescendingOrder {
 
         System.out.println(Arrays.toString(ascending));
 
-
-
     }
 
 

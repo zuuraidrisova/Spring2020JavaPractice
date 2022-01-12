@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class myOffers {
+
     public static void main(String[] args) {
 
         /*
@@ -15,9 +16,6 @@ public class myOffers {
 					2. offer is from your local area
 					3. salary is greater than 100K
          */
-
-
-
 
         Offer offer1 = new Offer();
 
@@ -68,8 +66,6 @@ public class myOffers {
                 System.out.println(each);
             }
         }
-
-
 
     }
 }

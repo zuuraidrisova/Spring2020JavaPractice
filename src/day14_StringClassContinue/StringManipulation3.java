@@ -1,7 +1,9 @@
 package day14_StringClassContinue;
 
 public class StringManipulation3 {
+
     public static void main(String[] args) {
+
         String str ="CYBERTEK";
         String str1 ="cybertek";
 

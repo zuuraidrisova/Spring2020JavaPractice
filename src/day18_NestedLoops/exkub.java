@@ -1,7 +1,9 @@
 package day18_NestedLoops;
 import java.util.Scanner;
 public class exkub {
+
     public static void main(String[] args) {
+
         boolean exists = false;
 
         Scanner scan = new Scanner(System.in);

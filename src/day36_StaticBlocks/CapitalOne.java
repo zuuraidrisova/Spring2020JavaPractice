@@ -16,10 +16,5 @@ public class CapitalOne {
 
         System.out.println(HumanResources.developer3);
 
-
-
-
-
-
 }
 }

@@ -2,9 +2,11 @@ package day09_NestedIfStatements_Ternary;
 
 public class Ternary2 {
     public static void main(String []args){
+
         //only apply to if statements which returns a  value and assign it to a variable
         // ? means if
         //: means else
+
         String result = " ";
         if(9>10){
             result="9 is greater";
@@ -19,6 +21,7 @@ public class Ternary2 {
 
         int age = 20;
         boolean eligiblility1 = age>=21;
+
         if(eligiblility1){
             eligiblility1=true;
         }else{

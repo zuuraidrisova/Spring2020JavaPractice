@@ -48,8 +48,6 @@ public class Pizza {
         this.numberOfCheese = numberOfCheese;
         this.numberOfPepperoni = numberOfPepperoni;
 
-
-
     }
 
     public String toString(){

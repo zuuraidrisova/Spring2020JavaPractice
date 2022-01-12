@@ -8,6 +8,7 @@ import java.util.Arrays;
 			variable: boolean onlineStudent
 			abstract methods: attendClass();
  */
+
 interface onlineEducation{
 
     boolean onlineStudent = true;//public, static and final  by default

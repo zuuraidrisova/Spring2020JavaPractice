@@ -93,7 +93,6 @@ class ScrumTeam{
     /*
     create a class called ScrumTeam
 			Attributes:
-				name
 				List of Testers,
 				List of Developers,
 			Actions:
@@ -228,14 +227,6 @@ class BOA{
                 System.out.println("Tester's name is : "+teams[i].listTesters.get(i).name);
             }
         }
-
-
-
-
-
-
-
-
 
     }
 

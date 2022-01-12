@@ -5,6 +5,7 @@ public class multiCatch {
     public static void main(String[] args) {
 
         try { // it will try to fix, if not it will jump to first catch block
+
             System.out.println(100 / 0);
 
         }catch(ClassCastException e){//it will try to handle the exception, if not
@@ -20,13 +21,14 @@ public class multiCatch {
 
             System.out.println("IndexOutOfBound Exception");
 
-        }catch (RuntimeException e){//top to bottom, so even if can handle ,
+        }catch (RuntimeException e){//top to bottom, so even if it can handle ,
             // it will not be executed since it has already been caught
         //parent exception cannot come before child exception, it should always come after
 
             System.out.println("Runtime Exception");
 
         }
+
         System.out.println("=========================");
 
 
@@ -41,5 +43,6 @@ public class multiCatch {
 
             System.out.println("something went wrong");
         }
+
     }
 }

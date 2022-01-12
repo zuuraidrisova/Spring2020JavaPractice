@@ -27,9 +27,7 @@ public class Employee {
     this.salary = salary;
     this.gender = gender;
 
-
     }
-
 
     public String toString(){
 
@@ -70,10 +68,9 @@ create a class called HumanResources
 
     }
 
-
 }
-class BankOfBishkek{
 
+class BankOfBishkek{
 
     public static void main(String[] args) {
 /*
@@ -91,12 +88,8 @@ create class called BOB
         listEmployees.add(HumanResources.employee3);
         listEmployees.add(HumanResources.employee5);
 
-
         System.out.println(listEmployees.get(0));
         System.out.println(listEmployees.get(1));
-
-
-
 
     }
 }

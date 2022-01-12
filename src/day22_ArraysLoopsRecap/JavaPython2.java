@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class JavaPython2 {
+
     public static void main(String[] args) {
           /*
         write a program that can return the number of appearances of "java" and "python"
@@ -31,6 +32,7 @@ public class JavaPython2 {
             if(each.contains("java")){
                 countJava++;
             }
+
             if(each.contains("python")){
                 countPython++;
             }

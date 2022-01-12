@@ -27,9 +27,5 @@ public class minMaxMethods {
 
         System.out.println(b);
 
-
-
-
-
     }
 }

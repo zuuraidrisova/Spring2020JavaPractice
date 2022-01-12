@@ -28,14 +28,12 @@ public class OOP {
         sub class: can inherit visible variables and visible  methods from
                      super  class, except constructor
 
-
      ex:    class A extends B{} ==> A is sub class, B is super class
 
 
         Method overriding: Must happen in sub class
 
     advantage of Inheritance: less code, reusable, easy to maintain
-
 
     Abstraction:
             hiding the implementation details
@@ -68,6 +66,7 @@ public class OOP {
         same type ==> extends
 
         class  extends  class
+
         interface extends interface
 
         class implements interface
@@ -76,20 +75,6 @@ public class OOP {
 
 
     Polymorphism:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
      */

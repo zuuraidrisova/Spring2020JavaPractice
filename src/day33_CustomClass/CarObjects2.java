@@ -4,7 +4,6 @@ public class CarObjects2 {
 
     public static void main(String[] args) {
 
-
         /*
         create 5 car objects , put them in array of cars, and use loop to print them
          */
@@ -68,12 +67,6 @@ public class CarObjects2 {
         }
 
         System.out.println("============================");
-
-
-
-
-
-
 
     }
 }

@@ -20,10 +20,7 @@ public class removeDuplicatesFromArray {
 
      */
 
-
-
     public static void main(String[] args) {
-
 
         //in order to make it synchronized, we can use Collections utility
 
@@ -52,9 +49,7 @@ public class removeDuplicatesFromArray {
 
         System.out.println(noDuplicates);
 
-
         System.out.println("===============================================");
-
 
         //2. write a program that can remove the duplicates from an arrayList of String
 
@@ -71,14 +66,10 @@ public class removeDuplicatesFromArray {
 
         System.out.println(noDup);
 
-
-
     }
 
     public synchronized void append(){
         //4. how to achieve thread safety: using synchronized keyword
     }
-
-
 
 }

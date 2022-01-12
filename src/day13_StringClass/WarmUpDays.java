@@ -1,14 +1,17 @@
 package day13_StringClass;
 import java.util.Scanner;
 public class WarmUpDays {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner (System.in);
+
         System.out.println("Enter a number between 0 ~ 9: ");
         int num = scan.nextInt();
 
 
         String result ="";
+
         switch(num){
             case 0:
                 result = "Zero";
@@ -52,6 +55,9 @@ public class WarmUpDays {
                 :(num==3) ? "Three": (num==4) ? "Four": (num==5) ? "Five"
                 :(num==6) ? "Six" : (num==7) ? "Seven" : (num==8) ? "Eight"
                 :(num==9) ? "Nine" : "Invalid";
+
         System.out.println(output);
+
+        scan.close();
     }
 }

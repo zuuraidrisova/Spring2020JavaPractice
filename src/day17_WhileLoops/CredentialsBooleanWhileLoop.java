@@ -21,6 +21,7 @@ public class CredentialsBooleanWhileLoop {
         while( !valid ){// !true
 
             System.out.println("Please re-enter your credentials! ");
+
             System.out.println("Please enter your username: ");
             username = input.next();
 

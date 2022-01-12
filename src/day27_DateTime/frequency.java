@@ -1,6 +1,7 @@
 package day27_DateTime;
 
 public class frequency {
+
     public static void main(String[] args) {
 
         String str  = "zuuuuuuuura";
@@ -21,6 +22,7 @@ public class frequency {
 
     }
     public static int frequency(String str, char ch){
+
         int count = 0;
 
         char [] ch1 =  str.toCharArray();
@@ -55,7 +57,6 @@ public class frequency {
     public static String uniques(String str){
 
         String uniques = "";
-
 
         for(int i = 0; i < str.length(); i++){
 

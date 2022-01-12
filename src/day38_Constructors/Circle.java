@@ -42,7 +42,6 @@ public class Circle {
 
         return "radius of the circle is: "+radius+", area of circle is: "
                 +area()+", perimeter of circle is: "+perimeter();
-
     }
 
 }
@@ -55,18 +54,21 @@ class CircleObject{
         //df.format() --> to round to second 00
 
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Enter the radius of the circle: ");
+
         double radius = scan.nextDouble();
 
         Circle circle1 = new Circle(radius);
-
 
         System.out.println(circle1);
 
         System.out.println("=====================================");
 
         System.out.println(df.format(circle1.area()));// df.format() --> to round to second 00
+
         System.out.println(df.format(circle1.diameter));
+
         System.out.println(df.format(circle1.perimeter()));
 
     }

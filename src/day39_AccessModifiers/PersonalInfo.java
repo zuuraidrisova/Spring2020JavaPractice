@@ -9,6 +9,4 @@ public class PersonalInfo {
     private static char grade ='A';
     private static  long SSN = 526352;
 
-
-
 }

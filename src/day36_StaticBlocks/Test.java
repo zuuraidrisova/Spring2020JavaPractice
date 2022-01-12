@@ -23,6 +23,5 @@ public class Test {
         System.out.println(StaticBlockExample.tester);
 
 
-
     }
 }

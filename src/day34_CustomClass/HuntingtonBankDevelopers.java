@@ -79,6 +79,5 @@ public class HuntingtonBankDevelopers {
 
         developer3.createTicket();
 
-
     }
 }

@@ -3,6 +3,7 @@ package day23_CustomMethods;
 import java.util.Arrays;
 
 public class UniqueValues {
+
     public static void main(String[] args) {
         /*
           Write a program that can print out the unique values from a String Array
@@ -24,6 +25,7 @@ public class UniqueValues {
             for(String each : arr){//EACH ELEMENT IN THE ARRAY
 
                 if(each.equals(each2)){
+
                     count++;
                 }
 
@@ -55,6 +57,7 @@ public class UniqueValues {
             }
 
             if(counter == 1){
+
                 System.out.println(arr2[j]);
             }
 

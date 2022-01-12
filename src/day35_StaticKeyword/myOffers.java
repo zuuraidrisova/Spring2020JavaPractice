@@ -86,9 +86,7 @@ public class myOffers {
 
         System.out.println("+==================================================+");
 
-
-
-        Accept.removeIf(p -> !p.location.equals("VA"));
+        Accept.removeIf(p -> !p.location.equals(myLocation));
 
         for(int i = 0; i < Accept.size(); i++){
 
@@ -97,27 +95,6 @@ public class myOffers {
 
        // Accept.removeIf(p -> p.salary < 100000 || p.isFullTime == false || !p.location.equals("VA"));
         // we can also put all our conditions in one removeIF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

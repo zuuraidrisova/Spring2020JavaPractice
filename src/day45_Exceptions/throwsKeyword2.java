@@ -13,6 +13,7 @@ public class throwsKeyword2 {
          was used in that method's signature
 
          */
+
         System.out.println("Java");
 
         Thread.sleep(3000);

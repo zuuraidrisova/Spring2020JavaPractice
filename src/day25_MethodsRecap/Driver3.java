@@ -2,6 +2,7 @@ package day25_MethodsRecap;
 
 
 public class Driver3 {
+
      /*
      write a return method named getDriver1 that accepts a string parameter called
     Browser
@@ -20,6 +21,7 @@ public class Driver3 {
 
 
          String result = (browserName.equalsIgnoreCase("Chrome")) ? result = "Chrome Driver":
+
                   (browserName.equalsIgnoreCase("Opera")) ? result = "Opera Driver":
                   (browserName.equalsIgnoreCase("Firefox")) ? result = "FireFox Driver":
                   (browserName.equalsIgnoreCase("Edge")) ? result = "Edge Driver":
@@ -33,6 +35,7 @@ public class Driver3 {
      public static void main(String [] args){
 
         String browser =  getDriver3("opera");
+
          System.out.println(browser);
      }
 }

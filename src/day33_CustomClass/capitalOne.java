@@ -29,6 +29,5 @@ public class capitalOne {
 
         System.out.println("==========================");
 
-
     }
 }

@@ -10,7 +10,6 @@ public class Car {
     public String toString(){
 
         return year +" "+brand+" "+model+" $"+price;
-
     }
 
     public Car(String brand, String model, int year, double price){
@@ -21,6 +20,5 @@ public class Car {
         this.price = price;
 
     }
-
 
 }

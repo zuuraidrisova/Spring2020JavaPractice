@@ -22,9 +22,11 @@ public class StartEndWords_practice {
         int length1 = first.length();
         int length2 = second.length();
 
-        if(length1==5 && length1==5){
+        if(length1 == 5 && length1 == 5){
+
             if(first.charAt(length1-1) == second.charAt(0)){
                 System.out.println("Fizz");
+
             }else{
                 System.out.println("Buzz");
             }

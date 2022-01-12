@@ -1,6 +1,7 @@
 package day41_Inheritance.Task2;
 
 public class BankAccount {
+
       /*
     	create a class called BankAccount
 			variables:  accountNumber, accountHolder, Balance
@@ -16,10 +17,12 @@ public class BankAccount {
 
           balance += amount;
       }
+
       public void showBalance(){
 
           System.out.println("Available balance: "+balance);
       }
+
       public String toString(){
 
           return "Account Holder: "+accountHolder+" Account Number: "+accountNumber

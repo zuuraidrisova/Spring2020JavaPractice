@@ -1,7 +1,9 @@
 package day01_FirstProgramming;
 
 public class WhatILearned {
+
     public static void main(String[] args){
+
         System.out.println("JDK stands for Java Development Kit, which is a package of all necessary java components");
         System.out.println("JVM stands for Java Virtual machine, which takes byte code and runs it");
         System.out.println("JRE stands for Java Runtime Environment, which contains all necessary libraries and resources");

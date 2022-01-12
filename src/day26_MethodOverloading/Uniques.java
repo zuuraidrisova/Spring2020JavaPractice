@@ -1,6 +1,7 @@
 package day26_MethodOverloading;
 
 public class Uniques {
+
     /*
      use the above method to create another called uniques that accepts a string
      parameter and returns it's unique characters as String
@@ -21,10 +22,12 @@ public class Uniques {
             int num = frequency(str,str.charAt(i));
 
             if(num == 1){
+
                 result += str.charAt(i);
             }
 
         }
+
         System.out.println(result);
 
         String str2 = "Cybertek";
@@ -53,9 +56,6 @@ public class Uniques {
 
         return result;
     }
-
-
-
 
 
     public static int frequency(String str, char ch){

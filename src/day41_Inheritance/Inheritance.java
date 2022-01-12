@@ -16,7 +16,6 @@ public class Inheritance {
                                         features mean variables and methods
 Sub class can also add its own features(methods or fields) besides inheriting parents'
 
-
         Inheritance improves re-usability, easy to maintain, saves time,
                               no need for declaring over and over again
 
@@ -27,7 +26,7 @@ Sub class can also add its own features(methods or fields) besides inheriting pa
 
         class Dog extends Animal{
 
-                Dos "is an" Animal relationship
+                Dog "is an" Animal relationship
         }
 
         'has a' relationship ==> whenever one class has another classes' objects
@@ -58,9 +57,7 @@ Sub class can also add its own features(methods or fields) besides inheriting pa
 
         Constructor cannot be inherited, because constructor name must match with class name
 
-
     if  private variables and methods, they cannot be inherited directly
-
 
      */
 }

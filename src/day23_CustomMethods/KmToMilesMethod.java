@@ -1,6 +1,7 @@
 package day23_CustomMethods;
 
 public class KmToMilesMethod {
+
     public static void main(String[] args) {
         /*
          write a method called KmToMiles that can convert km to miles

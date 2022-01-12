@@ -5,7 +5,6 @@ public class static_Methods {
     int a = 100;//instance variable
     static  int b = 200; //static variable
 
-
     public static void main(String[] args) {
 
        // System.out.println(a);//static only accepts static
@@ -19,11 +18,7 @@ public class static_Methods {
         System.out.println(obj.b);// can be called thru the object, but gives warning,
         // because static is preferred to be called thru the class name
 
-
-
-
     }
-
 
     public void method(){
 
@@ -31,7 +26,6 @@ public class static_Methods {
 
         System.out.println(b);// because objects come from class,
         // static can be accepted in any other places, also called global variables
-
 
     }
 }

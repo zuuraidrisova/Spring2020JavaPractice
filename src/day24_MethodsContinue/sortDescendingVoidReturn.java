@@ -23,6 +23,7 @@ public class sortDescendingVoidReturn {
         System.out.println(Arrays.toString(arr4));
         System.out.println(Arrays.toString(arr5));
         System.out.println(Arrays.toString(arr6));
+
     }
     public static void sortDescending(int [] arr){
 
@@ -35,6 +36,7 @@ public class sortDescendingVoidReturn {
         for(int i = arr.length-1; i >= 0; i--){
 
             arr2[k] = arr[i];
+
             k++;
 
         }
@@ -47,6 +49,7 @@ public class sortDescendingVoidReturn {
         Arrays.sort(arr2);
 
         int [] arr3 = new int[arr2.length];
+
         int z = 0;
 
         for(int x = arr2.length-1; x >= 0; x--) {
@@ -56,5 +59,6 @@ public class sortDescendingVoidReturn {
             z++;
         }
            return arr3;
+
     }
 }

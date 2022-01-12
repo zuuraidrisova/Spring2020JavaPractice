@@ -36,7 +36,6 @@ public class ValueOfMethod {
 
         System.out.println(d2);
 
-
         System.out.println(d1 == d2);//true
 
         System.out.println("==================");
@@ -85,8 +84,6 @@ public class ValueOfMethod {
        Boolean b5 =  Boolean.valueOf(str8);//by default returns false
 
         System.out.println(b5);
-
-
 
 
     }

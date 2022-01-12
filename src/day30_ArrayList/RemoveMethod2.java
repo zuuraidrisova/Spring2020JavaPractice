@@ -7,7 +7,6 @@ public class RemoveMethod2 {
 
     public static void main(String[] args) {
 
-
         ArrayList<String> list = new ArrayList<>();
 
         list.add("A");//0
@@ -25,7 +24,6 @@ public class RemoveMethod2 {
         System.out.println(a);
         System.out.println(list);
 
-
         String str2 = "F";
 
         boolean b = list.remove(str2);//will return false, bcs we do not have that object in list
@@ -38,13 +36,6 @@ public class RemoveMethod2 {
         list.clear();
 
         System.out.println(list);
-
-
-
-
-
-
-
 
     }
 }

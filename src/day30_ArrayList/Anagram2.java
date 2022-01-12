@@ -7,31 +7,31 @@ public class Anagram2 {
 
     public static void main(String[] args) {
 
-        /*
+                /*
 
-    Anagram is a word, phrase, or name formed by rearranging the letters of
-    another, such as cinema, formed from iceman.
+            Anagram is a word, phrase, or name formed by rearranging the letters of
+            another, such as cinema, formed from iceman.
 
-isAnagram method checks if word1 and word2 are anagram to each other
-then return a boolean.
+        isAnagram method checks if word1 and word2 are anagram to each other
+        then return a boolean.
 
-each letter in word1 should appear in word2 exact number of times
-ignore empty spaces
-make your code case insensitive
+        each letter in word1 should appear in word2 exact number of times
+        ignore empty spaces
+        make your code case insensitive
 
-Examples:
+        Examples:
 
-isAnagram("listen", "Silent") ==> true
+        isAnagram("listen", "Silent") ==> true
 
-isAnagram("earth", "heart") ==> true
+        isAnagram("earth", "heart") ==> true
 
-isAnagram("star", "rats") ==> true
+        isAnagram("star", "rats") ==> true
 
-isAnagram("hi", "bye") ==> false
+        isAnagram("hi", "bye") ==> false
 
-isAnagram("java", "cava") ==> false
+        isAnagram("java", "cava") ==> false
 
-     */
+             */
 
         Scanner scan = new Scanner(System.in);
 
@@ -44,11 +44,12 @@ isAnagram("java", "cava") ==> false
         String second = scan.next();
 
 
-       boolean a =  Anagram(first,second);
+        boolean a =  Anagram(first,second);
 
         System.out.println(a);
 
     }
+
 
     public static boolean Anagram(String word1, String word2){
 
@@ -64,7 +65,6 @@ isAnagram("java", "cava") ==> false
         String a = Arrays.toString(ch);
         String b = Arrays.toString(ch2);
 
-
         if(a.equals(b)){
 
             return  true;
@@ -73,9 +73,6 @@ isAnagram("java", "cava") ==> false
             return false;
         }
 
-
-
-
-
     }
+
 }

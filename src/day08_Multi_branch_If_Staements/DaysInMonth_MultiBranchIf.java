@@ -2,8 +2,11 @@ package day08_Multi_branch_If_Staements;
 
 public class DaysInMonth_MultiBranchIf {
     public static void main(String []args){
+
         byte month = 4;
+
         String result = " ";
+
         if(month==1){
             result= "January has 31 days";
         }else if(month==2){

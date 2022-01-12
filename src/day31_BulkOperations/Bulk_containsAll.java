@@ -50,18 +50,5 @@ public class Bulk_containsAll {
 
         System.out.println(f);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

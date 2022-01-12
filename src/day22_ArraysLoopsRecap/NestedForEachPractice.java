@@ -1,6 +1,7 @@
 package day22_ArraysLoopsRecap;
 
 public class NestedForEachPractice {
+
     public static void main(String[] args) {
         /*
         int[][] numbers = {
@@ -13,8 +14,8 @@ public class NestedForEachPractice {
         // 2. count odd numbers ==> return the total odd number
          */
 
-
         int[][] numbers = {
+
                 {1,2,3},
                 {4,5,6,7,8,9},
                 {10,11,12,13,14},

@@ -14,7 +14,6 @@ public class lambda_Practice {
     2. write a program that can remove all the numbers that can divisble by 3 or 5 in arrayList
      */
 
-
         ArrayList<Character> ch = new ArrayList<>();
 
         ch.addAll(Arrays.asList('A','B','C','D','E','3','4','@','$'));
@@ -30,7 +29,6 @@ public class lambda_Practice {
 
         System.out.println(ch);
 
-
         ArrayList<Integer> list = new ArrayList<>();
 
         for(int  i = 0; i <= 50; i++){
@@ -40,12 +38,11 @@ public class lambda_Practice {
 
         System.out.println(list);
 
-        Predicate<Integer> divisibleBy3Or5 = d -> d % 3 == 0 || d % 5 == 0;
+        Predicate<Integer> divisibleBy3or5 = d -> d % 3 == 0 || d % 5 == 0;
 
-        list.removeIf(divisibleBy3Or5);
+        list.removeIf(divisibleBy3or5);
 
         System.out.println(list);
-
 
 
     }

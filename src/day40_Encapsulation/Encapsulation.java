@@ -16,8 +16,6 @@ public class Encapsulation {
 
     getter and setter should always  be generated only in same class
                 where private data is declared
-
-
      */
 
     private long SSN;
@@ -36,9 +34,5 @@ public class Encapsulation {
         //so we mainly pass parameter
         this.SSN = SSN;
     }
-
-
-
-
 
 }

@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class Driver2 {
+
       /*
     write a return method named getDriver1 that accepts a string parameter called Browser
 				if the browser name matches with {"chrome", "firefox", "id", "safari",
@@ -20,16 +21,22 @@ public class Driver2 {
 
         if(browserName.equalsIgnoreCase("Chrome")){
             result = "Chrome Driver";
+
         }else if(browserName.equalsIgnoreCase("Opera")){
             result = "Opera Driver";
+
         }else if(browserName.equalsIgnoreCase("Firefox")){
             result = "FireFox Driver";
+
         }else if(browserName.equalsIgnoreCase("Safari")){
             result = "Safari Driver";
+
         }else if(browserName.equalsIgnoreCase("Edge")){
             result = "Edge Driver";
+
         }else if(browserName.equalsIgnoreCase("IE")){
             result = "IE Driver";
+
         }else{
             result = "Invalid Driver";
         }

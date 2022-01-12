@@ -11,6 +11,7 @@ public class finalMethods {
      return 12;
 
     }
+
     public finalMethods(){// constructor cannot have final keyword
 
 
@@ -21,9 +22,6 @@ public class finalMethods {
 
 
     }
-
-
-
 
 
 }

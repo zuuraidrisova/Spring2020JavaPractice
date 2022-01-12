@@ -72,7 +72,7 @@ public class ArrayListPractice {
 
         System.out.println(combined);
 
-      int count1 =   Collections.frequency(combined,combined.get(0));
+       int count1 = Collections.frequency(combined,combined.get(0));
 
         System.out.println(count1);
 
@@ -105,7 +105,6 @@ public class ArrayListPractice {
 
         for(int i = 0; i < names.size(); i++){
 
-
             if(!noDup.contains(names.get(i))){
 
                 noDup.add(names.get(i));
@@ -113,10 +112,6 @@ public class ArrayListPractice {
         }
 
         System.out.println(noDup);
-
-        
-
-
 
 
     }

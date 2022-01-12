@@ -1,6 +1,7 @@
 package day23_CustomMethods;
 
 public class GradeMethod {
+
     public static void main(String[] args) {
         /*
         write a method called Grade, that can print out the grade based on

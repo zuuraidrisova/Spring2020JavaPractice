@@ -7,7 +7,6 @@ public class CybertekStudents {
     int groupNumber;
     String batch;
 
-
     public CybertekStudents(String name, int groupNumber, String batch){
 
         schoolName = "Cybertek";//compiles fine because static is global
@@ -23,8 +22,6 @@ public class CybertekStudents {
         return "Name: "+name+" GroupNumber: "+groupNumber+" Batch: "+batch+" SchoolName: "+schoolName;
     }
 
-
-
 }
 
 class CybertekObjects{
@@ -36,8 +33,8 @@ class CybertekObjects{
         CybertekStudents student3 = new CybertekStudents("Gulya",1,"Batch18");
 
         student1.schoolName = "Harvard School";//we can change it here, but all instances will be changed
-        CybertekStudents[] students = {student1,student2,student3};
 
+        CybertekStudents[] students = {student1,student2,student3};
 
         for(CybertekStudents each : students){
 

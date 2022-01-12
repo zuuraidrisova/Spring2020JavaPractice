@@ -18,7 +18,6 @@ public class OOP {
         2. granting access to other classes to use that private
                     data thru the getter adn setter
 
-
     getter(): public instance method, should always return data type,
                 return type must match with instance variables data type
                 read only
@@ -29,7 +28,6 @@ public class OOP {
                 has parameter
                 modify only
                 initializes the argument to private instance variable
-
 
      */
 }

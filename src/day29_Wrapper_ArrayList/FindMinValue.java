@@ -29,7 +29,6 @@ public class FindMinValue {
 
         System.out.println(min1);
 
-
         double [] arr1 = {1.2, 2.4, 6.7, 3.3, 9.0};
 
         double min = Double.MAX_VALUE;
@@ -55,13 +54,6 @@ public class FindMinValue {
         }
 
         System.out.println(min2);
-
-
-
-
-
-
-
 
     }
 }

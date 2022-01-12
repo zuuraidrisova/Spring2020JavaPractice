@@ -2,10 +2,9 @@ package day48_AbstractionInterface;
 
 public interface Interface_VariablesMethods {
 
-
     public static final int  a = 100;
     //variables we give in interface are final and static by default, also public
-    //final means cannot be initialized
+    //final means cannot be re-initialized
     //static means only one copy
     //public means accessible to all classes
 
@@ -25,8 +24,6 @@ public interface Interface_VariablesMethods {
     }
 
 
-
-
     public static void main(String[] args) {
 
         System.out.println(a);
@@ -36,8 +33,6 @@ public interface Interface_VariablesMethods {
         Interface_VariablesMethods.method1();
 
     }
-
-
 
 
 }

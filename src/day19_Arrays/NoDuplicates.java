@@ -21,7 +21,7 @@ public class NoDuplicates {
 
         String noDuplicates = "";
 
-        for(int i = 0; i < str.length(); i++){
+        for(int i = 0; i <= str.length()-1; i++){
 
             if(! noDuplicates.contains(""+str.charAt(i))){
 
@@ -30,6 +30,7 @@ public class NoDuplicates {
         }
 
         return noDuplicates;
+
     }
 
     public static int frequency(String str1, String str2 ){

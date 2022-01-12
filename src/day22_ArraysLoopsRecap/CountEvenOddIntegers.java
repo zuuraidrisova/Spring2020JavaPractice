@@ -14,9 +14,13 @@ public class CountEvenOddIntegers {
        int countOdd = 0;
 
        for(int each : arr){
+
            if(each % 2 ==0){
+
                countEven++;
+
            }else{
+
                countOdd++;
            }
        }

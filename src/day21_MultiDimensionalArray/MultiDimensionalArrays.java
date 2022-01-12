@@ -3,6 +3,7 @@ package day21_MultiDimensionalArray;
 import java.util.Arrays;
 
 public class MultiDimensionalArrays {
+
     public static void main(String[] args) {
 
         int [] arr = {1,2,3};//one dimensional array
@@ -36,6 +37,7 @@ public class MultiDimensionalArrays {
         //                         0              1              2  ==> rows
          char ch2 = ch2DD [2][0];
         System.out.println(ch2);
+
          char [] ch = ch2DD[0];
         System.out.println(Arrays.toString(ch));
 

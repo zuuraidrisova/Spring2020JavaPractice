@@ -2,6 +2,7 @@ package day42_Inheritance.task1;
 
 public class Person {
 
+
     /*
     create a class called Person
 				attributes:  name, age, gender
@@ -17,15 +18,18 @@ public class Person {
         this.age = age;
         this.gender = gender;
     }
+
     public void eat(String food){
 
         System.out.println(name+" is eating "+food);
 
     }
+
     public void walk(int hour){
 
         System.out.println(name+" is walking for "+hour+" hours");
     }
+
     public void sleep(){
 
         System.out.println(name+" is sleeping");

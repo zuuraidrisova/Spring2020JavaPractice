@@ -20,7 +20,7 @@ public class StringManipulation2 {
         System.out.println(s1.equals(s2));//true, to compare equality of string
 
         String z1 ="Tiger";//string pool, bcs literal
-        String z2 = new String("Tiger");//heap memory, bcs new
+        String z2 = new String("Tiger");//heap memory, bcs new keyword
         String z3 ="Tiger";//string pool, bcs literal
         String z4 ="tiger";
 

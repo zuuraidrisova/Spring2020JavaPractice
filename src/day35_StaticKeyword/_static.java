@@ -17,8 +17,5 @@ public class _static {
                    static methods
                    static blocks
                    static class
-
-
-
      */
 }

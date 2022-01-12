@@ -3,6 +3,7 @@ package day14_StringClassContinue;
 import java.util.Scanner;
 
 public class CredentialsPractice {
+
     public static void main(String[] args) {
                /*
         valid credentials are :
@@ -24,12 +25,16 @@ public class CredentialsPractice {
                String password = scan.next();
 
             if(!(userName.isEmpty() && password.isEmpty())){
+
                 if(userName.equals("cybertek") && password.equals("cybertek2020")){
                     System.out.println("You are logged in successfully!");
+
                 }else if( !userName.equals("cybertek") && password.equals("cybertek2020")){
                     System.out.println("Username is incorrect!");
+
                 }else if((userName.equals("cybertek"))&& (!password.equals("cybertek2020"))){
                     System.out.println("Password is incorrect!");
+
                 }else{
                     System.out.println("Invalid username and password!");
                 }

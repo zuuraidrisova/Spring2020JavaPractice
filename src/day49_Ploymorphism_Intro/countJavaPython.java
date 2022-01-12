@@ -39,6 +39,7 @@ public class countJavaPython {
         if(countJava == countPython){
 
             System.out.println(true);
+
         }else{
 
             System.out.println(false);
@@ -53,7 +54,6 @@ public class countJavaPython {
 
             System.out.println();
         }
-
 
     }
 }

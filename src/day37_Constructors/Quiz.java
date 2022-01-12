@@ -7,7 +7,9 @@ public class Quiz {
 
 
 }
+
 class Test{
+
     public static void main(String[] args) {
 
         Quiz obj1 = new Quiz();

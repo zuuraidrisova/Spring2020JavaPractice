@@ -19,8 +19,5 @@ public class Test {
 
         System.out.println(Arrays.toString(arr2));
 
-
-
-
     }
 }

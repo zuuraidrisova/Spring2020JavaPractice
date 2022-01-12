@@ -2,8 +2,10 @@ package day09_NestedIfStatements_Ternary;
 
 public class Ternary_Practice {
     public static void main(String []args){
+
         int num = 10;
         char ch1 = ' ';
+
         if(num>0){
             ch1 = '+';
         }else if(num<0){
@@ -42,6 +44,7 @@ public class Ternary_Practice {
                 :(score>=70 && score<80)?"Good":(score>=60 && score<70)?"Pass"
                 :(score>=50 && score>0)? "Fail":"Invalid Entry";
         System.out.println(grade2);
+
         //ternary always has to end with else (:) statement
         //it does not work with print statement inside body
 

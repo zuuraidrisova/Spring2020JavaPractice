@@ -3,6 +3,7 @@ package day24_MethodsContinue;
 import java.util.Scanner;
 
 public class CalculateMethodCharSwitch {
+
     public static void main(String[] args) {
          /*
         write a method called Calculation, that passes 3 parameters:
@@ -18,10 +19,13 @@ public class CalculateMethodCharSwitch {
       while(true) {
 
           Scanner scan = new Scanner(System.in);
+
           System.out.println("Enter num1:");
           int num1 = scan.nextInt();
+
           System.out.println("Enter num2:");
           int num2 = scan.nextInt();
+
           System.out.println("Enter a math operator:");
           char operator = scan.next().charAt(0);
 
@@ -32,6 +36,7 @@ public class CalculateMethodCharSwitch {
 
           while( !(answer.equalsIgnoreCase("Yes")
                   || answer.equalsIgnoreCase("No"))){
+
               System.out.println("Invalid Entry, please re-enter Yes or No?!");
               System.out.println("Do you want to continue? ");
               answer = scan.next();
@@ -39,6 +44,7 @@ public class CalculateMethodCharSwitch {
           }
 
           if(answer.equalsIgnoreCase("No")){
+
               System.out.println("Thank you for using calculator!");
               System.exit(0);//exits the whole program
 

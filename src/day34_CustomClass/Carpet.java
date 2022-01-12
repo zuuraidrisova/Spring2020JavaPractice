@@ -26,10 +26,9 @@ public class Carpet {
 
     public double calcCost(){
 
+        double total = (width * length) * unitPrice;
 
-        double total = (width + length) * unitPrice;
-
-        return (isPersian == true) ? total + 200 : total;
+        return (isPersian) ? total + 200 : total;
     }
 
     public void customOrder(double wide, double len, double price, boolean persian){
@@ -38,7 +37,6 @@ public class Carpet {
             length = len;
             unitPrice = price;
             isPersian = persian;
-
 
     }
 
@@ -50,6 +48,5 @@ public class Carpet {
 
         return result;
     }
-
 
 }

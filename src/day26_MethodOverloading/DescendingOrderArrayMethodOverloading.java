@@ -3,6 +3,7 @@ package day26_MethodOverloading;
 import java.util.Arrays;
 
 public class DescendingOrderArrayMethodOverloading {
+
     /*
     	5. write an int[] return method that can sort an int array in descending order
 	6. write a double[] return method that can sort a double array in descending order
@@ -29,6 +30,7 @@ public class DescendingOrderArrayMethodOverloading {
         char [] arr3 = sortDescending(arr2);
 
         System.out.println(Arrays.toString(arr3));
+
     }
 
 
@@ -37,6 +39,7 @@ public class DescendingOrderArrayMethodOverloading {
         Arrays.sort(arr);
 
         int [] descending = new int [arr.length];
+
         int j = 0;
 
         for(int i = arr.length-1; i >= 0; i--){

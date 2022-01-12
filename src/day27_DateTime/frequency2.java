@@ -1,6 +1,7 @@
 package day27_DateTime;
 
 public class frequency2 {
+
     /*
      write a return method called frequency that accepts two parameters:
      string str and char ch, the method returns the frequency of the ch from
@@ -12,6 +13,7 @@ public class frequency2 {
             Note: MUST use Arrays and for each loop
 
      */
+
     public static void main(String[] args) {
 
         String str = "zuuuura";
@@ -24,7 +26,9 @@ public class frequency2 {
         String uniques = unique(str);
 
         System.out.println(uniques);
+
     }
+
     public static int frequency(String str, char ch){
 
         int count = 0;

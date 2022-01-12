@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class TakeFiveStringFromUser {
+
     public static void main(String[] args) {
+
         /*
          1.Write a program that will take five Strings and save them into an array
           called arr.
@@ -24,6 +26,7 @@ public class TakeFiveStringFromUser {
         String [] arr = new String [5];
 
         for(int i = 0; i < arr.length; i++){
+
             System.out.println("Please enter a word: ");
             arr [i] = scan.next();
         }
@@ -34,8 +37,6 @@ public class TakeFiveStringFromUser {
 
             System.out.println(each.substring(0,3));
         }
-
-
 
     }
 }

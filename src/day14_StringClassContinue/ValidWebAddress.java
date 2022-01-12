@@ -9,6 +9,7 @@ public class ValidWebAddress {
      */
 
     public static void main(String []args){
+
         String webAddress = "cybertek.www.com";
            webAddress = webAddress.toLowerCase();
 
@@ -17,9 +18,13 @@ public class ValidWebAddress {
                    || webAddress.endsWith(".net") || webAddress.endsWith(".gov");
 
            if(validStart){
+
                if(validEnding){
+
                    System.out.println("Valid address");
+
                }else{
+
                    System.out.println("Invalid end of web address");
                }
            }else{

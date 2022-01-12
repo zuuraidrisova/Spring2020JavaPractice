@@ -3,7 +3,6 @@ package day43_MethodOverriding;
 public class MethodOverloading {
 
     /*
-
 Method Overloading:
 
         Same method name but different parameters,
@@ -16,6 +15,7 @@ Method Overloading:
         System.out.println(a + b );
 
     }
+
     public void add(int a, int b, int c){
 
         System.out.println(a + b + c);
@@ -30,6 +30,5 @@ Method Overloading:
 
         return a + b;
     }
-
 
 }

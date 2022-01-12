@@ -3,6 +3,7 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class SortArray {
+
     public static void main(String[] args) {
         /*
         write a program that sort the array in descending order
@@ -19,6 +20,7 @@ public class SortArray {
         int [] arrDescending = new int [arr.length];
 
         for(int i = arr.length-1; i >= 0; i--){
+
             arrDescending [j] = arr[i];
 
             j++;

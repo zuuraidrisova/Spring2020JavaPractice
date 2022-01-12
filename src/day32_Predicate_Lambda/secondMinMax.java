@@ -31,6 +31,7 @@ public class secondMinMax {
         System.out.println(list);
 
         int secondMax = 0;
+
         int secondMin = 0 ;
 
         int max = Collections.max(list);
@@ -45,7 +46,6 @@ public class secondMinMax {
 
         System.out.println("+======================+");
 
-
         int min = Collections.min(list);
 
         System.out.println(min);
@@ -55,7 +55,6 @@ public class secondMinMax {
         secondMin = Collections.min(list);
 
         System.out.println(secondMin);
-
 
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(12,12,90,465,3874,2938,34,50));
 
@@ -68,10 +67,6 @@ public class secondMinMax {
         int min3 = Collections.min(list2);
 
         System.out.println(min3);
-
-
-
-
 
     }
 }

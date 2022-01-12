@@ -17,7 +17,6 @@ public class nestedClass {
 
          if we have multiple static variables we can group them in static class
 
-
      */
     static int a;
 
@@ -39,11 +38,8 @@ public class nestedClass {
 
     public static void main(String[] args) {
 
-
         System.out.println(data.b);
         System.out.println(data.c);
-
-
 
     }
 }

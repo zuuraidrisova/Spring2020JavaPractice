@@ -17,8 +17,6 @@ public class Bulk_addAll {
 
         we can add one by one, but it is tiring
 
-
-
         list.add(30);
         list.add(20);
         list.add(40);
@@ -35,7 +33,6 @@ public class Bulk_addAll {
        // int [] arr1 = {20,30,40}; ArrayList does not support primitives
 
         Integer [] arr2 = {20,30,40};
-
 
         list.addAll(Arrays.asList(30,20,40,45,35,600));
 
@@ -75,34 +72,12 @@ public class Bulk_addAll {
 
         System.out.println("==========================");
 
-
         Integer[] numbers = {1,2,3,4,5,6,7,8,9};
 
         ArrayList<Integer> numbersList = new ArrayList<Integer>(Arrays.asList(numbers));
         //                                                  we can add like above too
 
         System.out.println(numbersList);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

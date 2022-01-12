@@ -26,8 +26,10 @@ public class CheckWords {
 
         if(length1 ==length2 && length2 == length3){
             System.out.println("All words are same length");
+
         }else if(length1 != length2 && length2!=length3 && length1 != length3 ){
             System.out.println("All different length ");
+
         }else{
             System.out.println("Nor same length, nor different");
         }

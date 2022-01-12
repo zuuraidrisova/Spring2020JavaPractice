@@ -3,6 +3,7 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class EvenForLoopToCreateForEach {
+
     public static void main(String[] args) {
         /*
            1. create an int array called numbers that has length of 100
@@ -23,6 +24,7 @@ public class EvenForLoopToCreateForEach {
         for(int each : numbers){//for each element in numbers array
 
             if(each % 2 != 0){//if they are even
+
                 continue;
 
             }

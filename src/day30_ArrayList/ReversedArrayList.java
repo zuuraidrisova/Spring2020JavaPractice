@@ -25,7 +25,6 @@ public class ReversedArrayList {
 
         ArrayList<Integer> reversed = new ArrayList<Integer>();
 
-
         for(int i = list.size()-1; i >= 0; i--){
 
             reversed.add(list.get(i));
@@ -33,8 +32,6 @@ public class ReversedArrayList {
 
 
         System.out.println(reversed);
-
-
 
     }
 }

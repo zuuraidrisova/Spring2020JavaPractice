@@ -8,6 +8,7 @@ class Test{
 
         System.out.println("A");
     }
+
 }
 
 public class finalMethods2 extends Test {
@@ -21,6 +22,5 @@ public class finalMethods2 extends Test {
     }
 
      */
-
 
 }

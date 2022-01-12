@@ -2,7 +2,9 @@ package day09_NestedIfStatements_Ternary;
 
 public class AgeGroupTernary {
     public static void main(String[] args) {
+
         byte age = 45;
+
         String output = (age < 3 && age > 0) ? "baby" : (age >= 3 && age <= 5) ? "toddler"
                 : (age >= 6 && age <= 9) ? "kid" : (age >= 10 && age <= 12) ? "pre-teen"
                 : (age >= 13 && age <= 17) ? "teenager" : (age >= 18 && age <= 20) ? "young adult"

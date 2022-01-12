@@ -15,6 +15,7 @@ public class Book {
     }
 
 }
+
 class Ebook extends Book{
 
     //title, type,author, price == > inherited
@@ -31,7 +32,6 @@ class Ebook extends Book{
         System.out.println("reading "+title);
     }
 
-
     public static void main(String[] args) {
 
         Ebook book =  new Ebook();
@@ -47,6 +47,7 @@ class Ebook extends Book{
         System.out.println(book);
     }
 }
+
 class AudioBook extends Book{
 /*
     title is inherited

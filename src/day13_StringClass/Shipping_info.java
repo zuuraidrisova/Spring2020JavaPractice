@@ -16,7 +16,9 @@ public class Shipping_info {
 							  MCLean, VA 22102
      */
    public static void main(String []args){
+
        Scanner scan = new Scanner(System.in);
+
        System.out.println("Enter your building number: ");
        String Bnumber = scan.next();
 
@@ -44,5 +46,6 @@ public class Shipping_info {
 
        System.out.println(result);
 
+       scan.close();
    }
 }

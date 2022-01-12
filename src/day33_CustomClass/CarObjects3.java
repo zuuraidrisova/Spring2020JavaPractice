@@ -61,16 +61,5 @@ public class CarObjects3 {
         System.out.println(list);
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -6,7 +6,6 @@ public class scrumTeam {
 
     ArrayList<Testers2> testers2Team = new ArrayList<>();
 
-
     public void hireTester(Testers2 tester){
 
         testers2Team.add(tester);
@@ -18,6 +17,5 @@ public class scrumTeam {
         testers2Team.removeIf(t -> t.employeeID == employeeID);
 
     }
-
 
 }

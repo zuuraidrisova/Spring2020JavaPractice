@@ -1,6 +1,7 @@
 package day41_Inheritance.Task2;
 
 public class CheckingAccount extends BankAccount {
+
     /*
 	create sub class of BankAccount and name it checkingAccount
 			variables: accountNumber, accountHolder, balance
@@ -19,6 +20,7 @@ public class CheckingAccount extends BankAccount {
 			    toString() ==> inherited
 
  */
+
     public void withdraw(double amount){
 
         balance -= amount;

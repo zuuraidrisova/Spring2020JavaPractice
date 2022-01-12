@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Salary_Scanner {
     public static void main(String []args){
         /*
-        ask the user enter salaray
+        ask the user enter salary
         ask the user enter full name
         ask the user to enter company name
         ask the user to enter SSN

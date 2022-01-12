@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class WarmUp_Special {
 
     public static void main(String[] args) {
+
 /*
         write a program that can extract the special characters, digits
          and alphabets from a string and stores them into seperate
@@ -16,11 +17,12 @@ public class WarmUp_Special {
         list3: {1, 2, 3, 4, 5, 6}
 
  */
-
         String str = "ABCD123$%#@&456EFG!";
 
         ArrayList<String> alphabets = new ArrayList<>();
+
         ArrayList<Integer> digits = new ArrayList<>();
+
         ArrayList<Character> specialChars =  new ArrayList<>();
 
         char [] ch =  str.toCharArray();
@@ -103,14 +105,6 @@ public class WarmUp_Special {
         }
 
         System.out.println(special);
-
-
-
-
-
-
-
-
 
     }
 }

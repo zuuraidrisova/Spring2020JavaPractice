@@ -44,6 +44,5 @@ public class removeDuplicatesFromArrayList {
         System.out.println(noDuplicates2);
 
 
-
     }
 }

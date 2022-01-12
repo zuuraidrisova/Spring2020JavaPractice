@@ -7,7 +7,6 @@ public class List_Intro {
     public static void main(String[] args) {
 
         /*
-
         ArrayList ==>  part of collection data structure
 
                     presented in java.util.ArrayList; package
@@ -29,15 +28,9 @@ public class List_Intro {
                             //add 5 elements, size will be 5
                             //then remove 2 elements, size will be 3
 
-
         int [] arr; // does not have size at this point
 
         arr  = new int [3]; //we must initialize the size
-
-
-
-
-
 
 
     }

@@ -14,7 +14,9 @@ public class FrequencyMethod {
 
 
     public static void main(String[] args) {
+
         String str = "ABBAAAAAAAAA";
+
         char ch = 'A';
 
         char [] arr = str.toCharArray();
@@ -30,15 +32,16 @@ public class FrequencyMethod {
         }
         System.out.println(count);
 
-
         int count1 = frequency(str, ch);
 
         System.out.println(count1);
 
         String str2 = "AABBBBCCCCCCCC";
+
         char ch2 = 'C';
 
        int count2 =  frequency(str2, ch2);
+
         System.out.println(count2);
 
     }

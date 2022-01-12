@@ -22,6 +22,7 @@ public class UniqueValues2 {
                 }
             }
             if(count == 1){
+
                 System.out.println(arr[j]);
             }
         }
@@ -38,6 +39,7 @@ public class UniqueValues2 {
                     count2++;
                 }
             }
+
             if(count2 == 1){
 
                 System.out.println(each);

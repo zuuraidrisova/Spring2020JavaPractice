@@ -6,6 +6,7 @@ public class methodOverloading4 {
    //the original main method will get executed thou
 
     public static void main(String[] args) {
+
         System.out.println("String");
 
     }
@@ -13,10 +14,12 @@ public class methodOverloading4 {
     public static void main(double[] args) {
 
         System.out.println("Double");
+
     }
 
     public static void main(int[] args) {
 
         System.out.println("Int");
+
     }
 }

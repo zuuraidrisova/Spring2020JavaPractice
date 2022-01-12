@@ -25,7 +25,6 @@ public class Pizza {
     int numberOfCheese;
     int numberOfPepperoni;
 
-
     public Pizza(String size, int numberOfPepperoni, int numberOfCheese){
 
         this.size =size;
@@ -50,7 +49,6 @@ public class Pizza {
             return (numberOfPepperoni + numberOfCheese ) * 2.5 + 14;
         }
 
-
     }
 
     public String toString(){
@@ -60,7 +58,6 @@ public class Pizza {
                 +numberOfPepperoni + " Total cost : "+calcCost();
 
     }
-
 
 }
 

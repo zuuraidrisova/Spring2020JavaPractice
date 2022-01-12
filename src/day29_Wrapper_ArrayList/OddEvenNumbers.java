@@ -43,8 +43,5 @@ public class OddEvenNumbers {
             System.out.print(each+" ");//else prints
         }
 
-
-
-
     }
 }

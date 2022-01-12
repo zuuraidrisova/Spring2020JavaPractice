@@ -1,6 +1,7 @@
 package day43_MethodOverriding;
 
 public class Rectangle extends Shape {
+
     /*
 
      create sub classes of Shape:
@@ -25,6 +26,7 @@ public class Rectangle extends Shape {
         this.length = length;
 
     }
+
    //Formula to identify Area of the rectangle:  width * length
     @Override
     public void calculateArea(){
@@ -40,8 +42,5 @@ public class Rectangle extends Shape {
         perimeter = (width + length) * 2;
         System.out.println("Perimeter of the Rectangle: "+perimeter);
     }
-
-
-
 
 }

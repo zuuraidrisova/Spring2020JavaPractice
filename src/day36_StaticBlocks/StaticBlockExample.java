@@ -28,6 +28,5 @@ public class StaticBlockExample {
 
         System.out.println(name);
         System.out.println(num);
-
     }
 }

@@ -4,6 +4,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class TimeFormatting {
+
     public static void main(String[] args) {
 
                 /*
@@ -18,8 +19,6 @@ public class TimeFormatting {
                 minutes: mm = two digits
                 seconds: ss = two digits
                 am/pm :  a --> automatically converts by default
-
-
 
          */
 
@@ -44,8 +43,6 @@ public class TimeFormatting {
         boolean result3 = time1.equals(time2);
 
         System.out.println(result3);//false bcs time1 and time2 does not match, are not equal
-
-
 
     }
 }

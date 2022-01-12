@@ -19,16 +19,19 @@ public class EmployeeObjects {
         for(int i = 0; i < listDev.size(); i++){
 
             System.out.println(listDev.get(i));
+
         }
 
         for(int i = 0; i < listDev.size(); i++){
 
             listDev.get(i).coding("Java");
+
         }
 
         for(Developer each : listDev){
 
             each.fixingBug();
+
         }
 
         System.out.println("=============================================================");
@@ -50,16 +53,17 @@ public class EmployeeObjects {
 
             listTest.get(j).reporting();
         }
+
         for(Tester each : listTest){
 
             each.testing();
         }
+
         System.out.println("=============================================================");
 
         BusinessAnalyst ba1 = new BusinessAnalyst("Venera","BA",'F',130000, 90436);
 
         System.out.println(ba1);
-
 
     }
 }

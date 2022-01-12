@@ -1,12 +1,12 @@
 package day50_PolymorphismContinue;
 
 public class typeCastings {
+
     /*
 
     Type Castings:
             converting one type to another
             used to change type(ex: int to double)
-
 
     Primitive Type Casting:
 
@@ -30,13 +30,6 @@ public class typeCastings {
 
             DownCasting: casting from super class type  to sub class type
                         done manually, explicitly
-
-
-
-
-
-
-
 
      */
 }

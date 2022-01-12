@@ -6,7 +6,6 @@ public class ArrayListReversed {
 
     public static void main(String[] args) {
 
-
         /*
         write a program that can print the list of integers in reversed order
 		ex:
@@ -26,7 +25,6 @@ public class ArrayListReversed {
 
         ArrayList<Integer> reversed = new ArrayList<Integer>();
 
-
         for(int i = list.size()-1; i >= 0; i--){
 
            int num =  list.get(i);
@@ -40,7 +38,6 @@ public class ArrayListReversed {
         System.out.println();
 
         System.out.println(reversed);
-
 
 
     }

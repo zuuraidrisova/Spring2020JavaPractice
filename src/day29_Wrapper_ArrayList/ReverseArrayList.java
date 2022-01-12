@@ -24,16 +24,15 @@ public class ReverseArrayList {
 
         System.out.println(list);
 
-
         ArrayList<Integer> reversed = new ArrayList<Integer>();
 
         for(int i = list.size(); i >= 1; i--){
 
             reversed.add(i);
+
         }
 
         System.out.println(reversed);
-
 
 
     }

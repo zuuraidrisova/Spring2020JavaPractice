@@ -1,6 +1,7 @@
 package day16_ForLoopContinueBreak;
 
 public class RemoveDuplicatesFor {
+
     public static void main(String []args){
 
         String str = "abababababbabbababbababbabbababccccccccccccc";
@@ -23,7 +24,7 @@ public class RemoveDuplicatesFor {
 
             if(result2.contains(""+str.charAt(i))){//if the string does not contain str.charAt(i)
                 //then we concatenate  it to result, if it is already contained, then we dont concatenate it to result
-                continue;
+                continue;//we skip
             }
             result2 += str.charAt(i);
 

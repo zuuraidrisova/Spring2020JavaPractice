@@ -17,18 +17,11 @@ public class Autoboxing_Unboxing {
 
         Integer b = a;//autoboxing --> making primitive an object
 
-
         Byte b1 = 98;//Wrapper class of Byte
 
         byte b2 = b1; //--> unboxing
 
         int i = b1;//we can assign Byte wrapper class to any bigger data type
-
-
-
-
-
-
 
     }
 }

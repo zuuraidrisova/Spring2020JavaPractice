@@ -11,14 +11,17 @@ public class SumNumbersForLoopEvenOdd {
         int sum1 = 0;
         int sum2 =0;
 
-        for(int a = 0; a<=100; a++) {
+        for(int a = 0; a <= 100; a++) {
+
             if (a % 2 == 0) {//even
+
                 sum1+=a;
 
             }else{//odd
                 sum2+=a;
             }
         }
+
         System.out.println("Sum of all even numbers: "+sum1);
         System.out.println("Sum of all odd numbers: "+sum2);
 

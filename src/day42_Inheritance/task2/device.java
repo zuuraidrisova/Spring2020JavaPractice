@@ -10,6 +10,7 @@ public class device {
 				one class can extend only one class
 				one class can be inherited by multiple subclasses
      */
+
     public String brand;
     public String model;
     public double price;

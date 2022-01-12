@@ -3,17 +3,16 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class ReverseArray2 {
+
     public static void main(String[] args) {
 
 //reverse an array
 
         int [] arr = {7,1,4,3,2,5,8,6,9};
 
-
         Arrays.sort(arr);
 
         System.out.println(Arrays.toString(arr));
-
 
         int [] revArr = new int [arr.length];
 
@@ -31,6 +30,7 @@ public class ReverseArray2 {
         for(int i = arr.length-1; i >= 0; i-- ){
 
             revArr[k] = arr[i];
+
             k++;
         }
 

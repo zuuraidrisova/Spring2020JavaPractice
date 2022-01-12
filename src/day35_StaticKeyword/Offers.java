@@ -19,8 +19,6 @@ public class Offers {
     double salary;
     boolean isFullTime;
 
-
-
     public void setOfferInfo(String location, String company, double salary, boolean isFullTime){
 
         this.location = location;
@@ -39,8 +37,5 @@ public class Offers {
         return "Location : "+location+", Company : "+company+", Salary : "+salary+", FullTime : "+isFullTime;
 
     }
-
-
-
 
 }

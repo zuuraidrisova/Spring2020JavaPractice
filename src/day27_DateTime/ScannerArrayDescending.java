@@ -22,6 +22,7 @@ public class ScannerArrayDescending {
             arr[i] = scan.nextInt();
 
         }
+
         System.out.println(Arrays.toString(arr));
 
         int reverseArray [] = new int[arr.length];
@@ -31,6 +32,7 @@ public class ScannerArrayDescending {
         for(int i = arr.length-1; i >= 0; i--){
 
             reverseArray[j] = arr[i];
+
             j++;
 
         }

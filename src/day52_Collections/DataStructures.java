@@ -1,8 +1,8 @@
 package day52_Collections;
 
 public class DataStructures {
-
     /*
+
     Data Structures:
         Arrays
         Collections
@@ -79,7 +79,6 @@ public class DataStructures {
            pop() method -> unique action, means whatever object was added last, that
            object will be removed first
 
-
     Queue(I): does not have index number, so it is not ordered
            size is dynamic
            also accepts duplicates
@@ -106,10 +105,9 @@ HashSet and TreeSet differences:
             null: default value of all objects
 
             ex: WebElement element; ==> null
-                String str;         ==>null
+                String str;         ==> null
 
                 null does not refer to any of the objects
-
 
     we use Arrays.sort()in order to sort arrays
     we use Collections.sort() in order to sort collections type
@@ -118,4 +116,5 @@ HashSet and TreeSet differences:
     Collections is a class
 
      */
+
 }

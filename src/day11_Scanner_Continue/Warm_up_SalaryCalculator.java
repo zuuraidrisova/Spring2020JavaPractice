@@ -25,7 +25,5 @@ public class Warm_up_SalaryCalculator {
         System.out.println("Total tax paid is: "+totalTax);
 
 
-
-
     }
 }

@@ -3,9 +3,10 @@ package day30_ArrayList;
 import java.util.Scanner;
 
 public class sumOfDigits3 {
-    public static void main(String[] args) {
-          /*
 
+    public static void main(String[] args) {
+
+          /*
         write a program that can return the sum of all the digits from a string
 			ex:
 				input: "a1b2c3"
@@ -28,7 +29,6 @@ public class sumOfDigits3 {
 
         int sum = 0;
 
-
         for(int i = 0; i < ch.length; i++){
 
           if(ch [i] >= 48 && ch[i] <= 57){
@@ -42,8 +42,6 @@ public class sumOfDigits3 {
         }
 
         System.out.println(sum);
-
-
 
         String str2 = scan.nextLine();
 
@@ -65,9 +63,6 @@ public class sumOfDigits3 {
 
 
         System.out.println(sum2);
-
-
-
 
     }
 }

@@ -1,6 +1,7 @@
 package day42_Inheritance.task1;
 
 public class Student extends Person{
+
     /*
     create a subclass of Person called Student
 				attributes: name, age, gender, studentID, class
@@ -8,6 +9,7 @@ public class Student extends Person{
 
 				Student is a Person relationship
      */
+
     public String clazz;
     public long studentID;
     public static String schoolName = "Cybertek";
@@ -23,10 +25,12 @@ public class Student extends Person{
 
         System.out.println(name+" attends "+subject);
     }
+
     public void code(String programLang){
 
         System.out.println(name+" codes "+programLang);
     }
+
     public String toString(){
 
         return "Name: "+name+", Class of: "+clazz+", SchoolName: "+schoolName+", Student ID: "+studentID+", Age: "+age

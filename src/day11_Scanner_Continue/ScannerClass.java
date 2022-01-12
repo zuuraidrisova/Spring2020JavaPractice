@@ -3,6 +3,7 @@ package day11_Scanner_Continue;
 import java.util.Scanner;
 public class ScannerClass {
     public static void main(String []args){
+
         Scanner input = new Scanner(System.in);
         //long l = 999999999999l;
         System.out.println("Enter a long number: ");

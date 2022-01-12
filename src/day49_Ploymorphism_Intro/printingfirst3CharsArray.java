@@ -6,7 +6,6 @@ public class printingfirst3CharsArray {
 
     public static void main(String[] args) {
 
-
         String [] arr = {"apple","banana","thank you", "hello"};
 
         for(int i = 0; i < arr.length; i++){
@@ -28,7 +27,6 @@ public class printingfirst3CharsArray {
 
             System.out.println(word);
         }
-
 
     }
 }

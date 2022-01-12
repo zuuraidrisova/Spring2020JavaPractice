@@ -2,6 +2,7 @@ package day08_Multi_branch_If_Staements;
 
 public class HTTP_usingVariable {
     public static void main(String[]args){
+
         int StatusCode = 503;
         String message = " ";
         if(StatusCode==200){

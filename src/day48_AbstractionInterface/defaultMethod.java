@@ -5,21 +5,16 @@ public interface defaultMethod {
 
     default method is a special method which only interface can have
 
-
-
      */
     default void defaultMethod(){
 
-        System.out.println("This is default method");
+        System.out.println("This is a default method");
     }
 
     public static void main(String[] args) {
 
-
       //  defaultMethod();
       //  cannot be used, bcs it is not static method
-
-
 
     }
 

@@ -4,7 +4,6 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-
         String str = "Zuura";
 
         String reversed = "";
@@ -15,10 +14,7 @@ public class ReverseString {
 
         }
 
-
         System.out.println(reversed);
-
-
 
     }
 }

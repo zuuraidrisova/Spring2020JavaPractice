@@ -38,9 +38,5 @@ public class LogicalOperators {
         System.out.println(8 * 2 - 7 / 4);
 
 
-
-
-
-
     }
 }

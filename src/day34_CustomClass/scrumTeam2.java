@@ -6,7 +6,6 @@ public class scrumTeam2 {
 
     ArrayList<Developers> developersTeam = new ArrayList<>();
 
-
     public void hire(Developers developer){
 
         developersTeam.add(developer);
@@ -18,8 +17,5 @@ public class scrumTeam2 {
         developersTeam.remove(employeeID);
 
     }
-
-
-
 
 }

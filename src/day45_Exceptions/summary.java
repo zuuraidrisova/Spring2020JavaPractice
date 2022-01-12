@@ -24,7 +24,6 @@ public class summary {
 
         }catch(NullPointerException e){
 
-
             System.out.println("NullPointerException");
 
         }catch(RuntimeException e){
@@ -42,7 +41,6 @@ public class summary {
 
         System.out.println("Completed"); // because we handled the exception ,
         // we are able to print this line
-
 
     }
 }

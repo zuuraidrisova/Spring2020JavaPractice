@@ -8,7 +8,6 @@ public class DateTimeFormatting {
 
     public static void main(String[] args) {
 
-
         LocalDate  date = LocalDate.of(2020,12,2);
 
         System.out.println(date);
@@ -24,8 +23,6 @@ public class DateTimeFormatting {
         LocalTime present = LocalTime.of(2,30,55);
 
         System.out.println(present);
-
-
 
     }
 }

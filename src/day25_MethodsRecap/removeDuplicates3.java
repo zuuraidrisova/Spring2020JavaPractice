@@ -28,6 +28,7 @@ public class removeDuplicates3 {
         String result3 = removeDuplicates(str2);
 
         System.out.println(result3);
+
     }
 
     public static String removeDuplicates(String str){

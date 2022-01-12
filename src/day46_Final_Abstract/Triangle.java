@@ -11,6 +11,7 @@ public class Triangle extends Shape {
         this.height = height;
 
     }
+
     @Override
     public void area(){
 

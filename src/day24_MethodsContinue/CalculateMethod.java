@@ -1,7 +1,9 @@
 package day24_MethodsContinue;
 
 public class CalculateMethod {
+
     public static void main(String[] args) {
+
         /*
         write a method called Calculation, that passes 3 parameters:
         2 numbers and one operator, and prints out the calculation
@@ -17,6 +19,7 @@ public class CalculateMethod {
     public static void calculate(int num1, int num2,String operator){
 
         int result = 0;
+
         if(operator.equals("+")){
 
             result = num1 + num2;

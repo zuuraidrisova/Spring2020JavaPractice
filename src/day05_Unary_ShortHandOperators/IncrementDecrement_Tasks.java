@@ -2,7 +2,8 @@ package day05_Unary_ShortHandOperators;
 
 public class IncrementDecrement_Tasks {
     public static void main(String []args){
-        int a =50;
+
+        int a = 50;
         a = --a + a++ + a-- + a++;//197
         System.out.println(a);
 

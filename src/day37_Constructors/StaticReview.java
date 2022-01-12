@@ -3,6 +3,7 @@ package day37_Constructors;
 public class StaticReview {
 
     static int a;//only one copy
+
     int b;// 2, each object has its own copy of instance variable
 
     public static void main(String[] args) {

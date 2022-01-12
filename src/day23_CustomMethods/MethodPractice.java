@@ -3,6 +3,7 @@ package day23_CustomMethods;
 public class MethodPractice {
 
     public static void main(String[] args) {
+
         /*
  step1: Hello Cybertek
 step2: Hello World 5 times

@@ -10,13 +10,12 @@ public class Shape {
     public double area;
     public double perimeter;
 
-
     public void calculateArea(){
 
         System.out.println("Area of the shape: "+area);
 
-
     }
+
     public void calculatePerimeter(){
 
         System.out.println("Perimeter of the shape: "+perimeter);
@@ -29,8 +28,6 @@ public class Shape {
                 Perimeter of rectangle: (width + length) * 2
                 Perimeter of Square: 4 * side
 
-
      */
-
 
 }

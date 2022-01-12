@@ -25,6 +25,7 @@ public class Browsers {
 
         System.out.println("Open the default browser");
     }
+
     public void closeBrowser(){
 
         System.out.println("Close the default Browser");
@@ -39,12 +40,14 @@ class ChromeBrowser extends Browsers{
 
         System.out.println("Open the Chrome Browser");
     }
+
     @Override
     public void closeBrowser(){
 
         System.out.println("Close the Chrome Browser");
     }
 }
+
 class FireFoxBrowser extends Browsers{
 
     @Override
@@ -52,6 +55,7 @@ class FireFoxBrowser extends Browsers{
 
         System.out.println("Open the FireFox Browser");
     }
+
     @Override
     public void closeBrowser(){
 
@@ -67,6 +71,7 @@ class OperaBrowser extends Browsers{
 
         System.out.println("Open the Opera Browser");
     }
+
     @Override
     public void closeBrowser(){
 
@@ -91,7 +96,6 @@ class Test{
         browser2.closeBrowser();
 
         System.out.println("==========================");
-
 
         OperaBrowser browser3 = new OperaBrowser();
 

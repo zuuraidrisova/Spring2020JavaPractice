@@ -35,10 +35,6 @@ public class StudentObject {
             System.out.println(each.name+" has a gpa of :  "+each.gpa);
         }
 
-
-
-
-
     }
 
 
@@ -59,14 +55,12 @@ class Student{
         this.gpa = gpa;
         this.isMarried = isMarried;
 
-
     }
 
     public String toString(){
 
         return "Name : "+name+" Nationality : "+nationality+" Age : "+age
                 +" GPA : "+gpa +" Married : "+isMarried;
-
 
     }
 
@@ -87,7 +81,6 @@ class StudentCenter{
     static Student student6 = new Student();
 
 
-
     static{
 
         student1.setStudentInfo("Raya","Russian",32, 3.4, true);
@@ -98,8 +91,6 @@ class StudentCenter{
         student6.setStudentInfo("Rahul", "Indian", 45, 2.0, false);
 
     }
-
-
 
 }
 

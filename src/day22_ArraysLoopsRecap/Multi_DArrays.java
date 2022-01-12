@@ -3,6 +3,7 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class Multi_DArrays {
+
     public static void main(String[] args) {
 //n dimensional array contains  (n-1) dimensional arrays
 
@@ -22,13 +23,16 @@ public class Multi_DArrays {
         System.out.println(arr2D[1][1]);//prints element from single dimensional array at index 1 inside two dimensional array
 
         for(int each : arr2D[0]){
+
             System.out.print(each+" ");
         }
 
         System.out.println();
 
         for(int i = 0; i < arr2D[0].length; i++){
+
            int numbers =  arr2D[0][i];
+
             System.out.print(numbers+" ");
         }
 

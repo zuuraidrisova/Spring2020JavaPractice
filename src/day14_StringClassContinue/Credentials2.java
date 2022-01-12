@@ -1,6 +1,7 @@
 package day14_StringClassContinue;
 import java.util.Scanner;
 public class Credentials2 {
+
     public static void main(String []args){
         /*
         valid credentials are :
@@ -31,6 +32,7 @@ public class Credentials2 {
         //password is invalid and username is correct
 
         if(!username.isEmpty() && !password.isEmpty()){//username and password are not empty
+
             if(logedIN){
                 System.out.println("Logged In");
             }else if(invalidUsername){

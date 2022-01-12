@@ -1,6 +1,7 @@
 package day20_ArraysContinue;
 
 public class Array_Size {
+
     public static void main(String []args){
 
         int [] arr = {1,2,3};

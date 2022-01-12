@@ -7,7 +7,6 @@ public class sortDescendingArrayList {
 
     public static void main(String[] args) {
 
-
         ArrayList<Integer> list = new ArrayList<Integer>();
 
        list.add(10);
@@ -34,15 +33,13 @@ public class sortDescendingArrayList {
 
         }
 
-        System.out.println("list after soring it descending order ==> "+sortDesc);
+        System.out.println("list after sorting it descending order ==> "+sortDesc);
 
         System.out.println("=======================");
 
         list = sortDesc;//assigning descending order to list back
 
         System.out.println("assigning descending order back to list  ==> " + list);
-
-
 
 
     }

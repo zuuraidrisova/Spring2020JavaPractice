@@ -1,6 +1,7 @@
 package day38_Constructors;
 
 public class constructorCalls {
+
     /*
     Constructor is special method to create objects of a class and to initialize objects
 
@@ -9,7 +10,6 @@ public class constructorCalls {
    3. Constructor call should be called at first step, at the very beginning
    4. Constructor cannot call more than one constructor.
    5. Constructor cannot call itself or contain itself
-
 
         this. ==> calls instance variables
         this() ==> calls constructors
@@ -20,7 +20,6 @@ public class constructorCalls {
 
         method1();//constructor can call other methods, static or instance
         method2();//constructor can call other methods, static or instance
-
 
     }
 
@@ -44,9 +43,5 @@ public class constructorCalls {
 
 
     }
-
-
-
-
 
 }

@@ -2,6 +2,7 @@ package day09_NestedIfStatements_Ternary;
 
 public class MonthDays_NestedIF {
     public static void main(String []args){
+
         byte month =8;
         String result = " ";
         if(month>=1 && month<=12 ){

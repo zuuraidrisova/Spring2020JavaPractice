@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class DriverReturn {
+
        /*
     write a return method named getDriver1 that accepts a string parameter called Browser
 				if the browser name matches with {"chrome", "firefox", "id", "safari",
@@ -20,16 +21,22 @@ public class DriverReturn {
 
                case "chrome":
                    return "Chrome Driver";
+
                case "opera":
                    return "Opera Driver";
+
                case "firefox":
                    return "FireFox Driver";
+
                case "ie":
                    return "IE Driver";
+
                case "safari":
                    return "Safari Driver";
+
                case "edge":
                    return "Edge Driver";
+
                default:
                    return "Invalid Driver";
 
@@ -42,16 +49,22 @@ public class DriverReturn {
 
         if(browserName.equalsIgnoreCase("opera")){
             return "Opera Driver";
+
         }else if(browserName.equalsIgnoreCase("chrome")){
             return "Chrome Driver";
+
         }else if(browserName.equalsIgnoreCase("ie")){
             return "IE Driver";
+
         }else if(browserName.equalsIgnoreCase("firefox")){
             return "Firefox Driver";
+
         }else if(browserName.equalsIgnoreCase("safari")){
             return "Safari Driver";
+
         }else if(browserName.equalsIgnoreCase("edge")){
             return "Edge Driver";
+
         }else{
             return "Invalid Driver";
         }
@@ -70,7 +83,7 @@ public class DriverReturn {
 
     public static void main(String[] args) {
 
-          String browserName =  getDriver4("hehe");
+        String browserName =  getDriver4("hehe");
 
         System.out.println(browserName);
 

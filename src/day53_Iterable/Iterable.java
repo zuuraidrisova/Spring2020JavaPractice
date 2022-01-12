@@ -27,9 +27,5 @@ public class Iterable {
 
         remove(): removes the current element of iteration
 
-
-
-
-
      */
 }

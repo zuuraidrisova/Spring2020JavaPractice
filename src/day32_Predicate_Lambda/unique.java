@@ -26,8 +26,8 @@ public class unique {
             }
 
         }
-        System.out.println(uniques);
 
+        System.out.println(uniques);
 
         ArrayList<Character> list = new ArrayList<>();
 
@@ -46,11 +46,6 @@ public class unique {
         }
 
         System.out.println(uniqueChars);
-
-
-
-
-
 
     }
 }

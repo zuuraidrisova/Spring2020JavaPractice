@@ -15,9 +15,12 @@ public class Initials {
          */
         Scanner scan = new Scanner (System.in);
         System.out.println("Please enter your fullname: ");
+
         String fullName = scan.nextLine();
+
         String firstName =fullName.substring(0,fullName.indexOf(" "));
         String lastName = fullName.substring(fullName.indexOf(" ")+1);
+
         firstName = firstName.substring(0,1).toUpperCase()+firstName.substring(1).toLowerCase();
         lastName =lastName.substring(0,1).toUpperCase()+lastName.substring(1).toLowerCase();
 

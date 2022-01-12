@@ -7,17 +7,16 @@ public class ScannerArrays {
 
     public static void main(String[] args) {
 
-
         //thru Scanner assign int values to array of int and sort Descending order
-
 
         Scanner scan = new Scanner(System.in);
 
         int [] arr = new int [7];
 
-        for(int i = 0; i <arr.length; i++) {
+        for(int i = 0; i < arr.length; i++) {
 
             System.out.println("Please enter numbers " +(i+1));
+
             arr[i] = scan.nextInt();
 
         }
@@ -37,9 +36,7 @@ public class ScannerArrays {
             k++;
         }
 
-
         System.out.println(Arrays.toString(sortDescending));
-
 
         for(int i = 0; i < sortDescending.length; i++){
 

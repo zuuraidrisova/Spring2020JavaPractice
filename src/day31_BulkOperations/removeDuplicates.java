@@ -17,7 +17,6 @@ public class removeDuplicates {
 
             if(! noDuplicates.contains(list.get(i))){
 
-
                 noDuplicates.add(list.get(i));
             }
 
@@ -25,19 +24,17 @@ public class removeDuplicates {
 
         System.out.println(noDuplicates);
 
-
         ArrayList<Integer> noDuplicates2 = new ArrayList<>();
 
         for(Integer each: list) {
 
             if (!noDuplicates2.contains(each)) {
+
                 noDuplicates2.add(each);
             }
         }
 
         System.out.println(noDuplicates2);
-
-
 
         /*
         write a program that can remove duplicates from an array of integers
@@ -47,7 +44,6 @@ public class removeDuplicates {
         int [] arr = {1,1,2,2,3,3,4,};
 
         ArrayList<Integer> removed = new ArrayList<>();
-
 
         for(int i = 0; i < arr.length; i++ ){
 
@@ -59,9 +55,7 @@ public class removeDuplicates {
 
         System.out.println(removed);
 
-
     }
-
 
 
 }

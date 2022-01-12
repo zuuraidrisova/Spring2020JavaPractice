@@ -1,6 +1,7 @@
 package day46_Final_Abstract;
 
 public abstract class Pets {
+
     /*
     1. create an abstract class called Pets
 				attributes: name, age, color, breed, gender
@@ -14,7 +15,6 @@ public abstract class Pets {
     public String color;
     public String breed;
     public char gender;
-
 
 
     public abstract void sleep();

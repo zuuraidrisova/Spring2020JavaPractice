@@ -10,12 +10,16 @@ import java.util.Scanner;
 					DO NOT USE + OPERATOR
  */
 public class ConcatNumbersWarmup {
+
     public static void main(String []args){
+
         Scanner scan =new Scanner(System.in);
+
         System.out.println("Enter first word: ");
              String num1 = scan.next();
         System.out.println("Enter second word: ");
              String num2 = scan.next();
+
         String output = num1.concat(num2).concat(num2).concat(num1);
         //for spaces between words concat(" "+num2)
 

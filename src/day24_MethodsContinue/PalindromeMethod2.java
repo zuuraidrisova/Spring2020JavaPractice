@@ -1,6 +1,7 @@
 package day24_MethodsContinue;
 
 public class PalindromeMethod2 {
+
     public static void main(String[] args) {
 
         palindrome("hahah");
@@ -22,6 +23,7 @@ public class PalindromeMethod2 {
         if(word.equalsIgnoreCase(reversed)){
             System.out.println("It is a palindrome");
         }else{
+
             System.out.println("It is NOT  a palindrome");
         }
 

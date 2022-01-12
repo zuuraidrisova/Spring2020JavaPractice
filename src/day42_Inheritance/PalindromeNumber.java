@@ -1,11 +1,13 @@
 package day42_Inheritance;
 
 public class PalindromeNumber {
+
     /*
     write a method to check if a number is PALINDROME or Not
 This can also be done using remainder (%) operator.
 //////////////////
      */
+
     public static void main(String[] args) {
 
         long b = 123454321;
@@ -13,6 +15,7 @@ This can also be done using remainder (%) operator.
         boolean res = palindromeNum(b);
 
         System.out.println(res);
+
     }
     public static boolean palindromeNum (long num){
 
@@ -22,7 +25,7 @@ This can also be done using remainder (%) operator.
 
         for (int i=n.length()-1; i >= 0; i--) {//reversing string
 
-            revNum +=""+n.charAt(i);//concating to our result
+            revNum += n.charAt(i);//concating to our result
 
         }
         if (revNum.equals(n)) {//comparing reversed version with origical string

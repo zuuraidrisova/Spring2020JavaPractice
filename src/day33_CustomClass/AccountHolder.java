@@ -2,9 +2,7 @@ package day33_CustomClass;
 
 public class AccountHolder {
 
-
     public static void main(String[] args) {
-
 
         BankAccount2 accountHolder1 = new BankAccount2();
 

@@ -1,6 +1,7 @@
 package day41_Inheritance;
 
 public class BankAccountWarmUp {
+
       /*
     create custom class called BankAccount for Bank of America' bank accounts:
 			public variables:  bankName, firstName, lastName
@@ -71,6 +72,7 @@ public class BankAccountWarmUp {
 
           System.out.println("Available balance is: $"+getBalance());
       }
+
       public String toString(){
 
           return "Full Name: "+getAccountHolder()+",  Balance:"+getBalance();

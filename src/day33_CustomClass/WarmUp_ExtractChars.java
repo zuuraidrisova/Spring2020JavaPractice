@@ -21,7 +21,9 @@ public class WarmUp_ExtractChars {
         String str = "ABCD123$%#@&456EFG!";
 
         ArrayList<Character> letters = new ArrayList<>();
+
         ArrayList<Character> digits =  new ArrayList<>();
+
         ArrayList<Character> special = new ArrayList<>();
 
 
@@ -42,18 +44,11 @@ public class WarmUp_ExtractChars {
               special.add(each);
           }
 
-
         }
 
         System.out.println(letters);
         System.out.println(digits);
         System.out.println(special);
-
-
-
-
-
-
 
     }
 }

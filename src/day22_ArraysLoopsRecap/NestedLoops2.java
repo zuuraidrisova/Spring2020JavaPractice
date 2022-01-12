@@ -1,6 +1,7 @@
 package day22_ArraysLoopsRecap;
 
 public class NestedLoops2 {
+
     public static void main(String[] args) {
 
         int [][] numbers = { {9,8,7 } , {6} ,{5,4,3,2,1,0 } };
@@ -29,15 +30,17 @@ public class NestedLoops2 {
         for(int  k = 0; k < numbers.length; k++){// k: index number of single dimensional array
 
             for( int i = numbers[k].length-1; i >= 0; i--){// i : index number of each element in single dimensional array
+
                 System.out.print(numbers[k][i] + " ");
             }
             //System.out.println();//to print each array in a separate line
         }
 
         System.out.println();
-        System.out.println("====================");
-        // 5 4 3 2 1 0 6 9 8 7  ==> printing from reversing single dimensional arrays but elements in regular order
 
+        System.out.println("====================");
+
+        // 5 4 3 2 1 0 6 9 8 7  ==> printing from reversing single dimensional arrays but elements in regular order
 
         for(int k = numbers.length-1; k >= 0; k--){
 

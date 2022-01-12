@@ -27,10 +27,9 @@ public class carpetObjects {
 
         ArrayList<Carpet> persian =  new ArrayList<>();
 
-
         for(int i = 0; i < carpets.length; i++){
 
-            if(carpets[i].isPersian == true){
+            if(carpets[i].isPersian){
 
                 persian.add(carpets[i]);
 
@@ -77,10 +76,6 @@ public class carpetObjects {
         }
 
         System.out.println("==============================");
-
-
-
-
 
     }
 }

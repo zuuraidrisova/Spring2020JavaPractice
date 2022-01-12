@@ -11,7 +11,6 @@ public class Iphone2 extends Phone2 {
         this.price = price;
         this.size = size;
 
-
     }
 
     public void faceTiming(long phoneNumber){
@@ -29,6 +28,5 @@ public class Iphone2 extends Phone2 {
 
         System.out.println(brand+" is texting "+phoneNumber);
     }
-
 
 }

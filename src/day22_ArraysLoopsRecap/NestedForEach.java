@@ -3,6 +3,7 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class NestedForEach {
+
     public static void main(String[] args) {
 
 
@@ -30,6 +31,7 @@ public class NestedForEach {
             for(int eachElement: each1DArray){//getting each element from single dimensional array
 
                 System.out.println(eachElement);
+
             }
         }
 
@@ -38,12 +40,10 @@ public class NestedForEach {
         for(char [] each1D: ch2D){
 
             for(char eachChar : each1D){
+
                 System.out.println(eachChar);
             }
         }
-
-
-
 
 
     }

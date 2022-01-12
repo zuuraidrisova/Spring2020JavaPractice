@@ -21,9 +21,11 @@ public class ArraysUtilities {
         String [] arr3 = new String [5];
 
         String arr4 = Arrays.toString(arr3);
+
         System.out.println(arr4);//will get null
 
         double [] num = {10,20,30,40};
+
         System.out.println(Arrays.toString(num));
 
         System.out.println(num[0]+1);

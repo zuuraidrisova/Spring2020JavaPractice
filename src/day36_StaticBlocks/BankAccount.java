@@ -40,10 +40,12 @@ public class BankAccount {
                 +AccountNumber+", Account Balance is : "+balance;
 
     }
+
     public void showBalance(){
 
         System.out.println("Available Balance in your account is : "+balance);
     }
+
     public void deposit(double amount){
 
         System.out.println("The amount being deposited is : "+amount);
@@ -98,6 +100,7 @@ class AccountHolder{
         ArrayList<BankAccount> listAccounts = new ArrayList<>();
 
         listAccounts.addAll(Arrays.asList(accountHolder1, accountHolder2,
+
                 accountHolder3,accountHolder4, accountHolder5));
 
         for(int i = 0; i < listAccounts.size(); i++){

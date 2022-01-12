@@ -24,7 +24,6 @@ public class accountObjects {
 
         ch.showBalance();//now account balance is 200
 
-
         System.out.println("=====================================");
 
         SavingAccount saving = new SavingAccount();

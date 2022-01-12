@@ -13,14 +13,17 @@ interface B{
    abstract void method2();
 
 }
+
 interface C{
 
     abstract double method3(double a, double b);
+
 }
 
 public class Abstraction implements A, B, C {
 
     //subclass can implement more than one interface
+
     @Override
     public int method1(){
 
@@ -29,17 +32,17 @@ public class Abstraction implements A, B, C {
 
         return a + b;
     }
+
     @Override
     public void method2(){
 
         System.out.println();
     }
+
     @Override
     public double method3(double a, double b){
 
         return a + b;
     }
-
-
 
 }

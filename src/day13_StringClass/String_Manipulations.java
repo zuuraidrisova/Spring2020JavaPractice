@@ -1,6 +1,7 @@
 package day13_StringClass;
 //import java.lang.String;//no need, all classes in this package imported automatically
 public class String_Manipulations {
+
     public static void main(String []args){
 
         String str = "Cybertek";//01234567
@@ -13,14 +14,16 @@ public class String_Manipulations {
 
         int totalLegth = str.length();//counts from 1
         System.out.println(totalLegth);//counts characters and returns as an int: 8
-        System.out.println(totalLegth>10);//false
+        System.out.println(totalLegth > 10);//false
 
         String str2 = "Today is great day, Java is fun!";
         int maxNumber = str2.length()-1;
         System.out.println(maxNumber);
 
         String s1 ="Cybertek";//strings  cannot be changed
+
           s1 = s1.concat(" School");//Cybertek School
+
         System.out.println(s1);
 
         String s2 = "Java";
@@ -31,7 +34,7 @@ public class String_Manipulations {
         System.out.println(s2);
 
         String r1 = "Java is fun";
-              r1 =   r1.concat(" and it is easy");
+              r1 = r1.concat(" and it is easy");
         System.out.println(r1);
 
         String name1 = "CYBERTEK";

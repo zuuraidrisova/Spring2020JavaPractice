@@ -22,7 +22,6 @@ public class SalaryCalculator {
         this.stateTaxRate = stateTaxRate;
         this.federalTaxRate = federalTaxRate;
 
-
     }
 
     //salary(): returns the total salary as double
@@ -32,7 +31,6 @@ public class SalaryCalculator {
         return hourlyRate * weeklyHours * 48;
 
     }
-
 
     // stateTax(): retuns the total state tax as double
 
@@ -74,7 +72,6 @@ class SalaryObject{
     public static void main(String[] args) {
 
         SalaryCalculator salary1 = new SalaryCalculator(56,40,0.10,0.20);
-
 
         System.out.println(salary1);
         System.out.println(salary1.stateTax());

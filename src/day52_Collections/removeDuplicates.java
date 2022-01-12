@@ -43,10 +43,13 @@ public class removeDuplicates {
 
     }
 
+
     public static void removeDuplicates2(String str){
 
         System.out.println(new LinkedHashSet<>(new ArrayList<>(Arrays.asList(str.split("")))));
+
     }
+
 
 }
 

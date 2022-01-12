@@ -14,6 +14,7 @@ public class forLoopArrayList {
 
             System.out.print(list.get(i) +" ");
         }
+
         System.out.println();
 
         for(Integer each : list){
@@ -23,7 +24,6 @@ public class forLoopArrayList {
         }
 
         System.out.println();
-
 
         for(int i = 0; i < list.size(); i++){
 
@@ -54,16 +54,6 @@ public class forLoopArrayList {
 
            System.out.println(list3.get(i));//prints the odd elements
        }
-
-
-
-
-
-
-
-
-
-
 
 
     }

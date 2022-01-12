@@ -4,8 +4,6 @@ public class frequency {
 
     public static void main(String[] args) {
 
-
-
         String str = "zuuuura";
 
         String ch = "u";
@@ -16,7 +14,7 @@ public class frequency {
 
           count++;
 
-          str =str.replaceFirst(ch,"");
+          str = str.replaceFirst(ch,"");
       }
 
         System.out.println(count);

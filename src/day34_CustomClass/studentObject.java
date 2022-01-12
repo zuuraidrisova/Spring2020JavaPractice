@@ -8,7 +8,6 @@ public class studentObject {
 
     public static void main(String[] args) {
 
-
         Student student1 = new Student();
 
         student1.setStudentInfo("Adam","British",
@@ -88,12 +87,6 @@ public class studentObject {
 
             System.out.println(each.name + " cannot graduate");
         }
-
-
-
-
-
-
 
     }
 }

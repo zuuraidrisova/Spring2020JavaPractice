@@ -11,11 +11,13 @@ public class Really_Practice {
 				really?
          */
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Please enter a word: ");
         String word =scan.next();
 
        if(word.endsWith("ly")){
            System.out.println("Really");
+
        }else{
            System.out.println("Never mind");
        }

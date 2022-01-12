@@ -16,7 +16,6 @@ public class Students {
 
     }
 
-
     public void setStudentInfo(String name, int age, char gender,String university ){
 
         this.name = name;
@@ -25,7 +24,6 @@ public class Students {
         this.university = university;
 
     }
-
 
     public String toString(){
         return "Name: "+name+" Age: "+age+" Gender: "+gender+" University: "+university;

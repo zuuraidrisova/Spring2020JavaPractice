@@ -65,7 +65,5 @@ public class dogObjects2 {
             each.study(subject);
         }
 
-
-
     }
 }

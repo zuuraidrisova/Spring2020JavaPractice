@@ -17,6 +17,7 @@ public class MaxNumberFromArrayMethod {
         System.out.println(max1);
 
     }
+
     //method that returns max number from an int array as an int
 
     public static int maxNumber(int [] arr){
@@ -30,7 +31,6 @@ public class MaxNumberFromArrayMethod {
                 max = arr[i];
             }
         }
-
 
         return max;
     }
@@ -49,7 +49,7 @@ public class MaxNumberFromArrayMethod {
             }
         }
 
-
         return max;
     }
+
 }

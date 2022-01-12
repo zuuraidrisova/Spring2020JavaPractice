@@ -2,6 +2,7 @@ package day10_Switch_Scanner;
 
 public class Days_Switch {
     public static void main(String []args){
+
         byte day = 2;
         switch (day){
             case 1:

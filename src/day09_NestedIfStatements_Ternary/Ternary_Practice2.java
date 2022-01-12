@@ -2,8 +2,10 @@ package day09_NestedIfStatements_Ternary;
 
 public class Ternary_Practice2 {
     public static void main(String[] args) {
+
         int num1 = 300;
         int num2 = 200;
+
         int min= (num1<num2)? num1:num2;
         System.out.println(min);
         System.out.println("=====================");

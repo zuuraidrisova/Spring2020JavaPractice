@@ -33,10 +33,9 @@ isEmpty(list) : checks if ArrayList is empty or not, if size is 0 returns true, 
 
         System.out.println("=======================");
 
-       boolean r2 = list.contains("E");//returns false because list does not contain it
+        boolean r2 = list.contains("E");//returns false because list does not contain it
 
-       System.out.println(r2);
-
+        System.out.println(r2);
 
         System.out.println("=======================");
 
@@ -56,12 +55,11 @@ isEmpty(list) : checks if ArrayList is empty or not, if size is 0 returns true, 
 
         System.out.println("=======================");
 
-
         int [] arr1 = {1,2,3,4,5};
 
         int [] arr2 = {5,4,3,2,1};
 
-       boolean r4 = Arrays.equals(arr1,arr2);//returns false, bcs index matters, order is important
+        boolean r4 = Arrays.equals(arr1,arr2);//returns false, bcs index matters, order is important
 
         System.out.println(r4);
 
@@ -79,19 +77,6 @@ isEmpty(list) : checks if ArrayList is empty or not, if size is 0 returns true, 
         boolean b = list2.isEmpty();//false, because it has objects
 
         System.out.println(b);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

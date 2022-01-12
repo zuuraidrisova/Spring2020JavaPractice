@@ -20,7 +20,7 @@ public class warmUp_ExtractChars_Lambda {
 
          */
 
-          String str = "ABCD123$%#@&456EFG!";
+        String str = "ABCD123$%#@&456EFG!";
 
         char [] arr = str.toCharArray();
 
@@ -36,7 +36,6 @@ public class warmUp_ExtractChars_Lambda {
 
         System.out.println(Arrays.toString(chars));
 
-
         ArrayList<Character> letters = new ArrayList<>(Arrays.asList(chars));
 
         Predicate<Character> onlyLetters = l -> !Character.isLetter(l);
@@ -47,7 +46,7 @@ public class warmUp_ExtractChars_Lambda {
 
         ArrayList<Character> digits = new ArrayList<>(Arrays.asList(chars));
 
-        Predicate<Character> onlyDigits =  d -> ! Character.isDigit(d);
+        Predicate<Character> onlyDigits =  d -> !Character.isDigit(d);
 
         digits.removeIf(onlyDigits);
 
@@ -56,11 +55,10 @@ public class warmUp_ExtractChars_Lambda {
         ArrayList<Character> special = new ArrayList<>(Arrays.asList(chars));
 
         special.removeAll(letters);
+
         special.removeAll(digits);
 
         System.out.println(special);
-
-
 
         ArrayList<Character> special2 = new ArrayList<>(Arrays.asList(chars));
 
@@ -69,18 +67,6 @@ public class warmUp_ExtractChars_Lambda {
         special2.removeIf(specials);
 
         System.out.println(special2);
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

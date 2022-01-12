@@ -56,7 +56,5 @@ public class DogObject {
 
         System.out.println(puppies.size());
 
-
-
     }
 }

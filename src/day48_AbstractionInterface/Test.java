@@ -13,5 +13,4 @@ public class Test implements Interface_Intro{
        System.out.println("It is an overridden method from interface");
    }
 
-
 }

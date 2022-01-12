@@ -32,13 +32,14 @@ public class map_setEntries {
         for(String eachValue: fb.values()){
 
             System.out.println("Values: "+eachValue);
+
         }
 
         System.out.println("===============================================");
 
-        List<String> usernames = new ArrayList<>(fb.keySet());
+        List<String> userNames = new ArrayList<>(fb.keySet());
 
-        System.out.println(usernames);
+        System.out.println(userNames);
 
         System.out.println("===============================================");
 
@@ -55,7 +56,6 @@ public class map_setEntries {
        students.put("Anna",90);
        students.put("Namik",75);
        students.put("Rahman",93);
-
 
        for(Integer eachValue: students.values()){
 
@@ -79,10 +79,10 @@ public class map_setEntries {
            }
        }
 
-
         System.out.println("===============================================");
 
        LinkedHashMap<String, Integer> badStudent = new LinkedHashMap<>();
+
        LinkedHashMap<String, Integer> goodStudent = new LinkedHashMap<>();
 
        for(String eachKey: students.keySet()){
@@ -101,12 +101,8 @@ public class map_setEntries {
 
        }
 
-
         System.out.println(badStudent);
         System.out.println(goodStudent);
-
-
-
 
     }
 }

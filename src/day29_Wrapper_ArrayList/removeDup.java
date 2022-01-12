@@ -18,6 +18,5 @@ public class removeDup {
 
         System.out.println(noDuplicates);
 
-
     }
 }

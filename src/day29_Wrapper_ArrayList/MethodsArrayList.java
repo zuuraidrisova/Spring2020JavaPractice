@@ -3,8 +3,8 @@ package day29_Wrapper_ArrayList;
 import java.util.ArrayList;
 
 public class MethodsArrayList {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<Integer>();
 
@@ -82,17 +82,12 @@ public class MethodsArrayList {
 
         System.out.println(list);//toString method is hidden
 
-
         //equals() checks whether two ArrayLists are equal or not, returns boolean
 
         boolean c =  list.equals(list2);//compares two lists and returns  false
         //because list2 is empty and other one has elements
 
         System.out.println(a);
-
-
-
-
 
 
     }

@@ -36,10 +36,11 @@ isAnagram("java", "cava") ==> false
 
         System.out.println("Please enter first words: " );
         String str = scan.next();
+
         System.out.println("Please enter your second word: ");
         String str2 = scan.next();
 
-           boolean a =  isAnagram(str,str2);
+        boolean a =  isAnagram(str,str2);
 
         System.out.println(a);
 
@@ -50,8 +51,8 @@ isAnagram("java", "cava") ==> false
         word1 = word1.toLowerCase().trim();
         word2 = word2.toLowerCase().trim();
 
-       char [] ch =  word1.toCharArray();
-       char [] ch1 = word2.toCharArray();
+        char [] ch =  word1.toCharArray();
+        char [] ch1 = word2.toCharArray();
 
         Arrays.sort(ch);
         Arrays.sort(ch1);
@@ -67,7 +68,6 @@ isAnagram("java", "cava") ==> false
 
             return false;
         }
-
 
     }
 }

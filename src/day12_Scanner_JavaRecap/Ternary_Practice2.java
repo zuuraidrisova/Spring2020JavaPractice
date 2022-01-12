@@ -2,6 +2,7 @@ package day12_Scanner_JavaRecap;
 import java.util.Scanner;
 public class Ternary_Practice2 {
     public static void main(String []args){
+
        /* Create a new switch statement using char instead of int.
                 Create a new char variable
         Create a switch statement testing for A, B, C, D or E

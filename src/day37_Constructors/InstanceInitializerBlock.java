@@ -12,6 +12,7 @@ public class InstanceInitializerBlock {
                     static{
 
                     statement;
+
                     }
 
             instance initializer block:
@@ -21,9 +22,6 @@ public class InstanceInitializerBlock {
                                    execution of instance block depends on how many objects
                                             are created
                                     does not matter where we put instance block
-
-
-
 
                                     {
                                     statements;
@@ -44,14 +42,12 @@ public class InstanceInitializerBlock {
 
     public static void main(String[] args) {
 
-
         InstanceInitializerBlock obj = new InstanceInitializerBlock();
 
         InstanceInitializerBlock obj2 = new InstanceInitializerBlock();
 
-
-
     }
+
     {
         System.out.println("Instance block");//will get executed twice bcs we have 2 objects
     }

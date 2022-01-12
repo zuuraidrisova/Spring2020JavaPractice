@@ -10,7 +10,9 @@ public class Frequency {
        for(int  i = 0; i <= str.length()-1; i++){
 
            if(str.contains("B")){
+
                count++;
+
                str = str.replaceFirst("B","");
            }
        }

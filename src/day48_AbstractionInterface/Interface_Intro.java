@@ -20,6 +20,4 @@ public interface Interface_Intro {
 
     public abstract void method1();
 
-
-
 }

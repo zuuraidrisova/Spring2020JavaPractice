@@ -7,6 +7,7 @@ import java.util.function.Predicate;
 public class WarmUp_CountryNames {
 
     public static void main(String[] args) {
+
 /*
 
 
@@ -16,7 +17,6 @@ public class WarmUp_CountryNames {
 
 
  */
-
         ArrayList<String> countryNames = new ArrayList<>();
 
         countryNames.addAll(Arrays.asList("Kyrgyzstan","Italy","Netherlands",

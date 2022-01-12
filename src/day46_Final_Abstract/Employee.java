@@ -1,6 +1,7 @@
 package day46_Final_Abstract;
 
 public abstract class Employee {
+
     /*
     1. create an abstract class called Employee
 				attributes: name, age, gender, salary, jobtitle
@@ -23,6 +24,7 @@ public abstract class Employee {
     }
 
 }
+
 /*
 2. create two sub classes of the Employee:
 									1. Tester

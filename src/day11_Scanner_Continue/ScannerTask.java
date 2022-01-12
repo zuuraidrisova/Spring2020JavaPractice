@@ -13,7 +13,9 @@ Task: Scanner_Practice1
         salary:
  */
 public class ScannerTask {
+
     public static void main(String []args){
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = scan.next();

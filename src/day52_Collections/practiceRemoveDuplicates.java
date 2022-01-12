@@ -21,4 +21,5 @@ public class practiceRemoveDuplicates {
         System.out.println(set2);//unpredictable, does not keep insertion order
 
     }
+
 }

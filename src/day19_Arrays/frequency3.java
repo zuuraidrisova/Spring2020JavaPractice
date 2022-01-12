@@ -1,6 +1,7 @@
 package day19_Arrays;
 
 public class frequency3 {
+
     public static void main(String[] args) {
 
         String str = "ABBCCD";

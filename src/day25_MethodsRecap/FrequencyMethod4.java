@@ -10,6 +10,7 @@ public class FrequencyMethod4 {
         int count = frequency(str, str2);
 
         System.out.println(count);
+
     }
 
     public static int frequency(String str1, String str2){

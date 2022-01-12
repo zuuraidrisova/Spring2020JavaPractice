@@ -1,6 +1,7 @@
 package day23_CustomMethods;
 
 public class CalculationMethod {
+
     public static void main(String[] args) {
         /*
         write a method called Calculation, that can accepts 3 parameters:

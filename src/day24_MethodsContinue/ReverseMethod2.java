@@ -4,6 +4,7 @@ package day24_MethodsContinue;
 import java.util.Arrays;
 
 public class ReverseMethod2 {
+
     public static void main(String[] args) {
 
         int [] arr = new int[10];
@@ -32,8 +33,6 @@ public class ReverseMethod2 {
         }
 
         System.out.println(Arrays.toString(reverse));
-
-
 
     }
 }

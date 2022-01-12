@@ -16,6 +16,7 @@ public class Iterating_Collection {
 
                 list.remove(i);
             }
+
         }
 
         System.out.println(list);
@@ -29,7 +30,6 @@ public class Iterating_Collection {
 
         System.out.println(list2);
 
-
         System.out.println("================================");
 
         ArrayList<Integer> list3 = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5,6));
@@ -37,6 +37,7 @@ public class Iterating_Collection {
         Iterator<Integer> iteratedList3  = list3.iterator();
 
         System.out.println(iteratedList3.hasNext());
+
         System.out.println(iteratedList3.next());
 
         System.out.println("================================");
@@ -87,8 +88,6 @@ public class Iterating_Collection {
        }
 
         System.out.println(list6);
-
-
 
     }
 }

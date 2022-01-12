@@ -55,10 +55,10 @@ public class warmUps {
 
             sum += num;
 
-
            }
 
         }
+
         System.out.println(sum);
 
         System.out.println("=========================");
@@ -158,8 +158,6 @@ public class warmUps {
         }
 
         System.out.println(sum2);
-
-
 
 
     }

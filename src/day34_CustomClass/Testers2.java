@@ -17,7 +17,6 @@ public class Testers2 {
 
     public void setTesterInfo(String name, long employeeID, String jobTitle, double salary){
 
-
         this.name = name;
         this.employeeID = employeeID;
         this.jobTitle = jobTitle;
@@ -30,9 +29,5 @@ public class Testers2 {
         return "name : "+name+" employeeId : "+employeeID+" jobTitle : "+jobTitle+" salary : "+salary;
 
     }
-
-
-
-
 
 }

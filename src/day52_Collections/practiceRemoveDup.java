@@ -13,9 +13,11 @@ public class practiceRemoveDup {
 
         System.out.println(b);
 
+
        String a =  removeDuplicates(str);
 
         System.out.println(a);
+
     }
 
     public static String removeDuplicates(String str){
@@ -27,9 +29,11 @@ public class practiceRemoveDup {
        for(String each : new LinkedHashSet<>(Arrays.asList(arr))){
 
            str += each;
+
        }
 
         return str;
+
     }
 
     public static String removeDuplicates2(String str){
@@ -43,8 +47,10 @@ public class practiceRemoveDup {
         for(String each : noDuplicates){
 
             result += each;
+
         }
 
         return result;
     }
+
 }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class objectMemory {
 
-    int a =1000; // instance variable go to Heap memory
+    int a = 1000; // instance variable go to Heap memory
 
     public static void main(String[] args) {
 
@@ -30,7 +30,6 @@ public class objectMemory {
 
         System.out.println("================================");
 
-
         String str1 = new String("Cybertek");
 
         System.out.println(str1);
@@ -47,17 +46,6 @@ public class objectMemory {
 
         System.out.println(str1);//reassigning makes str a new string
         System.out.println(str2);//
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

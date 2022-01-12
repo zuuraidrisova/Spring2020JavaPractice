@@ -14,7 +14,6 @@ public class Student {
         this.studentID = studentID;
         this.gpa = gpa;
 
-
     }
 
     public static void printSchoolName(){

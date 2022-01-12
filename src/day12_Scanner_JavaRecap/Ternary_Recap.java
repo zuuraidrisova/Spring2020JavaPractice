@@ -2,10 +2,15 @@ package day12_Scanner_JavaRecap;
 import java.util.Scanner;
 public class Ternary_Recap {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Please, enter status code: ");
+
         int statusCode =scan.nextInt();
+
         String result = " ";
+
         if(statusCode==200){
             result ="Ok";
         }else if(statusCode==201){
@@ -25,5 +30,6 @@ public class Ternary_Recap {
                 (status==201)?"Created":(status==202)?"Created":
                         "Invalid Entry";
         System.out.println("The message is: "+result2);
+
     }
 }

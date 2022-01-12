@@ -7,7 +7,6 @@ public class difference {
     public static void main(String[] args) {
 
         /*
-
         Default values:
 
                 0 : byte, short, int, long
@@ -16,7 +15,6 @@ public class difference {
             " " : char --> empty space
 
         Default Values of  all Wrapper class is null!!
-
 
         wrapper class is object vs primitive is primitive data type
 

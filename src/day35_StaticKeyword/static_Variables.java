@@ -14,7 +14,6 @@ public class static_Variables {
 
         int a1 = 100;//local variable, we cannot use outside the block
 
-
         static_Variables obj1 = new static_Variables();//has its own copy
         obj1.a2 = 1000; // instance variable
 
@@ -31,26 +30,6 @@ public class static_Variables {
         System.out.println(obj1.a3);//it gives 5000, one copy shared by all objects
         System.out.println(obj2.a3);//it gives 5000, one copy
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
 
 }

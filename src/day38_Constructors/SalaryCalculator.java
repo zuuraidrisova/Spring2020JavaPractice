@@ -14,7 +14,6 @@ public class SalaryCalculator {
     double stateTaxRate;
     double federalTaxRate;
 
-
     //every time we create an object that is the time constructor gets executed
     public SalaryCalculator(double hourlyRate, int weekLyHours, double stateTaxRate, double federalTaxRate) {
 
@@ -31,12 +30,14 @@ public class SalaryCalculator {
         return hourlyRate * weekLyHours * 48;
 
     }
+
     //stateTax(): retuns the total state tax as double
 
     public double stateTax(){//total state tax
 
         return salary() * stateTaxRate;
     }
+
     // federalTax(): retuns the total federal tax as double
 
     public double federalTax(){//total federal tax
@@ -44,6 +45,7 @@ public class SalaryCalculator {
         return salary() * federalTaxRate;
 
     }
+
     // salaryAftertax(): retuns the salary after tax as double
 
     public double salaryAfterTax(){//net income

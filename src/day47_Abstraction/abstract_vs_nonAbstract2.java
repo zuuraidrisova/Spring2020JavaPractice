@@ -23,6 +23,7 @@ public class abstract_vs_nonAbstract2 extends  A{
 
 }
 
+
 abstract class B extends A{
 
     //we dont have to override because subclass is also an abstract class

@@ -1,5 +1,6 @@
 package day28_DateTime;
 import java.time.LocalTime;
+
 public class Time {
 
     //LocalTime ==> hours : minutes : seconds
@@ -13,7 +14,6 @@ public class Time {
         LocalTime time2 = LocalTime.of(10,36,45);
 
         System.out.println(time2);
-
 
     }
 }

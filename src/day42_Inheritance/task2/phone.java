@@ -21,6 +21,7 @@ public class phone extends device{
 
         System.out.println("calling the number  "+phoneNumber);
     }
+
     public void text(long phoneNumber){
 
         System.out.println("texting to "+phoneNumber);

@@ -10,6 +10,7 @@ public class Triangle1 {
 
                 System.out.print("* ");
             }
+
             System.out.println();
         }
 

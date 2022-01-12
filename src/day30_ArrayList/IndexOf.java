@@ -29,6 +29,5 @@ public class IndexOf {
         System.out.println(num2);
 
 
-
     }
 }

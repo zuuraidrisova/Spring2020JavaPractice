@@ -1,6 +1,7 @@
 package day22_ArraysLoopsRecap;
 
 public class countEvenOdd2 {
+
     public static void main(String[] args) {
 
 //count even and odd numbers in an array of integers

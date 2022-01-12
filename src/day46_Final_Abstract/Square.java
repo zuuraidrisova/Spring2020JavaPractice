@@ -16,6 +16,4 @@ public class Square extends Shape {
         System.out.println("The Area of Square is: "+area);
     }
 
-
-
 }

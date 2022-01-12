@@ -1,7 +1,9 @@
 package day18_NestedLoops;
 
 public class NestedLoop2 {
+
     public static void main(String[] args) {
+
         /*
             *
             * *
@@ -14,8 +16,10 @@ public class NestedLoop2 {
             * * * * * * * * *
          */
 
-        for(int j = 1; j<=9;j++) {//vertical
+        for(int j = 1; j <= 9;j++) {//vertical
+
             for (int i = 1; i <=j; i++) {//horizontal
+
                 System.out.print("* ");
             }
             System.out.println();
@@ -24,7 +28,9 @@ public class NestedLoop2 {
         System.out.println("=====================================");
 
         for(int j=9;j>=1; j--){
-            for(int i=1;i<=j;i++){
+
+            for(int i = 1;i <= j;i++){
+
                 System.out.print("* ");
             }
             System.out.println();
@@ -44,7 +50,9 @@ public class NestedLoop2 {
         System.out.println("===============================");
 
         for(char ch1 ='a';ch1<='z';ch1++) {
+
             for (char ch = 'a'; ch <= ch1; ch++) {
+
                 System.out.print(ch + " ");
             }
             System.out.println();
@@ -54,7 +62,9 @@ public class NestedLoop2 {
 
 
         for(char ch1 ='z';ch1>='a';ch1--) {
+
             for (char ch = 'a'; ch <= ch1; ch++) {
+
                 System.out.print(ch + " ");
             }
             System.out.println();

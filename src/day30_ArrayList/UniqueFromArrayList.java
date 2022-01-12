@@ -42,10 +42,5 @@ public class UniqueFromArrayList {
         System.out.println(uniques);
 
 
-
-
-
-
-
     }
 }

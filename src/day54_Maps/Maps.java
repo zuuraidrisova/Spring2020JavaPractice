@@ -3,6 +3,7 @@ package day54_Maps;
 public class Maps {
 
     /*
+
     main data structures in Java:
         Array
         Collection
@@ -13,10 +14,8 @@ public class Maps {
     Map ==> dynamic size, supports key and value format, collection of maps
             supports only objects
 
-
     String [] name = {};
     Double [] salary = {};
-
 
     List<String> name = new ArrayList<>();
     List<Double> salary = new ArrayList<>();
@@ -26,8 +25,8 @@ public class Maps {
 
      Map<String, Double>
 
-     Map is an interface, accepts key and value:  String is key and Double is value
-            both key and value must be objects,cannot primitives
+     Map is an interface, accepts key and value:  String is a key and Double is a value
+            both key and value must be objects,cannot be primitives
 
             map is also presented in java.util package, we need to import it to use
 
@@ -59,7 +58,7 @@ public class Maps {
 
         DIFFERENCES BETWEEN MAP CLASSES:
 
-        LinkedHashMap : keeps the insertion order as it is, put() and remove() faster
+        LinkedHashMap : keeps the insertion order as it is, put() and remove() faster,
                         accepts null
 
         HashMap : accepts null, does not keep insertion order

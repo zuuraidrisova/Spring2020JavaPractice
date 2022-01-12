@@ -35,4 +35,5 @@ public class Dog {
 
         System.out.println(name+" is eating "+food);
     }
+
 }

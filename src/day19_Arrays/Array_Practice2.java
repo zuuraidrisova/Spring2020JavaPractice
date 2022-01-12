@@ -3,6 +3,7 @@ package day19_Arrays;
 import java.util.Scanner;
 
 public class Array_Practice2 {
+
     public static void main(String[] args) {
 
         int [] arr = {10,20,30};//size is 3 now//3 elements

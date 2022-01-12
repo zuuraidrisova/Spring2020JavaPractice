@@ -10,6 +10,7 @@ public class FirstLetterMissing {
 				ppleanana
      */
     public static void main(String []args){
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter first word: ");
@@ -22,8 +23,8 @@ public class FirstLetterMissing {
             //if we want to give the last index, it is length()-1,
         // because length is always one unit less than index
 
-
         String result = firstWord.concat(secondWord);
+
         System.out.println(result);
 
 

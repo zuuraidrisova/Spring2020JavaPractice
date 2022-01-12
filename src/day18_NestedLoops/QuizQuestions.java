@@ -1,15 +1,20 @@
 package day18_NestedLoops;
 
 public class QuizQuestions {
+
     public static void main(String[] args) {
+
         int a =0;
-        while(a<=6){
+
+        while(a <= 6){
+
             a+=2;
         }
         System.out.println(a);//8
 
         int i=0;
         int j=7;
+
         for(i=0; i<j-1;i+=2){
             System.out.println(i+" ");//0,2,4
         }

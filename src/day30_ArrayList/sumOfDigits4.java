@@ -3,8 +3,8 @@ package day30_ArrayList;
 public class sumOfDigits4 {
 
     public static void main(String[] args) {
+
         /*
-         /*
 
         write a program that can return the sum of all the digits from a string
 			ex:
@@ -21,7 +21,6 @@ public class sumOfDigits4 {
 
         String str = "a1b2c3";
 
-
         char [] ch = str.toCharArray();
 
         int sum = 0;
@@ -31,6 +30,7 @@ public class sumOfDigits4 {
             if(Character.isDigit(ch[i])){
 
               sum +=  Integer.parseInt(""+ch[i]);
+
             }
 
         }

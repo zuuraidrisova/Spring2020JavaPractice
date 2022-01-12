@@ -36,6 +36,7 @@ create a class called Bank Of America:
     }
 
     public double calculateBudget(int numberOfTesters){
+
         double total = 0;
 
         if(numberOfTesters > 0){
@@ -55,7 +56,6 @@ create a class called Bank Of America:
     public void createTicket(String ticket){
 
         System.out.println(fullName+" creates "+ticket);
-
 
     }
 }

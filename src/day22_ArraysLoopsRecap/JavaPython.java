@@ -1,6 +1,7 @@
 package day22_ArraysLoopsRecap;
 
 public class JavaPython {
+
     public static void main(String[] args) {
 
         /*
@@ -23,6 +24,7 @@ public class JavaPython {
             if(each.contains("Java")) {
                 countJava++;
             }
+
             if(each.contains("Python")){
                 countPython++;
             }
@@ -32,7 +34,6 @@ public class JavaPython {
         System.out.println(countJava);
         System.out.println(countPython);
         System.out.println(countJava == countPython);
-
 
 
     }

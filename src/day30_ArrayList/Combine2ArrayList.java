@@ -22,7 +22,6 @@ public class Combine2ArrayList {
 
         String [] arr2 = {"D", "E", "F", "G"};
 
-
         ArrayList<String> list = new ArrayList<String>();
 
         for(int i = 0; i < arr1.length; i++){
@@ -36,10 +35,10 @@ public class Combine2ArrayList {
         for(int i = 0; i < arr2.length; i++){
 
             list.add(arr2[i]);
+
         }
 
         System.out.println(list);
-
 
        /*
 
@@ -52,7 +51,6 @@ public class Combine2ArrayList {
     			// FOR EACH LOOP
 
          */
-
 
         String [] arr3 =  {"A", "B", "C"};
 
@@ -72,7 +70,6 @@ public class Combine2ArrayList {
         }
 
         System.out.println(list2);
-
 
     }
 }

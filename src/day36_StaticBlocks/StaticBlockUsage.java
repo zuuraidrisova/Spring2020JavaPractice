@@ -6,6 +6,7 @@ import day34_CustomClass.Testers;
 public class StaticBlockUsage {
 
     static int a;
+
     static int b;//static variable
 
     static Testers tester1 = new Testers();
@@ -43,9 +44,6 @@ public class StaticBlockUsage {
 
             b = 200;
         }
-
-
-
 
     }
 

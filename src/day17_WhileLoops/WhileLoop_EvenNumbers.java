@@ -8,8 +8,11 @@ public class WhileLoop_EvenNumbers {
         between 0~10
          */
         int i = 0;//initialization, where loop should start
+
         int sum = 0;
+
         while(i <= 10) {//condition, where loop should end,or as long as this loop is true
+
             if (i % 2 == 0) {//to get all even numbers
                 System.out.println(i);//to print it in console
                 sum += i;
@@ -21,9 +24,13 @@ public class WhileLoop_EvenNumbers {
         System.out.println("+==================+");
 
         int sum2 = 0;
+
         for(int j = 0; j <= 10;j++){
+
             if(j % 2 == 0){
+
                 System.out.println(j);
+
                 sum2 += j;
             }
 

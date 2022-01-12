@@ -59,6 +59,7 @@ class ChromeBrowser extends Browser {
 
 }
 
+
 class FireFoxBrowser extends Browser{
 
     public FireFoxBrowser(String browserName){
@@ -83,6 +84,7 @@ class FireFoxBrowser extends Browser{
     }
 
 }
+
 
 class OperaBrowser extends Browser{
 

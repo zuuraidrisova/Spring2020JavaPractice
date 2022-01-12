@@ -16,6 +16,7 @@ public class NullKeyword {
         System.out.println(str1.charAt(0));// C
 
         String str3 = null;
+
         Integer i = null;
 
        // WebElement webElement = null;
@@ -38,7 +39,6 @@ public class NullKeyword {
 
         arr[1].toUpperCase();
 
-
         String name = "cybertek".toUpperCase();
          //   name = null;
             //    name = name.toUpperCase();
@@ -46,11 +46,5 @@ public class NullKeyword {
         System.out.println(name);
 
         System.out.println(arr.length);//size is 3, because reserves a spot
-
-
-
-
-
-
     }
 }

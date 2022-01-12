@@ -24,7 +24,6 @@ public class removeDupFrequencyMethod {
 
         System.out.println(uniques);
 
-
         int [] arr = {1,2,3,4,5,6};
 
         int [] reversed = reversed(arr);
@@ -61,7 +60,6 @@ public class removeDupFrequencyMethod {
 
     public static String removeDuplicates(String str){
 
-
         String noDuplicates = "";
 
         for(int i = 0; i < str.length(); i++){
@@ -73,10 +71,9 @@ public class removeDupFrequencyMethod {
             }
         }
 
-
-
         return noDuplicates;
     }
+
 
     public  static  String unique(String str){
 
@@ -101,13 +98,10 @@ public class removeDupFrequencyMethod {
             }
         }
 
-
-
-
-
-
         return uniques;
     }
+
+
 
     public static int [] reversed(int [] arr){
 
@@ -117,7 +111,6 @@ public class removeDupFrequencyMethod {
 
         for(int i = arr.length-1; i >= 0; i --){
 
-
             reversed[j] = arr[i];
 
             j++;
@@ -125,6 +118,7 @@ public class removeDupFrequencyMethod {
 
         return reversed;
     }
+
 
     public static int [] sortDescending(int [] arr){
 
@@ -143,4 +137,5 @@ public class removeDupFrequencyMethod {
 
         return sortDescending;
     }
+
 }

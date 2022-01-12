@@ -3,6 +3,7 @@ package day24_MethodsContinue;
 import java.util.Arrays;
 
 public class ReturnMethodArray {
+
     public static void main(String[] args) {
         /*
         create a function  that can return the max number from given array
@@ -31,6 +32,7 @@ public class ReturnMethodArray {
         }
         return max;
     }
+
     public static int minNumber(int [] arr){
 
         Arrays.sort(arr);

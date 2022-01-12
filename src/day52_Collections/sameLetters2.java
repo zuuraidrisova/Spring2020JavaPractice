@@ -7,7 +7,6 @@ public class sameLetters2 {
 
     //write a program that can identify if two strings are built out of same letters
 
-
     public static void main(String[] args) {
 
         String str1 = "hello";
@@ -17,6 +16,7 @@ public class sameLetters2 {
 
         System.out.println(b);
     }
+
     public static boolean sameLetters(String str1, String str2){
 
         TreeSet<String> letters = new TreeSet<>(Arrays.asList(str1.split("")));

@@ -4,9 +4,12 @@ package day10_Switch_Scanner;
  */
 
 public class Days_NestedIf {
+
     public static void main(String []args){
+
         byte days = 8;
         String nameOfDays = " ";
+
         if(days>=1 && days<7){
             if(days==1){
                 nameOfDays="Monday";

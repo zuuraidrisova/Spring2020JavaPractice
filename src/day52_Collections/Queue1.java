@@ -16,7 +16,7 @@ public class Queue1 {
 
         System.out.println(q);
 
-       String str =  q.poll();
+        String str =  q.poll();
 
         System.out.println(str);
 

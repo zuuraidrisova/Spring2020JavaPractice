@@ -3,6 +3,7 @@ package day36_StaticBlocks;
 import java.util.Arrays;
 
 public class rowSum {
+
          /*
       Complete the method so that it takes in a 2-D array and returns the sums
       of the rows as an integer array.
@@ -32,9 +33,10 @@ Then we should get the following array back:
         int [] c = rowSum(array);
 
         System.out.println(Arrays.toString(c));
+
     }
 
-         public static int [] rowSum(int [] [] array){
+         public static int [] rowSum(int [][] array){
 
              int [] row = new int[array.length];
 

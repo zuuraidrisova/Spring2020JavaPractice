@@ -30,7 +30,6 @@ public class List_Practice {
 
         for(int i = 0; i < groceryList.size(); i++){
 
-
             System.out.println(groceryList.get(i));
 
         }
@@ -60,6 +59,7 @@ public class List_Practice {
 
             System.out.println(groceryList.get(i));
         }
+
         System.out.println("===================");
 
         int lastIndex = groceryList.size()-1;

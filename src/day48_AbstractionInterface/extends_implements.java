@@ -2,16 +2,22 @@ package day48_AbstractionInterface;
 
 
 interface I1{
+
         //ONLY ONE ABSTRACT METHOD IN THIS CLASS
     void method1();
 }
+
 interface I2 extends I1{
+
     //TWO ABSTRACT METHOD IN THIS CLASS
     void method2();
 }
+
 abstract class AC implements I2{
+
     //THREE ABSTRACT METHOD IN THIS CLASS
     abstract void method3();
+
 }
 
 public abstract class extends_implements extends AC {

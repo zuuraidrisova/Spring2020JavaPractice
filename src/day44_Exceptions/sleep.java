@@ -15,8 +15,7 @@ public class sleep {
 
         }catch (Exception e){
 
-
-           String msg =  e.getMessage();
+            String msg =  e.getMessage();
             System.out.println(msg);
         }
     }

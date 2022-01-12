@@ -1,6 +1,7 @@
 package day17_WhileLoops;
 
 public class FINRA {
+
     public static void main(String[] args) {
 
 /*
@@ -13,17 +14,17 @@ public class FINRA {
  */
 
 
-         for(int i= 1; i<=30;i++){//printing numbers from 1  ~ 30
+         for(int i = 1; i <= 30; i++){//printing numbers from 1  ~ 30
 
-             if(i%3==0){//prints numbers divisible by 3 and not divisible by 5
+             if(i%3 == 0){//prints numbers divisible by 3 and not divisible by 5
 
                  System.out.println("FIN: "+ i);
 
-             }else if(i%5==0){//prints numbers divisible by 5 and not divisible by 3
+             }else if( i%5 == 0){//prints numbers divisible by 5 and not divisible by 3
 
                  System.out.println("RA: "+ i);
 
-             }else if(i%3==0 && i%5==0){//prints numbers divisible by both 3 and 5
+             }else if(i%3 == 0 && i%5 == 0){//prints numbers divisible by both 3 and 5
 
                  System.out.println("FINRA: "+ i);
 
@@ -34,6 +35,7 @@ public class FINRA {
          }
 
         String result = " ";
+
          for(int i=1; i<=30; i++){
 
              if(i%3==0 && i%5==0){

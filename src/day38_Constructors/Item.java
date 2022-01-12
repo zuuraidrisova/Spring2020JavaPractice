@@ -18,7 +18,6 @@ public class Item {
     double unitPrice;
     int quantity;
 
-
     public Item(String name, double unitPrice, int quantity){
 
      //this == refers to object instances, we can call instances
@@ -26,7 +25,6 @@ public class Item {
         this.name = name;
         this.unitPrice = unitPrice;
         this.quantity = quantity;
-
 
     }
 
@@ -75,6 +73,7 @@ class ShoppingList{
         System.out.println("************************************************");
 
         ArrayList<Item> shoppingList = new ArrayList<>();
+
         shoppingList.addAll(Arrays.asList(object1,object2,object3,object4,object5));
 
         for(int i = 0; i < shoppingList.size(); i++){
@@ -112,7 +111,6 @@ class ShoppingList{
 
             System.out.println(items[i]);
         }
-
 
     }
 }

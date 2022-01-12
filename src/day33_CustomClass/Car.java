@@ -9,8 +9,6 @@ public class Car {
     double mileage;
 
 
-
-
     public void start(){
 
         System.out.println(brand +" "+model+ " is started");
@@ -43,14 +41,9 @@ public class Car {
         return result;
     }
 
-
-
-
-
     public static void main(String[] args) {
 
         int a = 100; // a is local variable, we have to initialize
-
 
     }
 }

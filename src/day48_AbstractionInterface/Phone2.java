@@ -23,5 +23,4 @@ public abstract class Phone2 {
         return "Brand : "+ brand + " ,Model: "+model+" , Price : $"+price + " , Size: "+size;
     }
 
-
 }

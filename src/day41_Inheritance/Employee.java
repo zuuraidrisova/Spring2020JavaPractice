@@ -70,10 +70,13 @@ class Developer extends Employee{
     public void fix(){
 
         System.out.println(name+" is fixing a bug");
+
     }
+
     public void code(String programmingLanguage){
 
         System.out.println(name+" is coding "+programmingLanguage);
+
     }
 
 }
@@ -97,8 +100,10 @@ class BA extends Employee{
 
         System.out.println(name+" is writing Requirement Document");
     }
+
     public void gatherInfo(){
 
         System.out.println(name+" is gathering Requirement Information");
     }
+
 }

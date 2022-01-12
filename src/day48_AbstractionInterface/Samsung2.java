@@ -3,8 +3,10 @@ package day48_AbstractionInterface;
 public class Samsung2 extends Phone2{
 
     static {
+
         brand = "Samsung";
     }
+
     public Samsung2(String model, String size, double price){
 
         this.model = model;
@@ -18,6 +20,7 @@ public class Samsung2 extends Phone2{
 
         System.out.println(brand+" is calling "+phoneNumber);
     }
+
     @Override
     public void texting(long phoneNumber){
 

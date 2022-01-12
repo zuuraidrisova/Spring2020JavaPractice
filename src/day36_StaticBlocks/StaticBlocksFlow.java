@@ -15,7 +15,6 @@ public class StaticBlocksFlow {
 
         static block can be placed anywhere, and it is only executed once
 
-
      */
 
 

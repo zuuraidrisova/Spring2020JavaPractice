@@ -15,7 +15,9 @@ public class TryCatch2 {
         }catch (InterruptedException e){
 
             System.out.println("Something went wrong");
+
             System.out.println("Catch block");
+            
             //if these two statements get executed then try block was not able
             // to handle it, so it jumped to catch block
         }

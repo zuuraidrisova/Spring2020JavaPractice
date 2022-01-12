@@ -32,7 +32,6 @@ public class FindMaxMin {
 
         System.out.println(num);
 
-
         int [] arr = {1,90,88,65,0,-1};
 
         int max = Integer.MIN_VALUE;
@@ -46,7 +45,6 @@ public class FindMaxMin {
         }
 
         System.out.println(max);
-
 
 
         String[] arr2 = {"1","2.5", "3", "3.5", "4.5"};
@@ -80,7 +78,6 @@ public class FindMaxMin {
 
         System.out.println(max3);
 
-
         double min = Double.MAX_VALUE;
 
         for(int i = 0; i < arr2.length; i++){
@@ -109,9 +106,6 @@ public class FindMaxMin {
         }
 
         System.out.println(min1);
-
-
-
 
     }
 }

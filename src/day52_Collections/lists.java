@@ -11,7 +11,7 @@ public class lists {
         // List: implemented by ArrayList, LinkedList, Vector
 
         //List<Integer> list0 = new List<Integer>(); will create a compile error
-            //because list is an interface, we cannot create an object from interface
+            //because list is an interface, we cannot create an object from an interface
 
         List<Integer> list1 = new ArrayList<>();
         // ==> polymorphism when parent is reference type for its child
@@ -52,18 +52,12 @@ public class lists {
 
         System.out.println(names);
 
-        String me = names.pop(); //last in was Zuura, she will first out ==>removed
+        String me = names.pop(); //last in was Zuura, she will be first out ==>removed
 
         System.out.println(me);
 
         System.out.println(names);
 
-
-
-
-
-
     }
-
 
 }

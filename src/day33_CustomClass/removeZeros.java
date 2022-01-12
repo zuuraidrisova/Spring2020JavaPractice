@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class removeZeros {
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -39,6 +40,7 @@ public class removeZeros {
         //my original solution
 
         ArrayList<Integer> list2 = new ArrayList<>();
+
         list2.addAll(Arrays.asList(10,20,0,0,30,0,0,40,0,0));
 
         ArrayList<Integer> zerosBack = new ArrayList<>();
@@ -79,7 +81,6 @@ public class removeZeros {
         }
 
         System.out.println(list3);
-
 
 
     }

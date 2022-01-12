@@ -10,12 +10,15 @@ public class Arrays_Scanner_Month {
         String [] month = new String [12];
 
         for(int i = 0; i < 12 ;i++) {
+
             System.out.println("Enter a month: ");
+
             month[i] = scan.next();
         }
 
 
         for(int i = 1; i <= 12 ; i++){
+
             System.out.println("Month is: "+month[i-1]);
         }
 

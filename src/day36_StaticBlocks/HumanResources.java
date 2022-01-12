@@ -16,8 +16,6 @@ public class HumanResources {
 
     static Developers developer5 = new Developers();
 
-
-
     public static void main(String[] args) {
 
         developer1.setDeveloperInfo("Namik", 125343, "Developer", 120000);

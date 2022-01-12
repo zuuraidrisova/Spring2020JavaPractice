@@ -5,7 +5,6 @@ public class WrapperClass {
     public static void main(String[] args) {
 
         /*
-
         WRAPPER classes are important because collection and map data structures
 
                         do not accept primitive data types, they accept only
@@ -22,9 +21,6 @@ public class WrapperClass {
         double --> Double
         char --> Char
         boolean --> Boolean
-
-
-
 
          */
 
@@ -55,23 +51,6 @@ public class WrapperClass {
         int a3 = b1;//Byte wrapper class can be assigned to any larger primitive data type
 
         System.out.println(a3);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

@@ -19,6 +19,7 @@ public class Practice {
 
             Thread.sleep(2000); //throwing checked exception, so we put into try block
 
+
         }catch (Exception e){
 
 
@@ -30,6 +31,7 @@ public class Practice {
 
             Thread.sleep(3000); //throwing checked exception, so we put into try block
 
+
         }catch (Exception e){
 
 
@@ -40,6 +42,7 @@ public class Practice {
         try{
 
             Thread.sleep(4000); //throwing checked exception, so we put into try block
+
 
         }catch (Exception e){
 
@@ -53,9 +56,5 @@ public class Practice {
 
 
     }
-
-
-
-
 
 }

@@ -2,6 +2,7 @@ package day10_Switch_Scanner;
 
 public class SwitchStatement {
     public static void main(String []args){
+
         byte a = 4;
         //switch is evaluated to a single expression
         //so no float, long, boolean, double

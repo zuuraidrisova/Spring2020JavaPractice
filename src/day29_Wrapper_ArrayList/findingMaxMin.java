@@ -20,11 +20,9 @@ public class findingMaxMin {
 
         System.out.println(list);
 
-
         int max = Integer.MIN_VALUE;
 
         for(int i = 0; i < list.size(); i++){
-
 
             if(list.get(i) > max){
 
@@ -33,7 +31,6 @@ public class findingMaxMin {
         }
 
         System.out.println(max);
-
 
         ArrayList<Integer> list2 = new ArrayList<>();
 
@@ -53,11 +50,6 @@ public class findingMaxMin {
         }
 
         System.out.println(min);
-
-
-
-
-
 
     }
 }

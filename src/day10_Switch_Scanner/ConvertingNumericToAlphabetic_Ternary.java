@@ -8,12 +8,15 @@ public class ConvertingNumericToAlphabetic_Ternary {
          */
         byte num= 90;
         String Alphabetic = " ";
+
         if(num>=0 && num<=9) {
+
             Alphabetic = (num == 0) ? "Zero" :(num==1)?"One":(num==2)?"Two":(num==3)?"Three"
                     :(num==4)?"Four":(num==5)?"Five":(num==6)?"Six":(num==7)?"Seven"
                     :(num==8)?"Eight":"Nine";
 
         }else{
+
             Alphabetic="Invalid Entry";
         }
 

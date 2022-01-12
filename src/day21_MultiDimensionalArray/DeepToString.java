@@ -3,6 +3,7 @@ package day21_MultiDimensionalArray;
 import java.util.Arrays;
 
 public class DeepToString {
+
     public static void main(String[] args) {
 
         int [] arr1 = {1,2,3};
@@ -22,6 +23,7 @@ public class DeepToString {
         System.out.println(Arrays.toString(arr3D [0][1]));//bcs this is single dimensional array
 
        int num1 =  arr3D[1][1][2];//retrieving single element
+
         System.out.println(num1);
 
 

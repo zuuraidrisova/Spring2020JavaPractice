@@ -9,15 +9,19 @@ package day08_Multi_branch_If_Staements;
 			if none of them are euqal ==> none of them are equal
  */
 public class EqualNumbers {
+
     public static void main(String []args){
+
         double num1 =3005;
         double num2 =300;
         double num3 =300;
+
         boolean num1EqualNum2 = num1==num2 && num1!=num3;//only num1 and num2 are equal
         boolean num1EqualNum3 = num1==num3 && num1!=num2;//only num1 and num3 are equal
         boolean num2EqualNum3 = num2==num3 && num2!= num1;//only num2 and num3 are equal
         boolean AllEqual = num1==num2 && num1==num3;// all equal
         boolean NoneEqual = num1 != num2 && num1!= num3 && num2 !=num3;//none equal
+
         if(num1EqualNum2){
             System.out.println(num1+" & "+num2+" are equal");
         }
@@ -33,5 +37,6 @@ public class EqualNumbers {
         if(NoneEqual){
             System.out.println("None of them are equal");
         }
+
     }
 }

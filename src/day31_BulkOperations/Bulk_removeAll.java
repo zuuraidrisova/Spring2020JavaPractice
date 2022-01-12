@@ -30,7 +30,6 @@ public class Bulk_removeAll {
 
         //interview question ==> remove anyone with the name of Ahmad
 
-
         String [] arr = {"Ahmad","John","Aron","Ahmad","Daniel","Ahmad"};
 
         ArrayList<String> names = new ArrayList<>(Arrays.asList(arr));
@@ -40,28 +39,6 @@ public class Bulk_removeAll {
         names.removeAll(Arrays.asList("Ahmad"));
 
         System.out.println(names);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

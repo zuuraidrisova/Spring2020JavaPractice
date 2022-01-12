@@ -1,6 +1,7 @@
 package day25_MethodsRecap;
 
 public class removeDuplicates2 {
+
         /*
      write a return method that accepts a String and removes duplicate values
      from the String
@@ -30,7 +31,6 @@ public class removeDuplicates2 {
             String unique = removeDuplicates(str);
 
             System.out.println(unique);
-
 
         }
 

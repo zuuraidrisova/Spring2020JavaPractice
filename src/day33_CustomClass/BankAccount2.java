@@ -74,7 +74,6 @@ public class BankAccount2 {
 
                 System.out.println("Sorry, your account balance is negative");
 
-
             }else{
 
                 System.out.println("Amount withdrawing from your account is $ "+amount);
@@ -85,6 +84,5 @@ public class BankAccount2 {
 
             }
         }
-
 
 }

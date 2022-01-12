@@ -34,7 +34,6 @@ public class MapPractice {
 
         System.out.println(b1);
 
-
        boolean b2 =  birthdays.containsValue(LocalDate.of(1990,11,17));
 
         System.out.println(b2);//true

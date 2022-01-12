@@ -12,7 +12,7 @@ public class Iterating_Collections2 {
 
         System.out.println(names);//no duplicates
 
-        Iterator<String > it = names.iterator();
+        Iterator<String> it = names.iterator();
 
         while(it.hasNext()){
 
@@ -25,7 +25,6 @@ public class Iterating_Collections2 {
         }
 
         System.out.println(names);
-
 
         System.out.println("==========================================");
 
@@ -84,8 +83,6 @@ public class Iterating_Collections2 {
         Collections.swap(list,1,3);// we give collection type, and index i and index j
 
         System.out.println(list);
-
-
 
 
     }

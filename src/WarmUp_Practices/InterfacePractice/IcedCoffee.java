@@ -1,6 +1,7 @@
 package WarmUp_Practices.InterfacePractice;
 
 public class IcedCoffee implements Drinkable {
+
     /*
     4. create another class called IceCoffee  that can inherit from Drinkable
 				variable: size
@@ -19,6 +20,7 @@ public class IcedCoffee implements Drinkable {
         this.size = size;
     }
 
+
     @Override
     public void drink(){
 
@@ -36,4 +38,5 @@ public class IcedCoffee implements Drinkable {
 
         System.out.println("eating");
     }
+
 }

@@ -1,8 +1,11 @@
 package day22_ArraysLoopsRecap;
 
 public class NestedLoop3 {
+
     public static void main(String[] args) {
+
         int[][] numbers = {
+
                 {1,2,3},
                 {4,5,6,7,8,9},
                 {10,11,12,13,14},
@@ -18,9 +21,11 @@ public class NestedLoop3 {
                      int num =  numbers [k] [i];//assigning to int what we get from arrays
 
                 if( num  % 2 != 0 ){// getting only odd numbers
+
                     countOdd++;//counting all odd numbers
 
                 }else{// getting the even numbers
+
                     System.out.print(numbers[k][i]+" ");
                 }
             }

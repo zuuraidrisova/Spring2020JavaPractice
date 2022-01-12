@@ -14,7 +14,6 @@ public class Renters {
     int floor;
     String aptNum;
 
-
     int numOfBed;
     int rent;
     double waterBill;
@@ -28,7 +27,6 @@ public class Renters {
         this.floor = floor;
         this.aptNum = aptNum;
 
-
     }
 
     public double getBillInfo(String name, int numOfBed, int rent, double waterBill, double electricBill){
@@ -39,11 +37,10 @@ public class Renters {
         this.waterBill = waterBill;
         this.electricBill = electricBill;
 
-
-
       return totalRentCOst();
 
     }
+
     public double totalRentCOst (){
 
         double total= waterBill + electricBill + rent;
@@ -57,15 +54,19 @@ public class Renters {
             total += 75;
         }
         return total;
+
     }
 
     public String toString(){
+
         return "Name: "+name+", Family members: "+numberOfHousehold +
+
                 ", Type of Apt rented: "+typeOfApt+", Floor: "+floor;
     }
 
 
 }
+
 class RenterObjects{
 
     ArrayList<Renters> renters = new ArrayList<>();
@@ -103,8 +104,6 @@ class apartment{
         list.addRenters(renter2);
         list.addRenters(renter3);
         list.addRenters(renter4);
-
-
 
     }
 }

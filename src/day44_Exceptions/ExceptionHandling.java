@@ -19,12 +19,15 @@ public class ExceptionHandling {
             System.out.println(msg);
 
         }
+
         System.out.println("===============================================");
 
         String result = "";
+
         try{
 
             System.out.println(100 / 0);
+
             System.out.println("Try block");
 
         }catch (ArithmeticException e){
@@ -32,9 +35,11 @@ public class ExceptionHandling {
             //whenever unchecked block occurred then always catch block will run
 
             System.out.println("Catch block");
+
             result =  e.getMessage();
 
         }
+
         System.out.println(result);
 
         System.out.println("Completed");

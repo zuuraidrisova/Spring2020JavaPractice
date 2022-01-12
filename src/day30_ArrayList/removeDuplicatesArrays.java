@@ -22,7 +22,6 @@ public class removeDuplicatesArrays {
         System.out.println(noDuplicates);
 
 
-
     }
 
 }

@@ -31,7 +31,6 @@ public class constructorCalls3 {
 
         constructorCalls3 obj = new constructorCalls3();
 
-
     }
 
 }

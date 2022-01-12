@@ -3,6 +3,7 @@ package day21_MultiDimensionalArray;
 import java.util.Arrays;
 
 public class ScrumTeam {
+
     public static void main(String[] args) {
 
         String [] devTeam = {"Zeynep","Heider","Jovid"};
@@ -20,6 +21,7 @@ public class ScrumTeam {
 
         //                           0       1
         String emp1 = ScrumTeam [0][1];
+
         String replacement = ScrumTeam [0][1] = "Jean";//replace
 
         System.out.println(emp1+" is fired!");
@@ -37,17 +39,10 @@ public class ScrumTeam {
         }
         System.out.println("====================");
 
-
-
-       String emp2 =  ScrumTeam [1][2];
+        String emp2 =  ScrumTeam [1][2];
         System.out.println(emp2+" ");
 
         System.out.println("=======================");
-
-
-
-
-
 
     }
 }

@@ -3,6 +3,7 @@ package day29_Wrapper_ArrayList;
 import java.util.Arrays;
 
 public class FindMaxValue {
+
     public static void main(String[] args) {
 
       /*
@@ -15,7 +16,6 @@ public class FindMaxValue {
       String[] arr = {"1","2.5", "3", "3.5", "4.5"};
 
       double max = Double.MIN_VALUE;
-
 
       for(String each : arr){
 
@@ -35,7 +35,6 @@ public class FindMaxValue {
         /*
          String[] arr = {"1","2.5", "3", "3.5", "4.5"}
          find the maximum and minimum numbers
-
          use sort method
          */
 

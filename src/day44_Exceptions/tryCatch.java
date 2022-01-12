@@ -17,6 +17,7 @@ public class tryCatch {
             System.out.println(list.get(10));
 
         }catch (IndexOutOfBoundsException e){
+
             //we can give all these three
             //Exception ==> RuntimeException ==> IndexOutOfBoundsException
             //grandpa           dad                     son
@@ -25,11 +26,6 @@ public class tryCatch {
         }
 
         System.out.println("Test completed");
-
-
-
-
-
 
     }
 }

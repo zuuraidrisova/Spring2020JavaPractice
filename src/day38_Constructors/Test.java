@@ -19,7 +19,6 @@ public class Test {
         System.out.println("Static block");
     }
 
-
     public static void main(String[] args) {
 
         /*
@@ -29,7 +28,6 @@ public class Test {
 
          */
     // static does not depend on the object, no object still static block can run
-
 
         new Test();// instance variable, constructor
 

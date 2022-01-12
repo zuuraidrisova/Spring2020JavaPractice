@@ -31,9 +31,13 @@ public class AgeGroups_NestedIf {
 
         int age2 = 45;
         String ageGroup2 = " ";
+
         if(age<120 && age>1){
+
             ageGroup2= (age2<=21)?"Teenager":(age2<55)?"Adult":"Senior";
+
         }else{
+
             ageGroup2="Invalid Entry";
         }
         System.out.println(ageGroup2);

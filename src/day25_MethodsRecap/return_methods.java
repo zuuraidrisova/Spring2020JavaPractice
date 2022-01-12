@@ -9,7 +9,9 @@ public class return_methods {
         if(num1 > num2){
 
             max = num1;
+
         }else{
+
             max = num2;
         }
 
@@ -20,8 +22,11 @@ public class return_methods {
 
 
         if(num1 > num2){
+
             return num1;
+
         }else{
+
             return num2;
         }
     }

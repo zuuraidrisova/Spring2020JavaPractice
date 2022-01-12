@@ -42,12 +42,6 @@ public class throwKeyword {
         }catch (Exception e){
 
         }
-
-
-
     }
-
-
-
 
 }

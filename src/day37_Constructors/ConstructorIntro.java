@@ -12,11 +12,11 @@ public class ConstructorIntro {
                         public, private, default, protected
             Specifiers:==> optional
                        static, abstract, synchronized, final
-            ReturnType: ==> must to create a method
+            ReturnType: ==> is a must to create a method
                        void or any data type
-            MethodName:==>must to create a method
+            MethodName:==>is a must to create a method
                      any name
-            Parameter : ==> can be without parameter
+            Parameter : ==> can be with or without parameter
                      any data type
 
     Constructor > it is a special method:
@@ -27,8 +27,6 @@ public class ConstructorIntro {
             AccessModifier methodName(parameter){
                     statements
                     };
-
-
 
               creating object:
                       reference name                 object
@@ -43,7 +41,6 @@ public class ConstructorIntro {
                 But if you do not create constructor on your own,
                 compiler creates one for you automatically by default
 
-
                 Test obj = new Test();
 
                 methodName MUST be the same with class name
@@ -53,8 +50,6 @@ public class ConstructorIntro {
         execution always depends on object
 
         Constructors are used to initialize object variables
-
-
 
      */
 
@@ -73,8 +68,6 @@ public class ConstructorIntro {
 
         ConstructorIntro obj3 = new ConstructorIntro(10);
 
-
     }
-
 
 }

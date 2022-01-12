@@ -3,6 +3,7 @@ package day22_ArraysLoopsRecap;
 import java.util.Arrays;
 
 public class ArrayDescendingOrder2 {
+
     public static void main(String[] args) {
 
          //array in descending order
@@ -12,6 +13,7 @@ public class ArrayDescendingOrder2 {
         Arrays.sort(arr);
 
         int [] arr2 = new int [arr.length];
+
         int j = 0;
 
         for(int i = arr.length-1; i >= 0; i--){
@@ -23,5 +25,6 @@ public class ArrayDescendingOrder2 {
         }
 
         System.out.println(Arrays.toString(arr2));
+
     }
 }

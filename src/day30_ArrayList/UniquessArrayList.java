@@ -15,7 +15,6 @@ public class UniquessArrayList {
 
          */
 
-
         ArrayList<Integer> list = new ArrayList<Integer>();
 
         list.add(1);
@@ -25,8 +24,6 @@ public class UniquessArrayList {
         list.add(3);
         list.add(4);
         list.add(5);
-
-
 
         for(int i = 0; i < list.size(); i++){
 
@@ -38,11 +35,9 @@ public class UniquessArrayList {
 
                     count++;
 
-
                 }
 
             }
-
 
             if(count == 1){
 
@@ -51,16 +46,6 @@ public class UniquessArrayList {
 
 
         }
-
-
-
-
-
-
-
-
-
-
 
 
     }

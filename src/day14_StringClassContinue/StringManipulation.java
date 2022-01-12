@@ -2,6 +2,7 @@ package day14_StringClassContinue;
 
 public class StringManipulation {
     public static void main(String[]args){
+
         String str = "I like to J learn Java. I like to watch the movie Jumanji";
             int a1 = str.indexOf("J");
         System.out.println(a1);
@@ -21,7 +22,7 @@ public class StringManipulation {
         System.out.println(b1);
 
         String x ="I like Java, Java is fun, Java programming is fun";
-         int d =x.indexOf(", Java")+2;//second J' index num
+         int d =x.indexOf(", Java")+ 2;//second J' index num
         System.out.println(d);
         int d1 =x.indexOf("Java is");//second J' index num
         System.out.println(d1);

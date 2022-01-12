@@ -20,6 +20,7 @@ class testing extends Data{
     //sub             super
 
     // public, protected, default  can be inherited,
+
     public static void main(String[] args) {
 
         System.out.println(testing.publicData);

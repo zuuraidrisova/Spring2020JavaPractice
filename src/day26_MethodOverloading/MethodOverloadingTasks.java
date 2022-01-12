@@ -1,13 +1,13 @@
 package day26_MethodOverloading;
 
 public class MethodOverloadingTasks {
+
     /*
     1. write a method that can return the maximum number from an int array
 	2. write a method that can return the maximum number from a double array
 			NOTE: MUST apply method overloading
-
-
      */
+
     public static void main(String[] args) {
 
         int [] arr = {1826,92971,28812,1028,192};
@@ -22,6 +22,7 @@ public class MethodOverloadingTasks {
 
         System.out.println(max2);
     }
+
     public static int maxNumber(int [] arr){
 
         int max = arr[0];

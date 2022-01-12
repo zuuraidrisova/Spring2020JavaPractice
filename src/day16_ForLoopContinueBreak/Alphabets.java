@@ -7,11 +7,13 @@ public class Alphabets {
         String lowerCase = "";
 
         for (char ch = 'A'; ch <= 'Z'; ch++) {
+
             upperCase += ch;
         }
         System.out.print(upperCase);
 
         for (char ch1 = 'a'; ch1 <= 'z'; ch1++) {
+
             lowerCase+=ch1;
         }
         System.out.print(lowerCase);
@@ -20,6 +22,7 @@ public class Alphabets {
 
         String result ="";
         for(int  i =0; i<= upperCase.length()-1; i++ ){
+
            result += upperCase.charAt(i)+""+lowerCase.charAt(i)+" ";
         }
 

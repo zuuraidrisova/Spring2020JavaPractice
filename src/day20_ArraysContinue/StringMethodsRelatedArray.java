@@ -3,6 +3,7 @@ package day20_ArraysContinue;
 import java.util.Arrays;
 
 public class StringMethodsRelatedArray {
+
     public static void main(String[] args) {
 
         String name = "Zuura Idrisova";
@@ -10,7 +11,6 @@ public class StringMethodsRelatedArray {
         char [] characters = name.toCharArray();//will return ech char of my name
 
         System.out.println(Arrays.toString(characters));
-
 
         String str = "Cybertek School".toLowerCase();//we can ignore case sensitivity like that
         String str2 = "School Cybertek".toUpperCase();
@@ -25,15 +25,6 @@ public class StringMethodsRelatedArray {
         boolean b = Arrays.equals(ch,ch1);//now compares two arrays
 
         System.out.println(b);//returns true bcs they have same length and index  values
-
-
-
-
-
-
-
-
-
 
 
 

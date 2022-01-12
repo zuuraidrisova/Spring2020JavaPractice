@@ -31,7 +31,6 @@ public class removeMethod {
 
         System.out.println("==============");
 
-
         list.add(6);
         list.add(9);
 
@@ -63,25 +62,13 @@ public class removeMethod {
 
         Integer c = 10;
 
-       boolean d =   list2.remove(c);
+        boolean d =   list2.remove(c);
 
         System.out.println(list2);
 
         System.out.println(d);
 
         //removes(object) --> removes the object and can return boolean
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

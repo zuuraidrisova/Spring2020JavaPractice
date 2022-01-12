@@ -21,9 +21,6 @@ public class Bulk_retainAll {
         System.out.println(list);
 
 
-
-
-
     }
 
 

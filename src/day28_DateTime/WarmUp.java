@@ -11,6 +11,7 @@ public class WarmUp {
     2. create Array of localdates and store thier birthdays in the same order
     3. use for loop to print out your friends' names and thier birthdays
      */
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -20,6 +21,7 @@ public class WarmUp {
         for(int i = 0; i < 3; i++){
 
             System.out.println("Enter your friend's name : "+(i+1));
+
             friends[i] = scan.next();
         }
 

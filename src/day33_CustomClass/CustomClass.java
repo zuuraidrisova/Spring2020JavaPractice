@@ -13,9 +13,7 @@ public class CustomClass {
 
             String class is built in Java class
 
-
             // we can create our own classes :
-
 
             car class:
 
@@ -25,7 +23,7 @@ public class CustomClass {
                  actions/functions :
                                 drive(), stop(), etc...
 
-        objects : comes from class...we can create multiple objects from class
+        objects : come from class...we can create multiple objects from class
 
                   new --> keyword to create an object
 
@@ -34,7 +32,6 @@ public class CustomClass {
 
             Car car1 = new Car();
 
-
            Instance variables ==> part of objects, object variables
                                   declared outside the blocks or methods,
                                   can be used outside
@@ -42,21 +39,13 @@ public class CustomClass {
                                   each object has its own copy
 
            Local variables ==> variables that are declared within a block
-                                have to initialize
+                                have to be initialized right away
 
 
         Instance methods: object methods
                           does not have static
 
-
-
-
-
-
-
          */
-
-
 
     }
 }

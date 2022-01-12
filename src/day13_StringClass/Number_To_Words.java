@@ -11,7 +11,9 @@ public class Number_To_Words {
 
         System.out.println("Enter a number between 0~9: ");
         int number = scan.nextByte();
+
         String words =" ";
+
         switch(number){
             case 0:
                 words = "zero";

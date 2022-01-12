@@ -1,6 +1,7 @@
 package day43_MethodOverriding;
 
 public class Square extends Shape {
+
     /*
      create sub classes of Shape:
                 Circle
@@ -16,6 +17,7 @@ public class Square extends Shape {
 
         this.side = side;
     }
+
     //Formula to identify the Area of the square:    side * side
     @Override
     public void calculateArea(){
@@ -23,6 +25,7 @@ public class Square extends Shape {
         area = side * side;
         System.out.println("Area of the Square: "+area);
     }
+
     //Formula to identify the Perimeter of Square: 4 * side
     @Override
     public void calculatePerimeter(){

@@ -42,7 +42,6 @@ public class Item {
 
 }
 
-
 /*
 	create a class called ShoppingList
 			create 5 objects of Item and store them into List of Items
@@ -59,7 +58,6 @@ class ShoppingList{
         Item object4 = new Item("blueberries", 5.7, 3);
         Item object5 = new Item("salmon", 32,3);
 
-
         ArrayList<Item> shoppingList = new ArrayList<>();
 
         shoppingList.addAll(Arrays.asList(object1,object2,object3,object4, object5));
@@ -72,12 +70,12 @@ class ShoppingList{
         System.out.println("============================================");
 
         int total = 0;
+
         for(Item each : shoppingList){
 
             total += each.calcCost();
 
         }
-
 
         System.out.println(total);
 

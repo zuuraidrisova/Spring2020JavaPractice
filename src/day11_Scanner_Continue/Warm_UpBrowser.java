@@ -7,8 +7,11 @@ package day11_Scanner_Continue;
  Note: Do Not use scanner or if statement or ternary for this task
  */
 public class Warm_UpBrowser {
+
     public static void main(String[] args) {
+
         String browserName = "fastestBrowser";//Firefox. firefox
+
         switch(browserName){
             case "chrome":
             case "Chrome":

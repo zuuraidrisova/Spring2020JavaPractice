@@ -4,12 +4,10 @@ import java.util.*;
 
 import static day37_Constructors.Data.staticVariable;
 import static day37_Constructors.Data.staticMethod;
-import static day37_Constructors.Data.*;
-
 
 public class importStatement {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         int [] arr = {4,3,2,1};
 
@@ -21,8 +19,6 @@ public class importStatement {
 
         staticMethod();//bcs we already imported it is not necessary to call thru the class name
 
-
-
         /*
 
         Reqular imports:
@@ -30,8 +26,6 @@ public class importStatement {
                  import packageName.className; --> imports a particular class
 
                  import packageName.*;--> imports all classes even thou unnecessary
-
-
 
         Static imports:
 
@@ -43,7 +37,6 @@ public class importStatement {
             import static packageName.className.*;--> imports all static variables and methods
 
          */
-
 
     }
 }

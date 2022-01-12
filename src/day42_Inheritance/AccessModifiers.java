@@ -45,10 +45,5 @@ public class AccessModifiers {
         2.if parent class constructor is default , it is called by default
         3. if parent class constructor is not default, it is called bu super() keyword
 
-
-
-
-
-
      */
 }

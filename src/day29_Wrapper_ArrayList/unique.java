@@ -7,8 +7,6 @@ public class unique {
 
         String [] arr = {"Zuura", "Sary", "Sary"};
 
-
-
         for(int i = 0; i < arr.length; i++){
 
             int count = 0;

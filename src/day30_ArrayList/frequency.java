@@ -12,7 +12,6 @@ public class frequency {
 
         int count = 0;
 
-
         for(int i = 0; i < str.length; i++){
 
             if(str[i] == str1){
@@ -24,7 +23,6 @@ public class frequency {
         }
 
         System.out.println(count);
-
 
         String a = "asan alina sary sary zuura";
 
@@ -41,12 +39,6 @@ public class frequency {
 
 
         System.out.println(count1);
-
-
-
-
-
-
 
     }
 }

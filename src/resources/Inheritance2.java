@@ -6,12 +6,11 @@ public class Inheritance2 extends AccessModifiers2 {
             // subclass                 superclass
 
     /*
-
     only public and protected can be inherited
 
     default cannot be inherited because it is only visible within the same package
-
      */
+
     public static void main(String[] args) {
 
         System.out.println(Inheritance2.publicVar);

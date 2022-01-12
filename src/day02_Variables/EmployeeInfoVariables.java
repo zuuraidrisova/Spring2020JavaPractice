@@ -3,10 +3,10 @@ package day02_Variables;
 public class EmployeeInfoVariables {
     public static void main(String [] args){
 
-        String EmployeeName = "Zuura Idrisova";
-        String CompanyName = "Oracle";
-        int  EmployeeID = 9;
-        String JobTitle = "SDET";
+        String employeeName = "Zuura Idrisova";
+        String companyName = "Oracle";
+        int  employeeID = 9;
+        String jobTitle = "SDET";
         double salary = 100000.5;
         long SSN = 12345678;
         /*System.out.println("Employee name is: "+ EmployeeName);
@@ -17,7 +17,7 @@ public class EmployeeInfoVariables {
         System.out.println("SSN is: "+ SSN);
 
          */
-        System.out.println("\nEmployee name is: "+ EmployeeName + "\nCompany name is: "+ CompanyName + "\nEmployee ID is: " + EmployeeID + "\nJob title is: "+ JobTitle + "\nSalary is: "+ salary + "\nSSN is: "+ SSN);
+        System.out.println("\nEmployee name is: "+ employeeName + "\nCompany name is: "+ companyName + "\nEmployee ID is: " + employeeID + "\nJob title is: "+ jobTitle + "\nSalary is: "+ salary + "\nSSN is: "+ SSN);
 
         System.out.println("===========================");
         String FirstName = "Zeynep";

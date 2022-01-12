@@ -15,6 +15,7 @@ public class FrequencyOfChar {
     public static void main(String[] args) {
 
         String str = "AABBCC";
+
         String result = "";//expected result A2B2C2
 
         String noDup =  Library.removeDuplicates(str);

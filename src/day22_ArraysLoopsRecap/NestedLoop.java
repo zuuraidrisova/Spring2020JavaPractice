@@ -1,6 +1,7 @@
 package day22_ArraysLoopsRecap;
 
 public class NestedLoop {
+
     public static void main(String[] args) {
 
         char [][] arr2D = { { 'A','B'  }, { 'C','D', 'E'  } ,{'F','G','H','J'  }  };

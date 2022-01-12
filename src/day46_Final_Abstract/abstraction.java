@@ -33,14 +33,17 @@ ex1:
     BMW: start() push to start
 
     Toyota: start() insert the key
+
 ex2:
     Shape: ==> generic class
         area(); ==> marked abstract, without body
 
     Triangle:
         area(); ==> base * height * 1/2
+
     Circle:
         area(); ==> radius * radius *pi;
+
     Square:
         area(); ==> side * side
 
@@ -55,7 +58,6 @@ ex2:
 
  Can we declare abstract method as static?
 No, We can't use static keyword with abstract method.
-
 
      */
 }

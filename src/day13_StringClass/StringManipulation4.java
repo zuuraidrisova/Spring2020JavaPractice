@@ -1,6 +1,7 @@
 package day13_StringClass;
 
 public class StringManipulation4 {
+
     public static void main(String []args){
 
         String str = "Cybertek School is the best school";
@@ -10,7 +11,8 @@ public class StringManipulation4 {
 
         String fullName = "Kuzzat Altay";
         String firstName = fullName.substring(0,fullName.indexOf(" "));
-        String lastName = fullName.substring(fullName.indexOf(" ")+1, fullName.length());
+        String lastName = fullName.substring(fullName.indexOf(" ")+1);
+
         System.out.println(fullName);
         System.out.println(firstName);
         System.out.println(lastName);

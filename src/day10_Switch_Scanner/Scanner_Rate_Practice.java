@@ -9,10 +9,13 @@ write a program for the rate calculater: rateCalculator
                         3. print the hourly rate
  */
         Scanner rate = new Scanner(System.in);
+
         System.out.println("Enter your salary: ");
         int salary = rate.nextInt();
+
         System.out.println("Enter hours you work weekly: ");
         byte hours = rate.nextByte();
+
         System.out.println("Enter weeks you work annually: ");
         byte numberOfWeeks = rate.nextByte();
 

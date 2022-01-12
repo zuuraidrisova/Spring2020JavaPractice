@@ -14,8 +14,6 @@ public class ArrayListMethods {
 
           size() : same as length in array,  returns length or size of ArrayList as an int
 
-
-
          */
 
         ArrayList<Integer> scores = new ArrayList<Integer>();//now it is 0 size
@@ -42,16 +40,6 @@ public class ArrayListMethods {
         int size = scores.size();
 
         System.out.println(size);
-
-
-
-
-
-
-
-
-
-
 
 
     }

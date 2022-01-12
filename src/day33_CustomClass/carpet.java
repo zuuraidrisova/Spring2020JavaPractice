@@ -23,7 +23,6 @@ public class carpet {
     double cost;
 
 
-
     public void customerOrder(double wide, double len, double price, boolean persian ){
 
         width = wide;
@@ -55,7 +54,5 @@ public class carpet {
      return result;
 
     }
-
-
 
 }

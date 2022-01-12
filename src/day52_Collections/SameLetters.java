@@ -35,6 +35,7 @@ public class SameLetters {
     public static boolean sameCharacters(String str1, String str2){
 
         TreeSet<String> same = new TreeSet<>(Arrays.asList(str1.split("")));
+
         TreeSet<String> same2 = new TreeSet<>(Arrays.asList(str2.split("")));
 
         str1 = "";
@@ -54,6 +55,7 @@ public class SameLetters {
         }
 
         return str1.equals(str2);
+
     }
 
     public static boolean sameLetters(String str1, String str2){
@@ -68,6 +70,7 @@ public class SameLetters {
         str2 = t2.toString();
 
         return str1.equals(str2);
+
     }
 
     public static boolean sameLetters2(String str1, String str2){
@@ -78,4 +81,5 @@ public class SameLetters {
         return str1.equals(str2);
 
     }
+
 }

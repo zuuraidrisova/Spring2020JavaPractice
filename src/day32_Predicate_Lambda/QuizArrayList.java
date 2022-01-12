@@ -44,7 +44,6 @@ public class QuizArrayList {
 
         System.out.println(result);//false, bcs we dont have D in list
 
-
         System.out.println("====================");
 
         ArrayList<Integer> nums = new ArrayList<>();
@@ -61,7 +60,6 @@ public class QuizArrayList {
             System.out.println(each);
             break;//after printing fist even number it exits the loop
         }
-
 
     }
 }

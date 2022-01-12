@@ -20,8 +20,5 @@ public class shapeObjects {
 
         obj4.area();
 
-
-
-
     }
 }

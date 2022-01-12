@@ -43,9 +43,5 @@ public class GarbageCollector {
                                 //for garbage collection, Garbage collection will call
                                 // finalize methods to do the cleaning up
 
-
-
-
-
     }
 }

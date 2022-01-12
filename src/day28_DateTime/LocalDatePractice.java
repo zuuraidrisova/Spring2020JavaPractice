@@ -11,7 +11,6 @@ public class LocalDatePractice {
 	3. use for loop to print out your friends' names and thier birthdays
  */
 
-
         String [] friends = {"Chopa","Shirin", "Jiyde"};
 
         LocalDate ChopaBday = LocalDate.of(1990,12,8);
@@ -28,5 +27,6 @@ public class LocalDatePractice {
             System.out.println(names);
             System.out.println(dates);
         }
+
     }
 }

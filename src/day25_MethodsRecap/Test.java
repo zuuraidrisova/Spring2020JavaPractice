@@ -3,6 +3,7 @@ package day25_MethodsRecap;
 import resources.Library;
 
 public class Test {
+
     public static void main(String[] args) {
 
         String str = "AAABBB";
@@ -17,8 +18,7 @@ public class Test {
 
         System.out.println(count);
 
-
-       String str3 =  Library.frequencyOfCharacters(str);
+        String str3 =  Library.frequencyOfCharacters(str);
 
         System.out.println(str3);
     }

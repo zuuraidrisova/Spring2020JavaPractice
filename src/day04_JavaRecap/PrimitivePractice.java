@@ -1,7 +1,5 @@
 package day04_JavaRecap;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
-
 public class PrimitivePractice {
 
     public static void main (String []args ){
@@ -11,7 +9,7 @@ public class PrimitivePractice {
         //byte num3 =num2; byte is too short to contain short
 
         int num4 = num2;
-        long num5 = 99999999999l; // int ir preferred by java
+        long num5 = 99999999999l; // int is preferred by java
         float num6 = 100l;
 
         System.out.println(num6);

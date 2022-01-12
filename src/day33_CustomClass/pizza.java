@@ -30,15 +30,12 @@ public class pizza {
         numberOfCheese = cheese;
         numberOfPepperoni = pepperoni;
 
-
     }
 
     public double calculateCost(){
 
 
-
         if(size.equals("small")){
-
 
          return    cost = 10 + (numberOfPepperoni * 1.50) + (numberOfCheese * 1);
 
@@ -67,6 +64,5 @@ public class pizza {
 
 
     }
-
 
 }

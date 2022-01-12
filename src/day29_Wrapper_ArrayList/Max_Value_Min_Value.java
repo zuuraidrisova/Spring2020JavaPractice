@@ -4,8 +4,7 @@ public class Max_Value_Min_Value {
 
     public static void main(String[] args) {
 
-
-       int maxNum = Integer.MAX_VALUE; //return max value of int and return it
+        int maxNum = Integer.MAX_VALUE; //return max value of int and return it
 
         System.out.println(maxNum);
 
@@ -30,10 +29,6 @@ public class Max_Value_Min_Value {
         float minNum3 = Float.MIN_VALUE;//returns min value of float
 
         System.out.println(minNum3);
-
-
-
-
 
     }
 }

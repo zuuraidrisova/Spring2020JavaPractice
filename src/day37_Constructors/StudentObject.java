@@ -14,7 +14,5 @@ public class StudentObject {
 
         System.out.println(student2);
 
-
-
     }
 }

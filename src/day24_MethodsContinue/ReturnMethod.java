@@ -22,7 +22,6 @@ public class ReturnMethod {
 
 
 
-
     public static void main(String[] args) {
 
      //  maxNumber(10,20);

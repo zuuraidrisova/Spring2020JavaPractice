@@ -42,14 +42,9 @@ public class SumOfDigits {
                  sum += num;
 
                }
-
        }
 
         System.out.println(sum);
-
-
-
-
 
     }
 }

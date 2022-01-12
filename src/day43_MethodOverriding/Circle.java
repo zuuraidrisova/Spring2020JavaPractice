@@ -1,6 +1,7 @@
 package day43_MethodOverriding;
 
 public class Circle extends Shape {
+
     /*
      create sub classes of Shape:
                 Circle
@@ -9,6 +10,7 @@ public class Circle extends Shape {
      give the instance variables that are needed to calculate the Area,
       perimeter, of those shapes
      */
+
     public double radius;
     public static double pi = 3.14;//number PI is  global, so we declare it as static
 
@@ -21,6 +23,7 @@ public class Circle extends Shape {
         this.radius = radius;
 
     }
+
     // formula to identify  Area of the circle:    3.14 * radius * radius
     @Override
     public void calculateArea(){
@@ -29,6 +32,7 @@ public class Circle extends Shape {
         System.out.println("Area of the Circle: "+area);
 
     }
+
     //formula to identify  Perimeter of circle:   3.14 * 2 * radius
     @Override
     public void calculatePerimeter(){
@@ -37,8 +41,5 @@ public class Circle extends Shape {
 
         System.out.println("Perimeter of the Circle: "+perimeter);
     }
-
-
-
 
 }

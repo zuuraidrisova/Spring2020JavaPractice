@@ -12,12 +12,12 @@ public class throwsKeyword {
 
         but, when we want to use that method we need to handle it every single time
 
-        the caller method is resposible again to handle exception
+        the caller method is responsible again to handle exception
+
          by using throws keyword
      */
 
     public static void sleep() throws Exception{
-
 
         Thread.sleep(3000);
        /*
@@ -27,9 +27,7 @@ public class throwsKeyword {
 
         }catch (Exception e){
 
-
         }
-
         */
     }
 
@@ -40,7 +38,6 @@ public class throwsKeyword {
             Thread.sleep(3000);
 
         }catch (Exception e){
-
 
         }
 

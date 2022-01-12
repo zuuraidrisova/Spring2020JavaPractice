@@ -1,9 +1,11 @@
 package day49_Ploymorphism_Intro;
+
 /*
     1. create an interface named downloadable:
             variable: boolean downloadable
             abstract method: download();
  */
+
 interface Downloadable {
 
    public static final  boolean downloadable = true;
@@ -35,6 +37,7 @@ interface AppleApps extends Downloadable{
 
     String appStoreName = "Apple Store";//public static and final by default
     // when final we have to initialize right away
+
 }
 /*
     3. create an abstract class named Phone
@@ -80,6 +83,7 @@ public abstract class Phone{
         this.price = price;
         this.size = size;
     }
+
     @Override
     public void download() {
 

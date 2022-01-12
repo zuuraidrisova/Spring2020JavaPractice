@@ -36,6 +36,7 @@ public class MethodOverriding extends Test {
         Static methods and constructors cannot be overridden!!!
 
         because Static has only one copy
+
         because constructor should have exactly same name with class, cannot be inherited
 
         ONLY INSTANCE METHOD CAN BE OVERRIDDEN, only inherited methods can be overridden

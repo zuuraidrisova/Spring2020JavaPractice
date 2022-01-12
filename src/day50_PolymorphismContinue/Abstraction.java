@@ -14,8 +14,8 @@ interface I{
 
     public abstract void method2();//public and abstract are given by default
 
-
 }
+
 public class Abstraction extends A implements I {
 
         @Override

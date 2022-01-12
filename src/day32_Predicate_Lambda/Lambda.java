@@ -19,15 +19,13 @@ public class Lambda {
         Predicate<Integer> oddNumber = p -> p % 2 != 0;
        //        data type  name      number -> condition
 
-
-
         ArrayList<Integer> list = new ArrayList<>();
 
         list.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
 
         Predicate<Integer> odd = number -> number % 2 != 0;
 
-       list.removeIf(odd);
+        list.removeIf(odd);
 
         System.out.println(list);
 
@@ -44,7 +42,6 @@ public class Lambda {
         System.out.println(list2);
 
         System.out.println("=====================");
-
 
         ArrayList<Integer>list3 = new ArrayList<>();
 
@@ -116,16 +113,6 @@ public class Lambda {
         num.removeIf(k -> k > 5);//we can pass lambda in to method too
 
         System.out.println(num);
-
-
-
-
-
-
-
-
-
-
 
 
     }

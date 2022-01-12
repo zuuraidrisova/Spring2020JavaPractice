@@ -43,17 +43,20 @@ final class Cat extends Animal{
         this.catName = catName;
         this.age = age;
         this.gender = gender;
+
     }
 
     public void scratch(){
 
         System.out.println(catName+" is scratching...");
     }
+
     @Override
     public void eat(){
 
         System.out.println(catName+" is eating ");
     }
+
     @Override
     public void sleep(){
 
@@ -69,6 +72,7 @@ final class Cat extends Animal{
 
         System.out.println("Cat class static method overloaded");
     }
+
 }
 final class Dog extends  Animal{
 
@@ -86,11 +90,13 @@ final class Dog extends  Animal{
 
         System.out.println(dogName+" is barking...");
     }
+
     @Override
     public void eat(){
 
         System.out.println(dogName+" is eating");
     }
+
     @Override
     public void sleep(){
 
@@ -106,6 +112,7 @@ final class Dog extends  Animal{
 
         System.out.println("Dog class static method overloaded");
     }
+
 }
 
 class AnimalObjects{
@@ -136,12 +143,6 @@ class AnimalObjects{
         boolean a = d1 instanceof Animal;//
 
         System.out.println(a);
-
-
-
-
-
-
 
     }
 }

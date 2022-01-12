@@ -2,6 +2,7 @@ package day15_For_Loop;
 import java.util.Scanner;
 public class ReverseLetters_Warmup {
     public static void main(String[] args) {
+
         /*
          write a program that can reverse the following string:
 				String str = "Java";
@@ -10,8 +11,10 @@ public class ReverseLetters_Warmup {
 						first solution, you MUST use substring method
 						second solution, you MUST use charAt method
          */
+
         String str ="Java";
         System.out.println(str);
+
         str  = str.substring(3)+str.substring(2,3)+str.substring(1,2)+str.substring(0,1);
         System.out.println(str);
 

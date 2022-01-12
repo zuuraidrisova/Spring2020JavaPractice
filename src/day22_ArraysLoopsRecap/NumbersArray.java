@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class NumbersArray {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -62,6 +63,7 @@ public class NumbersArray {
         System.out.println(Arrays.toString(arr2));
 
         for(String each : arr2){
+
             System.out.println(each.substring(0,3));
         }
 

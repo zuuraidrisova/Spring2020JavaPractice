@@ -7,7 +7,6 @@ public class Inheritance {
     int defaultVariable = 200;
     private int privateVariable = 400;
 
-
 }
 
 class Data extends Inheritance {

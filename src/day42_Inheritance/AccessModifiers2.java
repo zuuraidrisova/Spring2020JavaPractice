@@ -28,5 +28,4 @@ public class AccessModifiers2 {
         System.out.println("private method");
     }
 
-
 }

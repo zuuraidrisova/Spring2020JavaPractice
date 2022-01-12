@@ -3,11 +3,12 @@ package day27_DateTime;
 public class Uniques1 {
 
     //unique values from an array
+
     public static void main(String[] args) {
 
         String [] names = {"Zuura", "Sary", "Sary", "Asan","Asan"};
 
-       String unique =  unique(names);
+        String unique =  unique(names);
 
         System.out.println(unique);
 

@@ -1,6 +1,7 @@
 package day39_AccessModifiers;
 
 public class Employee {
+
     /*
      create a class called Employee:
 				instance variables:
@@ -14,6 +15,7 @@ public class Employee {
 							(apply constructor call to initialize the name, jobTitle, ID)
 				add toString method
      */
+
     String name;
     String jobTitle;
     long id;
@@ -24,35 +26,42 @@ public class Employee {
     public Employee(String name){
 
         this.name = name;
+
     }
     public Employee(String name, String jobTitle){
 
         this(name);
         this.jobTitle = jobTitle;
+
     }
     public Employee(String name, String jobTitle, long id){
 
         this(name, jobTitle);
         this.id = id;
 
+
     }
     public Employee(String name, String jobTitle, long id, double salary){
 
         this(name, jobTitle, id);
         this.salary = salary;
+
     }
     public Employee(String name, String jobTitle, long id, double salary, char gender){
 
         this(name, jobTitle, id, salary);
         this.gender = gender;
+
     }
 
     public String toString(){
 
         return "Name: "+name+", Gender: "+gender+", JobTitle: "+jobTitle
                 +", Company name: "+companyName+", ID: "+id+", Salary: "+salary;
+
     }
 }
+
 class EmployeeObject{
 
     public static void main(String[] args) {
@@ -74,5 +83,6 @@ class EmployeeObject{
 
             System.out.println(each.id);
         }
+
     }
 }

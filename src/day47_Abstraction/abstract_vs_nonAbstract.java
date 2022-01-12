@@ -9,22 +9,23 @@ class RegularClass{
 
     static int b = 20;
 
-
-
     public RegularClass(){
 
         System.out.println("default constructor in a non-Abstract class");
     }
+
 
     public void instanceMethod(){
 
         System.out.println("this is an instance method in non-Abstract class");
     }
 
+
     public static void staticMethod(){
 
         System.out.println("this is static method in non-Abstract class");
     }
+
     {
         System.out.println("instance block in a non-abstract class");
     }
@@ -33,7 +34,6 @@ class RegularClass{
 
         System.out.println("static block in a non- abstract class");
     }
-
 
 }
 
@@ -50,15 +50,18 @@ abstract class AbstractClass{
 
         System.out.println("constructor in an abstract class");
     }
+
     public void instanceMethod(){
 
         System.out.println("instance method in an abstract class");
     }
 
+
     public static void staticMethod(){
 
         System.out.println("static method in an abstract class");
     }
+
     public abstract void abstractMethod();//==> abstract method
 
     {
@@ -69,7 +72,6 @@ abstract class AbstractClass{
 
         System.out.println("static block in an abstract class");
     }
-
 
 }
 
@@ -86,8 +88,6 @@ public class abstract_vs_nonAbstract {
 
        // AbstractClass obj2 = new AbstractClass();
         // will give compiler error because it is an abstract class
-
-
 
     }
 }

@@ -39,7 +39,6 @@ public class dogObjects {
 
         System.out.println("======================");
 
-
         ArrayList<Dog> listDogs = new ArrayList<>();
 
         listDogs.addAll(Arrays.asList(dogs));
@@ -66,7 +65,6 @@ public class dogObjects {
             System.out.println(each);
         }
 
-
         System.out.println("======================");
 
         Predicate<Dog> age3 = a -> a.age == 3;
@@ -84,26 +82,6 @@ public class dogObjects {
         dogs[2].drink("water");
 
         System.out.println("======================");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

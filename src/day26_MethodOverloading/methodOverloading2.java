@@ -6,14 +6,11 @@ public class methodOverloading2 {
 
     public static void main(String[] args) {
 
-
         sumOfTwo(10,20);
-
 
         System.out.println("===================================");
 
-
-       int total =  sum(10,20,30);
+        int total =  sum(10,20,30);
         System.out.println(total);
 
 

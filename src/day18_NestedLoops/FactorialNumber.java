@@ -14,7 +14,9 @@ write a program that can return the factorial number of any given number
 
 
         Scanner scan =new Scanner(System.in);
+
         System.out.println("Enter a number:");
+
         int num = scan.nextInt();//5
 
         int result = 1;//

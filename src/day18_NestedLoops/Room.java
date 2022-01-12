@@ -26,24 +26,35 @@ public class Room {
         int price = 0;
 
         System.out.println("Welcome to Sheraton!");
+
         while(true){
+
             System.out.println("Which room would you like to reserve: " +
                     "with king bed, queen bed or single bed?");
+
             String answer = scan.nextLine();
 
             while(!(answer.equalsIgnoreCase("King bed")
+
                     || answer.equalsIgnoreCase("Queen bed") ||
+
             answer.equalsIgnoreCase("Single bed"))){
+
                 System.out.println("Please re - enter your answer?!");
                 answer = scan.nextLine();
 
             }
 
             if(answer.equalsIgnoreCase("King bed")){
+
                 price += 120;
+
             }else if(answer.equalsIgnoreCase("Queen bed")){
+
                 price += 100;
+
             }else if(answer.equalsIgnoreCase("Single bed")){
+
                 price += 80;
             }
 
@@ -60,11 +71,14 @@ public class Room {
                 reply = scan.next();
 
             }
+
             if(reply.equalsIgnoreCase("Yes")){
+
                 answer = scan.nextLine();
             }
 
             if(reply.equalsIgnoreCase("No")){
+
                 System.out.println("Thank you for staying with us!");
                 System.out.println("Your total is "+ price +" $");
                 break;
@@ -73,19 +87,6 @@ public class Room {
 
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

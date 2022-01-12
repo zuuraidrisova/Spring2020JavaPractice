@@ -29,10 +29,9 @@ public class Practice2 {
         try {
 
             Thread.sleep((long)(seconds * 1000));
-            //sleep thread accepts only long so we cats it explicitly
+            //sleep thread accepts only long so we cast it explicitly
 
         }catch (Exception e){
-
 
         }
 

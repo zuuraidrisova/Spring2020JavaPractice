@@ -9,7 +9,9 @@ public class Data2 extends AccessModifiers2 {
        // all  variables can be called thru class name because they are static
 
         System.out.println(Data2.publicVar);
+
         System.out.println(Data2.protectedVar);
+
         System.out.println(Data2.defaultVar);
 
        // System.out.println(Data2.privateVar); ==> private can never be inherited

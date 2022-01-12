@@ -5,7 +5,7 @@ public class CarObjects {
     public static void main(String[] args) {
 
 
-     Car car1 =  new Car();
+        Car car1 =  new Car();
         //Car ==> is reference to the class
         // car1 ==> is variable name
         // new ==> keyword to allocate memory to just created object
@@ -15,7 +15,6 @@ public class CarObjects {
         System.out.println(car1.brand);// null now, because we have not initialized yet
         //instance variables == object variable...u can call them thru object name
         System.out.println(car1.model);// null still, no data there yet
-
 
         //we can  assign all like below:
 
@@ -83,7 +82,6 @@ public class CarObjects {
 
        Car [] cars = {car1,car2,car3};
        //              0    1    2
-
        cars[0].getInfo();
 
        System.out.println("==============================");
@@ -93,28 +91,6 @@ public class CarObjects {
        System.out.println("==============================");
 
        cars[2].getInfo();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

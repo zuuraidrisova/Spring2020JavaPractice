@@ -29,4 +29,5 @@ public class constructorPractice {
         constructorPractice obj = new constructorPractice(1);
 
     }
+
 }

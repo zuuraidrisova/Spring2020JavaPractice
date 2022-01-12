@@ -50,7 +50,6 @@ class Dog{
     }
 
 
-
 }
 
 class DogObjects{
@@ -89,12 +88,6 @@ class DogObjects{
 
        // Dog dog4 = new Dog(5,"Husky");
         // we do not have constructor with this order of prmrts, so error
-
-
-
-
-
-
 
     }
 }

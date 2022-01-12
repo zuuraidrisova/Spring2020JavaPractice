@@ -1,6 +1,7 @@
 package day19_Arrays;
 
 public class Frequency {
+
     public static void main(String[] args) {
         /*
         write a program that can return the frequency of the characters in a string
@@ -23,13 +24,14 @@ public class Frequency {
             }
 
         }
+
         System.out.println(noDuplicates);
 
         //noDuplicates = "ABC"; str = "AABCC"; ==> result ==> "A2B1C2";
 
         for(int j = 0; j <= noDuplicates.length()-1; j++) {
 
-            noDuplicates.charAt(j);
+            //noDuplicates.charAt(j);
 
             int count = 0;//count frequency of the characters in a  string
 
@@ -43,7 +45,9 @@ public class Frequency {
             result += "" + noDuplicates.charAt(j) + count;
         }
 
-
         System.out.println(result);
+
+
+
     }
 }

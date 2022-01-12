@@ -10,16 +10,21 @@ public class WarmUp {
          */
         Scanner scan =  new Scanner(System.in);
         System.out.println("Enter first number: ");
+
         int num1 = scan.nextInt();
         System.out.println("Enter second number:");
+
         int num2 = scan.nextInt();
         System.out.println("Enter a math operator: ");
+
         String operator = scan.next();
 
         int count = 0;
 
         while (num1 >= num2){
+
             num1 -= num2;
+
             count++;
         }
 

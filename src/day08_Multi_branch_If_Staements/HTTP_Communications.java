@@ -1,8 +1,10 @@
 package day08_Multi_branch_If_Staements;
 
 public class HTTP_Communications {
+
     public static void main(String []args){
         int StatusCode =0;
+
         if(StatusCode==200){
             System.out.println("Ok");
         }else if(StatusCode==201){

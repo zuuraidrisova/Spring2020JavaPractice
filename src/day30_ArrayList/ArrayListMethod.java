@@ -21,8 +21,6 @@ public class ArrayListMethod {
 
         //list.add(10, 7); out of bound bcs our max index is 3
 
-
-
         //set(index) :  replaces object at given index
 
         list.set(3, 7);//element at index 3 we want to change with 7
@@ -39,26 +37,10 @@ public class ArrayListMethod {
 
         System.out.println(list2);//Bbc when you insert it pushes the rest to next index
 
-
         list2.set(3,"F");//now we are replacing element at index 3 with new F
         //A D C F
 
         System.out.println(list2);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

@@ -5,6 +5,7 @@ creating an object:
         new Person(existing constructor);
 
  */
+
 public class Person {
 
     String name;
@@ -21,6 +22,7 @@ public class Person {
 
         return SSN;
     }
+
     public void setSSN(long SSN){
 
         this.SSN = SSN;
@@ -36,13 +38,11 @@ public class Person {
         this.ID = ID;
     }
 
-
     public void setSSNAndID( long SSN, int ID){
        //it is possible to set both at once, but one by one is preferred
         setSSN(SSN);
         setID(ID);
     }
-
 
 }
 
@@ -50,7 +50,7 @@ class PersonObject{
 
     public static void main(String[] args) {
 
-       Person person1 = new Person("Zuura");
+        Person person1 = new Person("Zuura");
 
         System.out.println(person1.name);
 
@@ -71,6 +71,8 @@ class PersonObject{
         person2.setSSNAndID(8296411, 90134);
 
         System.out.println(person2.name+"'s SSN: "+ person2.getSSN()
+
                 +" and ID: "+person2.getID());
+
     }
 }

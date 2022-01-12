@@ -2,7 +2,6 @@ package day35_StaticKeyword;
 
 public class static_variables2 {
 
-
     int insVar;// every single object has its own copy
 
     static int staticVar;//there is only one copy shared  by all objects..
@@ -20,7 +19,6 @@ public class static_variables2 {
 
         static_variables2 obj2 = new static_variables2();
 
-
         System.out.println(obj1.insVar); // 300, sharing different value
         System.out.println(obj2.insVar); // 0, sharing different value
 
@@ -33,26 +31,7 @@ public class static_variables2 {
         // but cannot be called thru the class name
 
 
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
 
 
 }

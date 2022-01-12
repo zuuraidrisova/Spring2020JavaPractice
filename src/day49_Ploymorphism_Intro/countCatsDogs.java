@@ -36,11 +36,11 @@ public class countCatsDogs {
         if(countCats == countDogs){
 
             System.out.println("number of cats and dogs are equal");
+
         }else{
 
             System.out.println("number of cats and dogs are not equal");
         }
-
 
        char firstChar =  word.charAt(0);
        char lastChar =  word.charAt(word.length()-1);

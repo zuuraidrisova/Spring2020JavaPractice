@@ -8,7 +8,7 @@ public class sliceNumbers {
 
         Scanner scan = new Scanner(System.in);
 
-        int num =27632;
+        int num = 27632;
 
         int digit5 = num % 10; //2
         num = num / 10;
@@ -17,10 +17,10 @@ public class sliceNumbers {
         num = num / 10;
 
         int digit3 = num % 10;//6
-        num = num /10;
+        num = num / 10;
 
         int digit2 = num % 10;//7
-        num = num /10;
+        num = num / 10;
 
         int digit1 = num % 10;//2
 
@@ -42,12 +42,6 @@ public class sliceNumbers {
 
             System.out.println(result);
         }
-
-
-
-
-
-
 
     }
 }

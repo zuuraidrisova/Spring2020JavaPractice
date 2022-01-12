@@ -1,7 +1,9 @@
 package day12_Scanner_JavaRecap;
 
 public class Switch_Recap {
+
     public static void main(String[] args) {
+
         switch(3){
             case 1:
                 System.out.println("Case 1");
@@ -32,6 +34,7 @@ public class Switch_Recap {
          */
 
         int status =200;
+
         switch(status){
             case 200:
                 System.out.println("Ok");

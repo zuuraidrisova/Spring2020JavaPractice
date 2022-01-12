@@ -37,6 +37,7 @@ class Tester extends Employee{
 
         companyName = "Cybertek";
     }
+
     public Tester(String name, String jobTitle, double salary, long id){
 
         this.name = name;
@@ -44,12 +45,15 @@ class Tester extends Employee{
         this.salary = salary;
         setId(id);
     }
+
     @Override
     public void work(){
 
         System.out.println(name+" is testing the app");
     }
 }
+
+
 class Developer extends Employee{
 
     static{
@@ -57,6 +61,7 @@ class Developer extends Employee{
         companyName = " Cybertek";
 
     }
+
     public Developer(String name, String jobTitle, double salary, long id){
 
         this.name = name;
@@ -64,10 +69,12 @@ class Developer extends Employee{
         this.salary = salary;
         setId(id);
     }
+
     public void work(){
 
         System.out.println(name+" is developing the app");
     }
+
 }
 class ScrumTeam{
 
@@ -105,6 +112,7 @@ class ScrumTeam{
 
             System.out.println(each);
         }
+
         System.out.println("************************************");
 
         scrumTeam.removeIf(employee -> employee.getId() == 90123 );
@@ -115,7 +123,6 @@ class ScrumTeam{
         }
 
         System.out.println("************************************");
-
 
     }
 }

@@ -9,11 +9,9 @@ public class Combine2ArrayLists {
 
         //combining two arraylists into 1 arraylist
 
-
         ArrayList<Integer> list = new ArrayList<Integer>();
 
         list.add(1);list.add(2); list.add(4);list.add(5);
-
 
         System.out.println("this is list 1 "+list);
 
@@ -38,8 +36,6 @@ public class Combine2ArrayLists {
         }
 
         System.out.println("this is combined list of previous two "+combined);
-
-
 
 
     }

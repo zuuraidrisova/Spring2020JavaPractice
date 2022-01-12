@@ -2,8 +2,11 @@ package day10_Switch_Scanner;
 
 public class Switch_Practice2 {
     public static void main(String[]args){
+
         char ch ='D';
+
         switch (ch){
+
             case 'A':
                 System.out.println("this is "+ 'A');
                 break;

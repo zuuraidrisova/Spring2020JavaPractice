@@ -48,14 +48,12 @@ create a class called Bank Of America:
 
         double total = 0;
 
-
         for(int i = 0; i < AutomationTeam.size(); i++){
 
             total = AutomationTeam.get(i).calculateBudget(2);
         }
 
         System.out.println(total);
-
 
     }
 }

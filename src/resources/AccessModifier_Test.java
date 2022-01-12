@@ -9,7 +9,7 @@ public class AccessModifier_Test {
 
         AccessModifiers obj = new AccessModifiers();
 
-      //  System.out.println(obj.defaultAccess);
+       //  System.out.println(obj.defaultAccess);
         // cannot be accessed in different package
 
         System.out.println(obj.publicAccess);//visible at everywhere
@@ -28,9 +28,6 @@ public class AccessModifier_Test {
         // Private access modifiers can be accessed with the same class only
        // System.out.println(PersonalInfo.SSN);//private, static
        // System.out.println(PersonalInfo.ID);//private, static
-
-
-
 
 
 

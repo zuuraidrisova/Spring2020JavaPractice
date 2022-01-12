@@ -21,6 +21,7 @@ public class WarmUp_UniquesFromArrayList {
     Hint:   Collections.frequency() // will return the frequency
             removeIf( frequency == 1)  can keep the unique objects in arrayList
      */
+
         ArrayList<Integer> list = new ArrayList<>();
 
         list.addAll(Arrays.asList(1,1,2,3,4,5,5,1));
@@ -33,11 +34,6 @@ public class WarmUp_UniquesFromArrayList {
         list.removeIf(uniques);
 
         System.out.println(list);
-
-
-
-
-
 
     }
 }

@@ -3,6 +3,7 @@ package day46_Final_Abstract;
 public class finalPractice {
 
     final int a = 10;
+
     final static int b = 20;
 
     {
@@ -18,7 +19,6 @@ public class finalPractice {
     }
 
     public finalPractice(){
-
 
     }
 
@@ -41,7 +41,6 @@ class test extends finalPractice{
     @Override
     public void method1(){
 
-
     }
      */
 
@@ -49,11 +48,5 @@ class test extends finalPractice{
         //final can be overloaded
         return 12;
     }
-
-
-
-
-
-
 
 }

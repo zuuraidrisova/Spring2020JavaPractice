@@ -20,8 +20,6 @@ public class Employee {
     double salary;
     char gender;
 
-
-
     public void setEmployeeInfo(String name, long ID, long SSN, String jobTitle, double salary, char gender){
 
        this.name = name;
@@ -30,8 +28,6 @@ public class Employee {
        this.jobTitle = jobTitle;
        this.salary = salary;
        this.gender = gender;
-
-
 
     }
 
@@ -69,9 +65,6 @@ class HumanResources1{
         employee5.setEmployeeInfo("John", 89735, 72154721, "PO", 200000, 'M');
     }
 
-
-
-
 }
 
 class BankOfAzerbaijan{
@@ -85,7 +78,6 @@ class BankOfAzerbaijan{
 				5. repeat the step 3 to print out the employee info to compare it
 				 with previous output
      */
-
     public static void main(String[] args) {
 
         ArrayList<Employee> list = new ArrayList<>();

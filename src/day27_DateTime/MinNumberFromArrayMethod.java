@@ -17,6 +17,7 @@ public class MinNumberFromArrayMethod {
         System.out.println(minNumber1);
 
     }
+
     //method that returns min number from an int array as an int
 
     public static int minNumber(int [] arr){
@@ -33,6 +34,7 @@ public class MinNumberFromArrayMethod {
 
         return min;
     }
+
     //method that returns min number from a double array as a double
 
     public static double minNumber(double [] arr){

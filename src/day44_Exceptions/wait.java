@@ -1,6 +1,7 @@
 package day44_Exceptions;
 
 public class wait {
+
     /*
      Write a method called "wait" that causes the current executing thread to sleep
      for the specific number of seconds

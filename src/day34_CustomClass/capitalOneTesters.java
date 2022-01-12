@@ -74,14 +74,5 @@ public class capitalOneTesters {
 
         System.out.println(totalBudget);
 
-
-
-
-
-
-
-
-
-
     }
 }

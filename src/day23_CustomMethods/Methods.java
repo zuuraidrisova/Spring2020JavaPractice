@@ -35,7 +35,6 @@ public class Methods {
         System.out.println("Hello Batch 18!");
     }
 
-
     /*
     step 1: void method (without parameter)
     step2: void method (with parameter)

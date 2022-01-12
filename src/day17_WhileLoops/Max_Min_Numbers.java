@@ -1,6 +1,7 @@
 package day17_WhileLoops;
 import java.util.Scanner;
 public class Max_Min_Numbers {
+
     public static void main(String []args){
 
         Scanner scan = new Scanner(System.in);
@@ -22,7 +23,7 @@ public class Max_Min_Numbers {
         */
       //there is easier way to find max or min number thru for loop
 
-       int  maxNumber =-2147483647;//any number user provided will be greater than this number
+       int  maxNumber = -2147483647;//any number user provided will be greater than this number
       //first user entered variable will be initialized to maxNumber
 
         int minNumber = 2147483647;

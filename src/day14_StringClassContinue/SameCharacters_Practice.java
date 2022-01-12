@@ -2,6 +2,7 @@ package day14_StringClassContinue;
 import java.util.Scanner;
 public class SameCharacters_Practice {
     public static void main(String []args){
+
         /*
         Ask user to enter a word.
          Print true if the first and last characters of the string are same characters,

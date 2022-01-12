@@ -1,6 +1,7 @@
 package day18_NestedLoops;
 
 public class StringReverse {
+
     public static void main(String[] args) {
 
         String str = "at this point i hate java";
@@ -16,6 +17,7 @@ public class StringReverse {
             lastIndex--;
 
         }while(lastIndex >= 0);
+
 
         System.out.println(reversed);
 

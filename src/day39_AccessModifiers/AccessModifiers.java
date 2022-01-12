@@ -32,11 +32,4 @@ public class AccessModifiers {
 
     private long SSN = 901234; // can only be used within the same class
 
-
-
-
-
-
-
-
 }

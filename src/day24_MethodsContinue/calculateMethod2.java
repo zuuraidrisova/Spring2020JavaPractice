@@ -3,6 +3,7 @@ package day24_MethodsContinue;
 import java.util.Scanner;
 
 public class calculateMethod2 {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -13,8 +14,10 @@ public class calculateMethod2 {
 
            System.out.println("Enter first number: ");
            int num1 = scan.nextInt();
+
            System.out.println("Enter second number: ");
            int num2 = scan.nextInt();
+
            System.out.println("Enter valid math operator: ");
            char operator = scan.next().charAt(0);
 

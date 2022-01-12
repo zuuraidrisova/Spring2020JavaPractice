@@ -39,7 +39,6 @@ write a program that can return the duplicated values from an ArrayList of Strin
 
         System.out.println(duplicates);
 
-
         ArrayList<String> result = new ArrayList<>();
 
         for(String each : list){
@@ -54,11 +53,6 @@ write a program that can return the duplicated values from an ArrayList of Strin
 
 
         System.out.println(result);
-
-
-
-
-
 
     }
 }

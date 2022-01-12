@@ -42,7 +42,6 @@ public class arrayDeclarations {
 
         System.out.println(arr2.equals(bool));
 
-
         System.out.println("================================");
         //how to find a missing number in an array
 
@@ -89,16 +88,6 @@ public class arrayDeclarations {
         }
 
         System.out.println(list);
-
-
-
-
-
-
-
-
-
-
 
     }
 }

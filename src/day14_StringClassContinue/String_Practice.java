@@ -1,7 +1,9 @@
 package day14_StringClassContinue;
 
 public class String_Practice {
+
     public static void main(String []args){
+
         String gmail = "zuuraidrisova@gmail.com";
 
         String userGmail ="Zuuraidrisova@gmail.com";
@@ -18,9 +20,13 @@ public class String_Practice {
         valid password must contain a special character as(! _# $ %) and no space
          */
         String password = "mama 2019";
+
         if(password.contains(" ")){
+
             System.out.println("Password cannot have space in it");
+
         }else{
+
             System.out.println("Valid password");
         }
 
@@ -40,8 +46,11 @@ public class String_Practice {
              */
 
             String email = "zuuraidrisova@yahoo.com";
+
                 if(email.endsWith("@gmail.com")) {
+
                     System.out.println("valid gmail");
+
                 } else{
                      System.out.println("invalid gmail");
                  }

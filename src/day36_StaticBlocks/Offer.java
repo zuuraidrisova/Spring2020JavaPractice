@@ -27,8 +27,6 @@ Create a class called Offer that has:
            this.salary = salary;
            this.isFullTime = isFullTime;
 
-
-
        }
        public String toString(){
 
@@ -58,7 +56,6 @@ class MyOffers{
         offers[1].setOfferInfo("KY", "Microsoft",130000,true);
         offers[2].setOfferInfo("Seattle","Oracle",140000,false);
         offers[3].setOfferInfo("Chicago","Deloitte",110000,true);
-
 
         ArrayList<Offer> listOffers = new ArrayList<>();
 

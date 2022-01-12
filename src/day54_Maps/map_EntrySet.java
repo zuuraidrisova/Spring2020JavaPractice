@@ -17,8 +17,6 @@ public class map_EntrySet {
         countries.put("East Turkistan", "Urumqi");
         countries.put("Pakistan", "Islamabad");
 
-
-
         for( Map.Entry<String, String> each : countries.entrySet()){
 
             System.out.println( "Country Name is: "+each.getKey() +", City Name is:"+each.getValue() );
@@ -28,7 +26,6 @@ public class map_EntrySet {
         System.out.println("============================================");
 
         String country = "Kyrgyzstan";
-
 
         for(Map.Entry<String, String> each : countries.entrySet()){
 
@@ -47,7 +44,5 @@ public class map_EntrySet {
             }
 
         }
-
-
     }
 }

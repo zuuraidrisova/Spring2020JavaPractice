@@ -10,6 +10,7 @@ package day10_Switch_Scanner;
 public class MonthDaysNestedIf {
 
     public static void main(String []args){
+
         byte month =8;
         String result = " ";
         if(month>=1 && month<=12 ){

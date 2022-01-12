@@ -10,6 +10,7 @@ public class shapeObjects {
                 1. create two circle and two Cylinder' objects
                 2. create an ArrayList that can contain  all those objects
      */
+
     public static void main(String[] args) {
 
         Circle circle1 = new Circle(3);
@@ -55,10 +56,6 @@ public class shapeObjects {
         Shape shape2 = new Cylinder(3,6);
 
         ( (Cylinder) shape2 ).calculateVolume();//downcasting, done manually
-
-
-
-
 
     }
 }

@@ -17,9 +17,9 @@ public class UniqueElementsArrayList {
 
         ArrayList<Integer> list = new ArrayList<Integer>();
 
-      int arr [] =  {1,1,2,3,3,4,5};
+       int arr [] =  {1,1,2,3,3,4,5};
 
-      for(int i = 0; i < arr.length; i++){
+       for(int i = 0; i < arr.length; i++){
 
           int count = 0;
 

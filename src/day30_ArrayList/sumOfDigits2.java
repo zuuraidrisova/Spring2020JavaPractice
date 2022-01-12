@@ -34,9 +34,5 @@ public class sumOfDigits2 {
 
         System.out.println(sum);
 
-
-
-
-
     }
 }

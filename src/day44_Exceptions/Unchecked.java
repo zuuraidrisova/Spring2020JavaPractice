@@ -16,13 +16,11 @@ public class Unchecked {
 
         int [] arr = {1,2,3};
 
-        System.out.println(args[10]);
+        System.out.println(arr[10]);
         // array out of bound exceptions
 
         System.out.println("test completed");
         // we will not be able to complete remaining codes, because of exceptions
-
-
 
 
     }

@@ -31,5 +31,11 @@ public class School {
             System.out.println(each.name+" "+each.studentID+" "+each.schoolName);
         }
 
+        for (Student each: group){
+
+            each.attendClass("Java");
+        }
+
     }
+
 }

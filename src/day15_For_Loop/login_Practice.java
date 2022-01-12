@@ -1,6 +1,7 @@
 package day15_For_Loop;
 import java.util.Scanner;
 public class login_Practice {
+
     /*
     	2. Given :
 			username: cybertek.batch17@gmail.com
@@ -14,6 +15,7 @@ public class login_Practice {
 						print "invalid username or password"
      */
     public static void main(String []args){
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your username: ");
         String username = scan.next();
@@ -21,12 +23,17 @@ public class login_Practice {
         String password = scan.next();
 
         if(username.endsWith("@gmail.com")){
+
             if(username.equalsIgnoreCase("cybertek.batch17@gmail.com")
             || password.equals("JavaBeauties")){
+
                 System.out.println("Loged in successfully!");
+
             }else{
+
                 System.out.println("Incorrect username or password!");
             }
+
         }else{
             System.out.println("It is not a valid email!");
         }

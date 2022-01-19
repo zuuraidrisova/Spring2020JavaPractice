@@ -4,14 +4,15 @@ public class Day2_notes {
 
             /*
                     Topics: Comments
-        Print vs println
-        Escape Sequences
-        Java CommandLine
-        Variables
-        Warmup tasks:
+                    Print vs println
+                         Escape Sequences
+                         Java CommandLine
+                         Variables
+              Warmup tasks:
         Task01:
         create a new class called HelloCybertek
         print Hello Cybertek on the console
+        
         Task02:
         create a class called TellMeAboutYourSelf
         print:
@@ -19,6 +20,7 @@ public class Day2_notes {
         where do you live
         what do you do
         what's your dream job
+        
         Task03:
         create a class called EmployeeInfo_Variables:
         print:
@@ -27,15 +29,19 @@ public class Day2_notes {
         your EmployeeId
         your JobTitle
         your Salary
+        
         package name: day02_Variables
+        
         Comemnt: giving notes. will not effect the actual code
         single-line comment: starts with //
         // comment1
+        
         multi-line comment:  starts with /* and ends with */
         /*
         comment1
         comment2
         comment3
+        
 
             print statement: printing to the console
         System.out.println(): printing takes palce from new line.
